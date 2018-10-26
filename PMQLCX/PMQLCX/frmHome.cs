@@ -20,9 +20,9 @@ namespace PMQLCX
 
         private void FrmHome_Load(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection();
+            /*SqlConnection con = new SqlConnection();
             con.ConnectionString = "Data Source=.;Initial Catalog=DataTramXangDau;Integrated Security=True";
-            con.Open();
+            con.Open();*/
         }
 
         private void tileItem1_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
@@ -56,6 +56,21 @@ namespace PMQLCX
         private void btnLogin_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void tileViewProduct_ItemCustomize(object sender, DevExpress.XtraGrid.Views.Tile.TileViewItemCustomizeEventArgs e)
+        {
+            e.Item.Elements[0].Text = "a";
+            e.Item.Elements[1].Text = "b";
+            e.Item.Elements[2].Text = "c";
+            e.Item.Elements[3].Text = "d";
+        }
+
+        private void tileItem3_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            if (tabPane.SelectedPage != tabProductList)
+                tabPane.SelectedPage = tabProductList;
+            else tabPane.SelectedPage = tabHome;
         }
     }
 }
