@@ -21,7 +21,7 @@ namespace PMQLCX
         private void FrmHome_Load(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "Data Source=.;Initial Catalog=DataTramXangDau;Integrated Security=True";
+            con.ConnectionString = "";
             con.Open();
         }
 

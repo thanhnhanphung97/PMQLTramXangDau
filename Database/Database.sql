@@ -8,14 +8,14 @@ CREATE DATABASE DataTramXangDau
 ON PRIMARY 
 (
 	name = DataTramXangDau,
-	filename = 'C:\Users\Hung\source\repos\PMQLTramXangDau\Database\DataTramXangDau.mdf',
+	filename = 'D:\Study\Git\PMQLTramXangDau\Database\DataTramXangDau.mdf',
 	SIZE = 10MB,
 	FILEGROWTH = 10MB
 )
 LOG ON 
 (
 	name = DataTramXangDau_log,
-	filename = 'C:\Users\Hung\source\repos\PMQLTramXangDau\Database\DataTramXangDau_log.ldf',
+	filename = 'D:\Study\Git\PMQLTramXangDau\Database\DataTramXangDau_log.ldf',
 	SIZE = 10MB,
 	FILEGROWTH = 10MB
 )
@@ -85,7 +85,7 @@ CREATE TABLE ImportProducts
 	Id INT IDENTITY(1,1) PRIMARY KEY,
 	InputDate DATETIME NOT NULL,
 	Partners NVARCHAR(100) NOT NULL,
-	Product NVARCHAR(100) NOT NULL,
+	Product INT NOT NULL,
 	Amount FLOAT NOT NULL,
 	UnitPrice FLOAT NOT NULL,
 	IntoMoney FLOAT NOT NULL
@@ -120,5 +120,50 @@ CREATE TABLE ReceiveTable
 	Describe NVARCHAR(300) NOT NULL,
 	Money FLOAT NOT NULL
 )
+GO 
+
+---------------------Relationship-------------------------
+ALTER TABLE dbo.ImportProducts ADD CONSTRAINT fk_ip_p FOREIGN KEY (Product) REFERENCES dbo.Products(Id)
+GO 
+
+
+
+---------------------Store Procedure------------------
+CREATE PROC USP_LogIn @UserName NVARCHAR(50), @Password NVARCHAR(50)
+AS 
+	BEGIN 
+		SELECT * FROM dbo.Accounts WHERE InputName = @UserName AND Password = @Password
+	END 
+GO 
+
+CREATE PROC USP_EditProduct @id INT, @name NVARCHAR(100), @amount FLOAT
+AS
+	BEGIN 
+		UPDATE dbo.Products SET Name = @name, Amount = @amount WHERE Id = @id
+	END 
+GO 
+
+CREATE PROC USP_IP @partners NVARCHAR(100), @product INT, @amount FLOAT, @unitPrice FLOAT  
+AS
+	BEGIN 
+		INSERT dbo.ImportProducts VALUES  (GETDATE() ,@partners ,@product,@amount, @unitPrice,@amount*@unitPrice)
+		BEGIN
+			UPDATE dbo.Products 
+			SET Amount = @amount + (SELECT Amount FROM dbo.Products WHERE Id = @product)
+			WHERE Id = @product
+		END 
+	END 
+GO 
+
+CREATE PROC USP_DeleteProduct @id INT 
+AS
+	BEGIN 
+		DECLARE @exist INT = 0
+		SELECT @exist = COUNT(*) FROM dbo.Products WHERE Id = @id
+		IF(@exist > 0)
+		BEGIN
+			DELETE dbo.Products WHERE Id = @id
+		END 
+	END
 GO 
 
