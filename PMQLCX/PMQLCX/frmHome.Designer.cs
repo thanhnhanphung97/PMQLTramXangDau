@@ -28,10 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraEditors.TileItemElement tileItemElement1 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement2 = new DevExpress.XtraEditors.TileItemElement();
+            this.components = new System.ComponentModel.Container();
+            DevExpress.XtraEditors.TileItemElement tileItemElement19 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement20 = new DevExpress.XtraEditors.TileItemElement();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHome));
-            DevExpress.XtraEditors.TileItemElement tileItemElement3 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement21 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition1 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
             DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition2 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
             DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition3 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
@@ -51,6 +52,7 @@
             this.tabPane = new DevExpress.XtraBars.Navigation.TabPane();
             this.tabLogin = new DevExpress.XtraBars.Navigation.TabNavigationPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lbmessageLogin = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
@@ -60,6 +62,20 @@
             this.tabProductList = new DevExpress.XtraBars.Navigation.TabNavigationPage();
             this.gridCtrlProduct = new DevExpress.XtraGrid.GridControl();
             this.tileViewProduct = new DevExpress.XtraGrid.Views.Tile.TileView();
+            this.tabChangePassword = new DevExpress.XtraBars.Navigation.TabNavigationPage();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.pbConfirmNewPassword = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtConfirmPassword = new System.Windows.Forms.TextBox();
+            this.btnApply = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtNewPassword = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtCurPassword = new System.Windows.Forms.TextBox();
+            this.pbCurrentPassword = new System.Windows.Forms.PictureBox();
+            this.pbNewPassword = new System.Windows.Forms.PictureBox();
+            this.lbmessageChangePassword = new System.Windows.Forms.Label();
+            this.timer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.tabPane)).BeginInit();
             this.tabPane.SuspendLayout();
             this.tabLogin.SuspendLayout();
@@ -67,6 +83,11 @@
             this.tabProductList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridCtrlProduct)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tileViewProduct)).BeginInit();
+            this.tabChangePassword.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConfirmNewPassword)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCurrentPassword)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbNewPassword)).BeginInit();
             this.SuspendLayout();
             // 
             // tileCtr
@@ -108,13 +129,13 @@
             // 
             // tileItem1
             // 
-            tileItemElement1.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            tileItemElement1.Appearance.Normal.Options.UseFont = true;
-            tileItemElement1.ImageOptions.Image = global::PMQLCX.Properties.Resources.login;
-            tileItemElement1.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
-            tileItemElement1.Text = "Log in";
-            tileItemElement1.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
-            this.tileItem1.Elements.Add(tileItemElement1);
+            tileItemElement19.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            tileItemElement19.Appearance.Normal.Options.UseFont = true;
+            tileItemElement19.ImageOptions.Image = global::PMQLCX.Properties.Resources.login;
+            tileItemElement19.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
+            tileItemElement19.Text = "Log in";
+            tileItemElement19.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
+            this.tileItem1.Elements.Add(tileItemElement19);
             this.tileItem1.Id = 0;
             this.tileItem1.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem1.Name = "tileItem1";
@@ -122,17 +143,18 @@
             // 
             // tileItem2
             // 
-            tileItemElement2.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            tileItemElement2.Appearance.Normal.Options.UseFont = true;
-            tileItemElement2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            tileItemElement2.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
-            tileItemElement2.Text = "Change password";
-            tileItemElement2.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
-            this.tileItem2.Elements.Add(tileItemElement2);
+            tileItemElement20.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            tileItemElement20.Appearance.Normal.Options.UseFont = true;
+            tileItemElement20.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            tileItemElement20.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
+            tileItemElement20.Text = "Change password";
+            tileItemElement20.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
+            this.tileItem2.Elements.Add(tileItemElement20);
             this.tileItem2.Enabled = false;
             this.tileItem2.Id = 6;
             this.tileItem2.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem2.Name = "tileItem2";
+            this.tileItem2.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.tileItem2_ItemClick);
             // 
             // tileGroup3
             // 
@@ -142,14 +164,15 @@
             // 
             // tileItem3
             // 
-            tileItemElement3.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            tileItemElement3.Appearance.Normal.Options.UseFont = true;
-            tileItemElement3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
-            tileItemElement3.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
-            tileItemElement3.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.None;
-            tileItemElement3.Text = "Product List";
-            tileItemElement3.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
-            this.tileItem3.Elements.Add(tileItemElement3);
+            tileItemElement21.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            tileItemElement21.Appearance.Normal.Options.UseFont = true;
+            tileItemElement21.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            tileItemElement21.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
+            tileItemElement21.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.None;
+            tileItemElement21.Text = "Product list";
+            tileItemElement21.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
+            this.tileItem3.Elements.Add(tileItemElement21);
+            this.tileItem3.Enabled = false;
             this.tileItem3.Id = 4;
             this.tileItem3.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem3.Name = "tileItem3";
@@ -161,11 +184,13 @@
             this.tabPane.Controls.Add(this.tabLogin);
             this.tabPane.Controls.Add(this.tabHome);
             this.tabPane.Controls.Add(this.tabProductList);
+            this.tabPane.Controls.Add(this.tabChangePassword);
             this.tabPane.Location = new System.Drawing.Point(190, -28);
             this.tabPane.Name = "tabPane";
             this.tabPane.Pages.AddRange(new DevExpress.XtraBars.Navigation.NavigationPageBase[] {
             this.tabHome,
             this.tabLogin,
+            this.tabChangePassword,
             this.tabProductList});
             this.tabPane.RegularSize = new System.Drawing.Size(1182, 768);
             this.tabPane.SelectedPage = this.tabHome;
@@ -185,6 +210,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Silver;
+            this.groupBox1.Controls.Add(this.lbmessageLogin);
             this.groupBox1.Controls.Add(this.btnLogin);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.txtPassword);
@@ -196,6 +222,18 @@
             this.groupBox1.Size = new System.Drawing.Size(440, 256);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
+            // 
+            // lbmessageLogin
+            // 
+            this.lbmessageLogin.AutoSize = true;
+            this.lbmessageLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbmessageLogin.ForeColor = System.Drawing.Color.Red;
+            this.lbmessageLogin.Location = new System.Drawing.Point(82, 138);
+            this.lbmessageLogin.Name = "lbmessageLogin";
+            this.lbmessageLogin.Size = new System.Drawing.Size(276, 22);
+            this.lbmessageLogin.TabIndex = 7;
+            this.lbmessageLogin.Text = "Wrong username or password";
+            this.lbmessageLogin.Visible = false;
             // 
             // btnLogin
             // 
@@ -262,7 +300,7 @@
             this.tabProductList.Caption = "tabListProduct";
             this.tabProductList.Controls.Add(this.gridCtrlProduct);
             this.tabProductList.Name = "tabProductList";
-            this.tabProductList.Size = new System.Drawing.Size(1182, 741);
+            this.tabProductList.Size = new System.Drawing.Size(1182, 768);
             // 
             // gridCtrlProduct
             // 
@@ -299,6 +337,161 @@
             this.tileViewProduct.TileSpans.Add(tableSpan4);
             this.tileViewProduct.ItemCustomize += new DevExpress.XtraGrid.Views.Tile.TileViewItemCustomizeEventHandler(this.tileViewProduct_ItemCustomize);
             // 
+            // tabChangePassword
+            // 
+            this.tabChangePassword.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabChangePassword.Appearance.Options.UseBackColor = true;
+            this.tabChangePassword.Caption = "tabChangePassword";
+            this.tabChangePassword.Controls.Add(this.groupBox2);
+            this.tabChangePassword.Name = "tabChangePassword";
+            this.tabChangePassword.Size = new System.Drawing.Size(1182, 741);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.BackColor = System.Drawing.Color.Silver;
+            this.groupBox2.Controls.Add(this.pbNewPassword);
+            this.groupBox2.Controls.Add(this.pbCurrentPassword);
+            this.groupBox2.Controls.Add(this.pbConfirmNewPassword);
+            this.groupBox2.Controls.Add(this.lbmessageChangePassword);
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.txtConfirmPassword);
+            this.groupBox2.Controls.Add(this.btnApply);
+            this.groupBox2.Controls.Add(this.label3);
+            this.groupBox2.Controls.Add(this.txtNewPassword);
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.txtCurPassword);
+            this.groupBox2.ForeColor = System.Drawing.Color.White;
+            this.groupBox2.Location = new System.Drawing.Point(311, 202);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(560, 336);
+            this.groupBox2.TabIndex = 8;
+            this.groupBox2.TabStop = false;
+            // 
+            // pbConfirmNewPassword
+            // 
+            this.pbConfirmNewPassword.Image = global::PMQLCX.Properties.Resources._checked;
+            this.pbConfirmNewPassword.InitialImage = null;
+            this.pbConfirmNewPassword.Location = new System.Drawing.Point(516, 141);
+            this.pbConfirmNewPassword.Name = "pbConfirmNewPassword";
+            this.pbConfirmNewPassword.Size = new System.Drawing.Size(22, 22);
+            this.pbConfirmNewPassword.TabIndex = 10;
+            this.pbConfirmNewPassword.TabStop = false;
+            this.pbConfirmNewPassword.Visible = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(42, 141);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(212, 22);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Confirm new password";
+            // 
+            // txtConfirmPassword
+            // 
+            this.txtConfirmPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtConfirmPassword.Location = new System.Drawing.Point(270, 138);
+            this.txtConfirmPassword.Name = "txtConfirmPassword";
+            this.txtConfirmPassword.PasswordChar = '*';
+            this.txtConfirmPassword.Size = new System.Drawing.Size(240, 27);
+            this.txtConfirmPassword.TabIndex = 7;
+            this.txtConfirmPassword.TextChanged += new System.EventHandler(this.txtConfirmPassword_TextChanged);
+            // 
+            // btnApply
+            // 
+            this.btnApply.BackColor = System.Drawing.Color.Green;
+            this.btnApply.Enabled = false;
+            this.btnApply.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnApply.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnApply.ForeColor = System.Drawing.Color.White;
+            this.btnApply.Location = new System.Drawing.Point(245, 230);
+            this.btnApply.Name = "btnApply";
+            this.btnApply.Size = new System.Drawing.Size(90, 50);
+            this.btnApply.TabIndex = 6;
+            this.btnApply.Text = "Apply";
+            this.btnApply.UseVisualStyleBackColor = false;
+            this.btnApply.Click += new System.EventHandler(this.btnApply_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(42, 97);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(140, 22);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "New password";
+            // 
+            // txtNewPassword
+            // 
+            this.txtNewPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNewPassword.Location = new System.Drawing.Point(270, 94);
+            this.txtNewPassword.Name = "txtNewPassword";
+            this.txtNewPassword.PasswordChar = '*';
+            this.txtNewPassword.Size = new System.Drawing.Size(240, 27);
+            this.txtNewPassword.TabIndex = 4;
+            this.txtNewPassword.TextChanged += new System.EventHandler(this.txtNewPassword_TextChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(42, 54);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(168, 22);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Current password";
+            // 
+            // txtCurPassword
+            // 
+            this.txtCurPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCurPassword.Location = new System.Drawing.Point(270, 51);
+            this.txtCurPassword.Name = "txtCurPassword";
+            this.txtCurPassword.PasswordChar = '*';
+            this.txtCurPassword.Size = new System.Drawing.Size(240, 27);
+            this.txtCurPassword.TabIndex = 2;
+            this.txtCurPassword.TextChanged += new System.EventHandler(this.txtCurPassword_TextChanged);
+            // 
+            // pbCurrentPassword
+            // 
+            this.pbCurrentPassword.Image = global::PMQLCX.Properties.Resources._checked;
+            this.pbCurrentPassword.InitialImage = null;
+            this.pbCurrentPassword.Location = new System.Drawing.Point(516, 54);
+            this.pbCurrentPassword.Name = "pbCurrentPassword";
+            this.pbCurrentPassword.Size = new System.Drawing.Size(22, 22);
+            this.pbCurrentPassword.TabIndex = 11;
+            this.pbCurrentPassword.TabStop = false;
+            this.pbCurrentPassword.Visible = false;
+            // 
+            // pbNewPassword
+            // 
+            this.pbNewPassword.Image = global::PMQLCX.Properties.Resources._checked;
+            this.pbNewPassword.InitialImage = null;
+            this.pbNewPassword.Location = new System.Drawing.Point(516, 97);
+            this.pbNewPassword.Name = "pbNewPassword";
+            this.pbNewPassword.Size = new System.Drawing.Size(22, 22);
+            this.pbNewPassword.TabIndex = 12;
+            this.pbNewPassword.TabStop = false;
+            this.pbNewPassword.Visible = false;
+            // 
+            // lbmessageChangePassword
+            // 
+            this.lbmessageChangePassword.AutoSize = true;
+            this.lbmessageChangePassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbmessageChangePassword.ForeColor = System.Drawing.Color.Green;
+            this.lbmessageChangePassword.Location = new System.Drawing.Point(144, 182);
+            this.lbmessageChangePassword.Name = "lbmessageChangePassword";
+            this.lbmessageChangePassword.Size = new System.Drawing.Size(272, 22);
+            this.lbmessageChangePassword.TabIndex = 9;
+            this.lbmessageChangePassword.Text = "Change password succesful!!";
+            this.lbmessageChangePassword.Visible = false;
+            // 
+            // timer
+            // 
+            this.timer.Interval = 1000;
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
+            // 
             // FrmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -320,6 +513,12 @@
             this.tabProductList.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridCtrlProduct)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tileViewProduct)).EndInit();
+            this.tabChangePassword.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConfirmNewPassword)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCurrentPassword)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbNewPassword)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -344,6 +543,21 @@
         private DevExpress.XtraBars.Navigation.TabNavigationPage tabProductList;
         private DevExpress.XtraGrid.GridControl gridCtrlProduct;
         private DevExpress.XtraGrid.Views.Tile.TileView tileViewProduct;
+        private DevExpress.XtraBars.Navigation.TabNavigationPage tabChangePassword;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button btnApply;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtNewPassword;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtCurPassword;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtConfirmPassword;
+        private System.Windows.Forms.Label lbmessageLogin;
+        private System.Windows.Forms.PictureBox pbConfirmNewPassword;
+        private System.Windows.Forms.PictureBox pbNewPassword;
+        private System.Windows.Forms.PictureBox pbCurrentPassword;
+        private System.Windows.Forms.Label lbmessageChangePassword;
+        private System.Windows.Forms.Timer timer;
     }
 }
 
