@@ -174,5 +174,10 @@ namespace PMQLCX
                 timer.Enabled = false;
             }
         }
+
+        private void tabHome_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
