@@ -56,33 +56,51 @@ namespace PMQLCX
         private void FrmHome_Load(object sender, EventArgs e)
         {
             this.AcceptButton = btnLogin;
+            //dataGridView1.DataSource = 
         }
 
-        #region chooseMenu
-        private void tileItem1_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        #region time
+        private void timer_Tick(object sender, EventArgs e)
         {
-            if(!status)
+            if (lbmessageChangePassword.Visible)
+            {
+                lbmessageChangePassword.Visible = false;
+                timer.Enabled = false;
+            }
+            if (lbmessageLogin.Visible)
+            {
+                lbmessageLogin.Visible = false;
+                timer.Enabled = false;
+            }
+        }
+        #endregion
+
+        #region chooseMenu
+
+        private void tileItemLogin_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            if (!status)
             {
                 SelectedPage(tabLogin);
             }
             else
             {
                 status = false;
-                tileItem1.Text = "Log in";
-                tileItem1.Image = PMQLCX.Properties.Resources.login;
+                tileItemLogin.Text = "Log in";
+                tileItemLogin.Image = PMQLCX.Properties.Resources.login;
                 tabPane.SelectedPage = tabHome;
 
-                tileItem2.Enabled = false;
-                tileItem3.Enabled = false;
+                tileItemChangePassword.Enabled = false;
+                tileItemProductList.Enabled = false;
             }
         }
 
-        private void tileItem2_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        private void tileItemChangePassword_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
         {
             SelectedPage(tabChangePassword);
         }
 
-        private void tileItem3_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        private void tileItemProductList_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
         {
             SelectedPage(tabProductList);
         }
@@ -105,15 +123,15 @@ namespace PMQLCX
             if (account.Rows.Count>0)
             {
                 status = true;
-                tileItem1.Text = "Welcome "+account.Rows[0]["Name"].ToString()+"\nLog out";
-                tileItem1.Image = PMQLCX.Properties.Resources.logout;
+                tileItemLogin.Text = "Welcome "+account.Rows[0]["Name"].ToString()+"\nLog out";
+                tileItemLogin.Image = PMQLCX.Properties.Resources.logout;
                 tabPane.SelectedPage = tabHome;
                 lbmessageLogin.Visible = false;
                 txtUsername.Text = "";
                 txtPassword.Text = "";
 
-                tileItem2.Enabled = true;
-                tileItem3.Enabled = true;
+                tileItemChangePassword.Enabled = true;
+                tileItemProductList.Enabled = true;
             }
             else
             {
@@ -161,18 +179,9 @@ namespace PMQLCX
             e.Item.Elements[3].Text = "d";
         }
 
-        private void timer_Tick(object sender, EventArgs e)
+        private void tileItemInsertProduct_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
         {
-            if (lbmessageChangePassword.Visible)
-            {
-                lbmessageChangePassword.Visible = false;
-                timer.Enabled = false;
-            }
-            if (lbmessageLogin.Visible)
-            {
-                lbmessageLogin.Visible = false;
-                timer.Enabled = false;
-            }
+
         }
     }
 }
