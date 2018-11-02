@@ -183,5 +183,10 @@ namespace PMQLCX
         {
 
         }
+
+        private void tabHome_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

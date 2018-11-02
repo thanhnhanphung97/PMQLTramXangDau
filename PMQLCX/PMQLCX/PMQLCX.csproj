@@ -68,6 +68,7 @@
     </Compile>
     <Compile Include="Models\DAO\AccountDAO.cs" />
     <Compile Include="Models\DAO\DataProvider.cs" />
+    <Compile Include="Models\DAO\ProductDAO.cs" />
     <Compile Include="Models\DTO\Account.cs" />
     <Compile Include="Models\DTO\ImportProduct.cs" />
     <Compile Include="Models\DTO\Product.cs" />
