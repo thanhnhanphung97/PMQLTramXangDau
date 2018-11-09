@@ -28,38 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraEditors.TileItemElement tileItemElement1 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement2 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement3 = new DevExpress.XtraEditors.TileItemElement();
+            this.components = new System.ComponentModel.Container();
+            DevExpress.XtraEditors.TileItemElement tileItemElement37 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement38 = new DevExpress.XtraEditors.TileItemElement();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHome));
-            DevExpress.XtraEditors.TileItemElement tileItemElement4 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement5 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement6 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement7 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame1 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement8 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame2 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement9 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement10 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame3 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement11 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame4 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement12 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement13 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame5 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement14 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame6 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement15 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition1 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
-            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition2 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
-            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition3 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
-            DevExpress.XtraEditors.TableLayout.TableRowDefinition tableRowDefinition1 = new DevExpress.XtraEditors.TableLayout.TableRowDefinition();
-            DevExpress.XtraEditors.TableLayout.TableRowDefinition tableRowDefinition2 = new DevExpress.XtraEditors.TableLayout.TableRowDefinition();
-            DevExpress.XtraEditors.TableLayout.TableRowDefinition tableRowDefinition3 = new DevExpress.XtraEditors.TableLayout.TableRowDefinition();
-            DevExpress.XtraEditors.TableLayout.TableSpan tableSpan1 = new DevExpress.XtraEditors.TableLayout.TableSpan();
-            DevExpress.XtraEditors.TableLayout.TableSpan tableSpan2 = new DevExpress.XtraEditors.TableLayout.TableSpan();
-            DevExpress.XtraEditors.TableLayout.TableSpan tableSpan3 = new DevExpress.XtraEditors.TableLayout.TableSpan();
-            DevExpress.XtraEditors.TableLayout.TableSpan tableSpan4 = new DevExpress.XtraEditors.TableLayout.TableSpan();
+            DevExpress.XtraEditors.TileItemElement tileItemElement39 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement40 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemFrame tileItemFrame19 = new DevExpress.XtraEditors.TileItemFrame();
+            DevExpress.XtraEditors.TileItemElement tileItemElement41 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemFrame tileItemFrame20 = new DevExpress.XtraEditors.TileItemFrame();
+            DevExpress.XtraEditors.TileItemElement tileItemElement42 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement43 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemFrame tileItemFrame21 = new DevExpress.XtraEditors.TileItemFrame();
+            DevExpress.XtraEditors.TileItemElement tileItemElement44 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemFrame tileItemFrame22 = new DevExpress.XtraEditors.TileItemFrame();
+            DevExpress.XtraEditors.TileItemElement tileItemElement45 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement46 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemFrame tileItemFrame23 = new DevExpress.XtraEditors.TileItemFrame();
+            DevExpress.XtraEditors.TileItemElement tileItemElement47 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemFrame tileItemFrame24 = new DevExpress.XtraEditors.TileItemFrame();
+            DevExpress.XtraEditors.TileItemElement tileItemElement48 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition4 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
+            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition5 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
+            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition6 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
+            DevExpress.XtraEditors.TableLayout.TableRowDefinition tableRowDefinition4 = new DevExpress.XtraEditors.TableLayout.TableRowDefinition();
+            DevExpress.XtraEditors.TableLayout.TableRowDefinition tableRowDefinition5 = new DevExpress.XtraEditors.TableLayout.TableRowDefinition();
+            DevExpress.XtraEditors.TableLayout.TableRowDefinition tableRowDefinition6 = new DevExpress.XtraEditors.TableLayout.TableRowDefinition();
+            DevExpress.XtraEditors.TableLayout.TableSpan tableSpan5 = new DevExpress.XtraEditors.TableLayout.TableSpan();
+            DevExpress.XtraEditors.TableLayout.TableSpan tableSpan6 = new DevExpress.XtraEditors.TableLayout.TableSpan();
+            DevExpress.XtraEditors.TableLayout.TableSpan tableSpan7 = new DevExpress.XtraEditors.TableLayout.TableSpan();
+            DevExpress.XtraEditors.TableLayout.TableSpan tableSpan8 = new DevExpress.XtraEditors.TableLayout.TableSpan();
             this.tileCtr = new DevExpress.XtraEditors.TileControl();
             this.tileGroup2 = new DevExpress.XtraEditors.TileGroup();
             this.tileItemLogin = new DevExpress.XtraEditors.TileItem();
@@ -77,6 +75,7 @@
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.tabHome = new DevExpress.XtraBars.Navigation.TabNavigationPage();
             this.tabProductList = new DevExpress.XtraBars.Navigation.TabNavigationPage();
+            this.txtNameProduct = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.tileControl1 = new DevExpress.XtraEditors.TileControl();
             this.tileGroup4 = new DevExpress.XtraEditors.TileGroup();
@@ -98,7 +97,10 @@
             this.txtNewPassword = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtCurPassword = new System.Windows.Forms.TextBox();
-            this.timer = new System.Windows.Forms.Timer();
+            this.timer = new System.Windows.Forms.Timer(this.components);
+            this.txtAmountProduct = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.tabPane)).BeginInit();
             this.tabPane.SuspendLayout();
             this.tabLogin.SuspendLayout();
@@ -149,43 +151,29 @@
             this.tileGroup2.Name = "tileGroup2";
             this.tileGroup2.Text = "ACCOUNT";
             // 
-            // tileItem1
+            // tileItemLogin
             // 
-            tileItemElement1.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            tileItemElement1.Appearance.Normal.Options.UseFont = true;
-            tileItemElement1.ImageOptions.Image = global::PMQLCX.Properties.Resources.login;
-            tileItemElement1.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
-            tileItemElement1.Text = "Log in";
-            tileItemElement1.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
-            tileItemElement2.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            tileItemElement2.Appearance.Normal.Options.UseFont = true;
-            tileItemElement2.ImageOptions.Image = global::PMQLCX.Properties.Resources.login;
-            tileItemElement2.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
-            tileItemElement2.Text = "Log in";
-            tileItemElement2.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
-            this.tileItemLogin.Elements.Add(tileItemElement1);
-            this.tileItemLogin.Elements.Add(tileItemElement2);
+            tileItemElement37.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            tileItemElement37.Appearance.Normal.Options.UseFont = true;
+            tileItemElement37.ImageOptions.Image = global::PMQLCX.Properties.Resources.login;
+            tileItemElement37.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
+            tileItemElement37.Text = "Log in";
+            tileItemElement37.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
+            this.tileItemLogin.Elements.Add(tileItemElement37);
             this.tileItemLogin.Id = 0;
             this.tileItemLogin.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItemLogin.Name = "tileItemLogin";
             this.tileItemLogin.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.tileItemLogin_ItemClick);
             // 
-            // tileItem2
+            // tileItemChangePassword
             // 
-            tileItemElement3.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            tileItemElement3.Appearance.Normal.Options.UseFont = true;
-            tileItemElement3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            tileItemElement3.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
-            tileItemElement3.Text = "Change password";
-            tileItemElement3.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
-            tileItemElement4.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            tileItemElement4.Appearance.Normal.Options.UseFont = true;
-            tileItemElement4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
-            tileItemElement4.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
-            tileItemElement4.Text = "Change password";
-            tileItemElement4.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
-            this.tileItemChangePassword.Elements.Add(tileItemElement3);
-            this.tileItemChangePassword.Elements.Add(tileItemElement4);
+            tileItemElement38.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            tileItemElement38.Appearance.Normal.Options.UseFont = true;
+            tileItemElement38.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            tileItemElement38.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
+            tileItemElement38.Text = "Change password";
+            tileItemElement38.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
+            this.tileItemChangePassword.Elements.Add(tileItemElement38);
             this.tileItemChangePassword.Enabled = false;
             this.tileItemChangePassword.Id = 6;
             this.tileItemChangePassword.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
@@ -198,24 +186,16 @@
             this.tileGroup3.Name = "tileGroup3";
             this.tileGroup3.Text = "PRODUCT";
             // 
-            // tileItem3
+            // tileItemProductList
             // 
-            tileItemElement5.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            tileItemElement5.Appearance.Normal.Options.UseFont = true;
-            tileItemElement5.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
-            tileItemElement5.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
-            tileItemElement5.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.None;
-            tileItemElement5.Text = "Product list";
-            tileItemElement5.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
-            tileItemElement6.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            tileItemElement6.Appearance.Normal.Options.UseFont = true;
-            tileItemElement6.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
-            tileItemElement6.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
-            tileItemElement6.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.None;
-            tileItemElement6.Text = "Product list";
-            tileItemElement6.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
-            this.tileItemProductList.Elements.Add(tileItemElement5);
-            this.tileItemProductList.Elements.Add(tileItemElement6);
+            tileItemElement39.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            tileItemElement39.Appearance.Normal.Options.UseFont = true;
+            tileItemElement39.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            tileItemElement39.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
+            tileItemElement39.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.None;
+            tileItemElement39.Text = "Product list";
+            tileItemElement39.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
+            this.tileItemProductList.Elements.Add(tileItemElement39);
             this.tileItemProductList.Enabled = false;
             this.tileItemProductList.Id = 4;
             this.tileItemProductList.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
@@ -343,19 +323,31 @@
             // tabProductList
             // 
             this.tabProductList.Caption = "tabListProduct";
+            this.tabProductList.Controls.Add(this.label7);
+            this.tabProductList.Controls.Add(this.label6);
+            this.tabProductList.Controls.Add(this.txtAmountProduct);
+            this.tabProductList.Controls.Add(this.txtNameProduct);
             this.tabProductList.Controls.Add(this.dataGridView1);
             this.tabProductList.Controls.Add(this.tileControl1);
             this.tabProductList.Controls.Add(this.gridCtrlProduct);
             this.tabProductList.Name = "tabProductList";
             this.tabProductList.Size = new System.Drawing.Size(1182, 741);
             // 
+            // txtNameProduct
+            // 
+            this.txtNameProduct.Location = new System.Drawing.Point(453, 406);
+            this.txtNameProduct.Name = "txtNameProduct";
+            this.txtNameProduct.Size = new System.Drawing.Size(100, 22);
+            this.txtNameProduct.TabIndex = 3;
+            // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(424, 149);
+            this.dataGridView1.Location = new System.Drawing.Point(394, 65);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(394, 317);
             this.dataGridView1.TabIndex = 2;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // tileControl1
             // 
@@ -386,23 +378,24 @@
             // 
             // tileItemInsertProduct
             // 
-            tileItemElement7.Text = "Insert";
-            tileItemElement7.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tileItemInsertProduct.Elements.Add(tileItemElement7);
-            tileItemElement8.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
-            tileItemElement8.Text = "Insert";
-            tileItemElement8.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemFrame1.Elements.Add(tileItemElement8);
-            tileItemFrame1.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame1.Image")));
-            tileItemFrame1.UseText = false;
-            tileItemElement9.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
-            tileItemElement9.Text = "Insert";
-            tileItemElement9.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemFrame2.Elements.Add(tileItemElement9);
-            tileItemFrame2.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame2.Image")));
-            tileItemFrame2.UseImage = false;
-            this.tileItemInsertProduct.Frames.Add(tileItemFrame1);
-            this.tileItemInsertProduct.Frames.Add(tileItemFrame2);
+            this.tileItemInsertProduct.CurrentFrameIndex = 1;
+            tileItemElement40.Text = "Insert";
+            tileItemElement40.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tileItemInsertProduct.Elements.Add(tileItemElement40);
+            tileItemElement41.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
+            tileItemElement41.Text = "Insert";
+            tileItemElement41.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemFrame19.Elements.Add(tileItemElement41);
+            tileItemFrame19.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame19.Image")));
+            tileItemFrame19.UseText = false;
+            tileItemElement42.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
+            tileItemElement42.Text = "Insert";
+            tileItemElement42.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemFrame20.Elements.Add(tileItemElement42);
+            tileItemFrame20.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame20.Image")));
+            tileItemFrame20.UseImage = false;
+            this.tileItemInsertProduct.Frames.Add(tileItemFrame19);
+            this.tileItemInsertProduct.Frames.Add(tileItemFrame20);
             this.tileItemInsertProduct.Id = 0;
             this.tileItemInsertProduct.ItemSize = DevExpress.XtraEditors.TileItemSize.Small;
             this.tileItemInsertProduct.Name = "tileItemInsertProduct";
@@ -410,56 +403,60 @@
             // 
             // tileItemUpdateProduct
             // 
-            tileItemElement10.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
-            tileItemElement10.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tileItemUpdateProduct.Elements.Add(tileItemElement10);
-            tileItemElement11.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
-            tileItemElement11.Text = "Update";
-            tileItemElement11.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemFrame3.Elements.Add(tileItemElement11);
-            tileItemFrame3.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame3.Image")));
-            tileItemFrame3.UseText = false;
-            tileItemElement12.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image8")));
-            tileItemElement12.Text = "Update";
-            tileItemElement12.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemFrame4.Elements.Add(tileItemElement12);
-            tileItemFrame4.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame4.Image")));
-            tileItemFrame4.UseImage = false;
-            this.tileItemUpdateProduct.Frames.Add(tileItemFrame3);
-            this.tileItemUpdateProduct.Frames.Add(tileItemFrame4);
+            this.tileItemUpdateProduct.CurrentFrameIndex = 1;
+            tileItemElement43.Text = "Update";
+            tileItemElement43.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tileItemUpdateProduct.Elements.Add(tileItemElement43);
+            tileItemElement44.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
+            tileItemElement44.Text = "Update";
+            tileItemElement44.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemFrame21.Elements.Add(tileItemElement44);
+            tileItemFrame21.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame21.Image")));
+            tileItemFrame21.UseText = false;
+            tileItemElement45.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
+            tileItemElement45.Text = "Update";
+            tileItemElement45.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemFrame22.Elements.Add(tileItemElement45);
+            tileItemFrame22.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame22.Image")));
+            tileItemFrame22.UseImage = false;
+            this.tileItemUpdateProduct.Frames.Add(tileItemFrame21);
+            this.tileItemUpdateProduct.Frames.Add(tileItemFrame22);
             this.tileItemUpdateProduct.Id = 1;
             this.tileItemUpdateProduct.ItemSize = DevExpress.XtraEditors.TileItemSize.Small;
             this.tileItemUpdateProduct.Name = "tileItemUpdateProduct";
+            this.tileItemUpdateProduct.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.tileItemUpdateProduct_ItemClick);
             // 
             // tileItemDeleteProduct
             // 
-            tileItemElement13.Text = "Delete";
-            tileItemElement13.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tileItemDeleteProduct.Elements.Add(tileItemElement13);
-            tileItemElement14.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image9")));
-            tileItemElement14.Text = "Delete";
-            tileItemElement14.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemFrame5.Elements.Add(tileItemElement14);
-            tileItemFrame5.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame5.Image")));
-            tileItemFrame5.UseText = false;
-            tileItemElement15.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image10")));
-            tileItemElement15.Text = "Delete";
-            tileItemElement15.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemFrame6.Elements.Add(tileItemElement15);
-            tileItemFrame6.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame6.Image")));
-            tileItemFrame6.UseImage = false;
-            this.tileItemDeleteProduct.Frames.Add(tileItemFrame5);
-            this.tileItemDeleteProduct.Frames.Add(tileItemFrame6);
+            this.tileItemDeleteProduct.CurrentFrameIndex = 1;
+            tileItemElement46.Text = "Delete";
+            tileItemElement46.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tileItemDeleteProduct.Elements.Add(tileItemElement46);
+            tileItemElement47.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
+            tileItemElement47.Text = "Delete";
+            tileItemElement47.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemFrame23.Elements.Add(tileItemElement47);
+            tileItemFrame23.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame23.Image")));
+            tileItemFrame23.UseText = false;
+            tileItemElement48.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
+            tileItemElement48.Text = "Delete";
+            tileItemElement48.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemFrame24.Elements.Add(tileItemElement48);
+            tileItemFrame24.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame24.Image")));
+            tileItemFrame24.UseImage = false;
+            this.tileItemDeleteProduct.Frames.Add(tileItemFrame23);
+            this.tileItemDeleteProduct.Frames.Add(tileItemFrame24);
             this.tileItemDeleteProduct.Id = 2;
             this.tileItemDeleteProduct.ItemSize = DevExpress.XtraEditors.TileItemSize.Small;
             this.tileItemDeleteProduct.Name = "tileItemDeleteProduct";
+            this.tileItemDeleteProduct.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.tileItemDeleteProduct_ItemClick);
             // 
             // gridCtrlProduct
             // 
             this.gridCtrlProduct.Location = new System.Drawing.Point(3, 11);
             this.gridCtrlProduct.MainView = this.tileViewProduct;
             this.gridCtrlProduct.Name = "gridCtrlProduct";
-            this.gridCtrlProduct.Size = new System.Drawing.Size(400, 200);
+            this.gridCtrlProduct.Size = new System.Drawing.Size(128, 162);
             this.gridCtrlProduct.TabIndex = 0;
             this.gridCtrlProduct.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.tileViewProduct});
@@ -468,25 +465,25 @@
             // 
             this.tileViewProduct.GridControl = this.gridCtrlProduct;
             this.tileViewProduct.Name = "tileViewProduct";
-            this.tileViewProduct.TileColumns.Add(tableColumnDefinition1);
-            this.tileViewProduct.TileColumns.Add(tableColumnDefinition2);
-            this.tileViewProduct.TileColumns.Add(tableColumnDefinition3);
-            this.tileViewProduct.TileRows.Add(tableRowDefinition1);
-            this.tileViewProduct.TileRows.Add(tableRowDefinition2);
-            this.tileViewProduct.TileRows.Add(tableRowDefinition3);
-            tableSpan1.ColumnIndex = 1;
-            tableSpan1.ColumnSpan = 2;
-            tableSpan2.RowSpan = 3;
-            tableSpan3.ColumnIndex = 1;
-            tableSpan3.RowIndex = 1;
-            tableSpan3.RowSpan = 2;
-            tableSpan4.ColumnIndex = 2;
-            tableSpan4.RowIndex = 1;
-            tableSpan4.RowSpan = 2;
-            this.tileViewProduct.TileSpans.Add(tableSpan1);
-            this.tileViewProduct.TileSpans.Add(tableSpan2);
-            this.tileViewProduct.TileSpans.Add(tableSpan3);
-            this.tileViewProduct.TileSpans.Add(tableSpan4);
+            this.tileViewProduct.TileColumns.Add(tableColumnDefinition4);
+            this.tileViewProduct.TileColumns.Add(tableColumnDefinition5);
+            this.tileViewProduct.TileColumns.Add(tableColumnDefinition6);
+            this.tileViewProduct.TileRows.Add(tableRowDefinition4);
+            this.tileViewProduct.TileRows.Add(tableRowDefinition5);
+            this.tileViewProduct.TileRows.Add(tableRowDefinition6);
+            tableSpan5.ColumnIndex = 1;
+            tableSpan5.ColumnSpan = 2;
+            tableSpan6.RowSpan = 3;
+            tableSpan7.ColumnIndex = 1;
+            tableSpan7.RowIndex = 1;
+            tableSpan7.RowSpan = 2;
+            tableSpan8.ColumnIndex = 2;
+            tableSpan8.RowIndex = 1;
+            tableSpan8.RowSpan = 2;
+            this.tileViewProduct.TileSpans.Add(tableSpan5);
+            this.tileViewProduct.TileSpans.Add(tableSpan6);
+            this.tileViewProduct.TileSpans.Add(tableSpan7);
+            this.tileViewProduct.TileSpans.Add(tableSpan8);
             this.tileViewProduct.ItemCustomize += new DevExpress.XtraGrid.Views.Tile.TileViewItemCustomizeEventHandler(this.tileViewProduct_ItemCustomize);
             // 
             // tabChangePassword
@@ -644,6 +641,31 @@
             this.timer.Interval = 1000;
             this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
+            // txtAmountProduct
+            // 
+            this.txtAmountProduct.Location = new System.Drawing.Point(673, 406);
+            this.txtAmountProduct.Name = "txtAmountProduct";
+            this.txtAmountProduct.Size = new System.Drawing.Size(100, 22);
+            this.txtAmountProduct.TabIndex = 4;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(402, 409);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(45, 16);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Name";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(614, 409);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(53, 16);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Amount";
+            // 
             // FrmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -663,6 +685,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.tabProductList.ResumeLayout(false);
+            this.tabProductList.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridCtrlProduct)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tileViewProduct)).EndInit();
@@ -720,6 +743,10 @@
         private DevExpress.XtraEditors.TileItem tileItem1;
         private DevExpress.XtraEditors.TileItem tileItem2;
         private DevExpress.XtraEditors.TileItem tileItem3;
+        private System.Windows.Forms.TextBox txtNameProduct;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtAmountProduct;
     }
 }
 

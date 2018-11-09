@@ -44,7 +44,7 @@ namespace PMQLCX.Models.DAO
         public bool UpdateProduct(int id,string name,float amount)
         {
             int data = 0;
-            string query = string.Format("USP_UpdateProduct @id = {0}, @name = N'{1}', @amount = N{2}",id, name, amount);
+            string query = string.Format("USP_UpdateProduct @id = {0}, @name = N'{1}', @amount = {2}",id, name, amount);
             data = DataProvider.Instance.ExecuteNonQuery(query);
             return data > 0;
         }

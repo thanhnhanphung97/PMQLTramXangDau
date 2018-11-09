@@ -8,14 +8,14 @@ CREATE DATABASE DataTramXangDau
 ON PRIMARY 
 (
 	name = DataTramXangDau,
-	filename = 'D:\Study\Git\PMQLTramXangDau\Database\DataTramXangDau.mdf',
+	filename = 'E:\PMQLTramXangDau\Database\DataTramXangDau.mdf',
 	SIZE = 10MB,
 	FILEGROWTH = 10MB
 )
 LOG ON 
 (
 	name = DataTramXangDau_log,
-	filename = 'D:\Study\Git\PMQLTramXangDau\Database\DataTramXangDau_log.ldf',
+	filename = 'E:\PMQLTramXangDau\Database\DataTramXangDau_log.ldf',
 	SIZE = 10MB,
 	FILEGROWTH = 10MB
 )
@@ -227,8 +227,8 @@ GO
 CREATE PROC USP_UpdateProduct @id INT, @name NVARCHAR(100), @amount FLOAT
 AS
 	BEGIN 
-		UPDATE dbo.Products 
-		SET Amount = @amount + (SELECT Amount FROM dbo.Products WHERE Id = @id), Name = @name
+		UPDATE dbo.Products
+		SET Amount = @amount, Name = @name
 		WHERE Id = @id
 	END 
 GO 

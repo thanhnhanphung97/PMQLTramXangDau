@@ -56,7 +56,7 @@ namespace PMQLCX
         private void FrmHome_Load(object sender, EventArgs e)
         {
             this.AcceptButton = btnLogin;
-            //dataGridView1.DataSource = 
+            dataGridView1.DataSource = ProductDAO.Instance.GetAllProduct();
         }
 
         #region time
@@ -171,6 +171,27 @@ namespace PMQLCX
         }
         #endregion
 
+        #region productList
+        private void tileItemInsertProduct_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            ProductDAO.Instance.InsertProduct(txtNameProduct.Text);
+            dataGridView1.DataSource = ProductDAO.Instance.GetAllProduct();
+        }
+
+        private void tileItemUpdateProduct_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            DataGridViewRow dataRow = dataGridView1.CurrentRow;
+            ProductDAO.Instance.UpdateProduct(int.Parse(dataRow.Cells[0].Value.ToString()), txtNameProduct.Text, float.Parse(txtAmountProduct.Text));
+            dataGridView1.DataSource = ProductDAO.Instance.GetAllProduct();
+        }
+
+        private void tileItemDeleteProduct_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            ProductDAO.Instance.DeleteProduct(int.Parse(dataGridView1.CurrentRow.Cells[0].Value.ToString()));
+            dataGridView1.DataSource = ProductDAO.Instance.GetAllProduct();
+        }
+        #endregion
+
         private void tileViewProduct_ItemCustomize(object sender, DevExpress.XtraGrid.Views.Tile.TileViewItemCustomizeEventArgs e)
         {
             e.Item.Elements[0].Text = "a";
@@ -179,14 +200,16 @@ namespace PMQLCX
             e.Item.Elements[3].Text = "d";
         }
 
-        private void tileItemInsertProduct_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        private void tabHome_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void tabHome_Paint(object sender, PaintEventArgs e)
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            DataGridViewRow dataRow = dataGridView1.CurrentRow;
+            txtNameProduct.Text = dataRow.Cells[1].Value.ToString();
+            txtAmountProduct.Text = dataRow.Cells[2].Value.ToString();
         }
     }
 }
