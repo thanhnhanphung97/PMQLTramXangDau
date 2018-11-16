@@ -8,14 +8,14 @@ CREATE DATABASE DataTramXangDau
 ON PRIMARY 
 (
 	name = DataTramXangDau,
-	filename = 'E:\PMQLTramXangDau\Database\DataTramXangDau.mdf',
+	filename = 'D:\Study\Git\PMQLTramXangDau\Database\DataTramXangDau.mdf',
 	SIZE = 10MB,
 	FILEGROWTH = 10MB
 )
 LOG ON 
 (
 	name = DataTramXangDau_log,
-	filename = 'E:\PMQLTramXangDau\Database\DataTramXangDau_log.ldf',
+	filename = 'D:\Study\Git\PMQLTramXangDau\Database\DataTramXangDau_log.ldf',
 	SIZE = 10MB,
 	FILEGROWTH = 10MB
 )
@@ -232,4 +232,114 @@ AS
 		WHERE Id = @id
 	END 
 GO 
+
+IF EXISTS(SELECT * FROM sys.sysobjects WHERE name = 'USP_GetAllReceipt')
+	DROP PROCEDURE dbo.USP_GetAllReceipt
+GO 
+
+CREATE PROC USP_GetAllReceipt
+AS
+	BEGIN 
+		SELECT * FROM dbo.ReceiveTable
+	END
+GO 
+
+IF EXISTS(SELECT * FROM sys.sysobjects WHERE name = 'USP_InsertReceipt')
+	DROP PROCEDURE dbo.USP_InsertReceipt
+GO 
+
+
+CREATE PROC USP_InsertReceipt @inputDate DATETIME, @receiver NVARCHAR(100), @payer NVARCHAR(100), @describe NVARCHAR(300), @money FLOAT
+AS
+	BEGIN 
+		INSERT dbo.ReceiveTable VALUES  ( @inputDate ,@receiver ,@payer ,@describe ,@money)
+	END
+GO
+
+IF EXISTS(SELECT * FROM sys.sysobjects WHERE name = 'USP_UpdateReceipt')
+	DROP PROCEDURE dbo.USP_UpdateReceipt
+GO 
+
+
+CREATE PROC USP_UpdateReceipt @id INT,@inputDate DATETIME, @receiver NVARCHAR(100), @payer NVARCHAR(100), @describe NVARCHAR(300), @money FLOAT
+AS
+	BEGIN 
+		UPDATE dbo.ReceiveTable 
+		SET InputDate = @inputDate, Receiver = @receiver, Payer = @payer, Describe = @describe, Money = @money
+		WHERE Id = @id
+	END
+GO  
+
+IF EXISTS(SELECT * FROM sys.sysobjects WHERE name = 'USP_DeleteReceipt')
+	DROP PROCEDURE dbo.USP_DeleteReceipt
+GO 
+
+
+CREATE PROC USP_DeleteReceipt @id INT
+AS
+	BEGIN 
+		DELETE dbo.ReceiveTable WHERE Id = @id
+	END
+GO  
+
+IF EXISTS(SELECT * FROM sys.sysobjects WHERE name = 'USP_GetAllPay')
+	DROP PROCEDURE dbo.USP_GetAllPay
+GO 
+
+CREATE PROC USP_GetAllPay
+AS
+	BEGIN 
+		SELECT * FROM dbo.PayTable
+	END
+GO 
+
+IF EXISTS(SELECT * FROM sys.sysobjects WHERE name = 'USP_InsertPay')
+	DROP PROCEDURE dbo.USP_InsertPay
+GO 
+
+
+CREATE PROC USP_InsertPay @inputDate DATETIME, @receiver NVARCHAR(100), @payer NVARCHAR(100), @describe NVARCHAR(300), @money FLOAT
+AS
+	BEGIN 
+		INSERT dbo.PayTable VALUES  ( @inputDate ,@receiver ,@payer ,@describe ,@money)
+	END
+GO
+
+IF EXISTS(SELECT * FROM sys.sysobjects WHERE name = 'USP_UpdatePay')
+	DROP PROCEDURE dbo.USP_UpdatePay
+GO 
+
+
+CREATE PROC USP_UpdatePay @id INT,@inputDate DATETIME, @receiver NVARCHAR(100), @payer NVARCHAR(100), @describe NVARCHAR(300), @money FLOAT
+AS
+	BEGIN 
+		UPDATE dbo.PayTable 
+		SET InputDate = @inputDate, Receiver = @receiver, Payer = @payer, Describe = @describe, Money = @money
+		WHERE Id = @id
+	END
+GO  
+
+IF EXISTS(SELECT * FROM sys.sysobjects WHERE name = 'USP_DeletePay')
+	DROP PROCEDURE dbo.USP_DeletePay
+GO 
+
+
+CREATE PROC USP_DeletePay @id INT
+AS
+	BEGIN 
+		DELETE dbo.PayTable WHERE Id = @id
+	END
+GO  
+
+IF EXISTS(SELECT * FROM sys.sysobjects WHERE name = 'USP_GetAllRevenue')
+	DROP PROCEDURE dbo.USP_GetAllRevenue
+GO 
+
+
+CREATE PROC USP_GetAllRevenue
+AS
+	BEGIN 
+		SELECT * FROM dbo.Revenues
+	END
+GO  
 

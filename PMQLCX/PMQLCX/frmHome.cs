@@ -23,6 +23,9 @@ namespace PMQLCX
 
         bool status = false;
         DataTable account;
+        DataTable receive;
+        
+
 
         #region function
         private void SelectedPage(TabNavigationPage tabPage)
@@ -55,8 +58,13 @@ namespace PMQLCX
 
         private void FrmHome_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'dataTramXangDauDataSet.PayTable' table. You can move, or remove it, as needed.
+            this.payTableTableAdapter.Fill(this.dataTramXangDauDataSet.PayTable);
+            // TODO: This line of code loads data into the 'dataTramXangDauDataSet.ReceiveTable' table. You can move, or remove it, as needed.
+            this.receiveTableTableAdapter.Fill(this.dataTramXangDauDataSet.ReceiveTable);
             this.AcceptButton = btnLogin;
             dataGridView1.DataSource = ProductDAO.Instance.GetAllProduct();
+            btnLogin.Enabled = true;
         }
 
         #region time
@@ -104,6 +112,25 @@ namespace PMQLCX
         {
             SelectedPage(tabProductList);
         }
+
+        private void tileReceipts_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            SelectedPage(tabReceipts);
+            gvReceipts.GridControl.DataSource = ReceiveDAO.Instance.GetAllReceipt();
+        }
+
+
+        private void tilePay_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            SelectedPage(tabPay);
+        }
+        
+        private void tileRevenue_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            SelectedPage(tabRevenue);
+            gvRevenue.GridControl.DataSource = RevenueDAO.Instance.GetAllRevenue();
+        }
+
         #endregion
 
         #region login
@@ -132,6 +159,9 @@ namespace PMQLCX
 
                 tileItemChangePassword.Enabled = true;
                 tileItemProductList.Enabled = true;
+                tileReceipts.Enabled = true;
+                tilePay.Enabled = true;
+                tileRevenue.Enabled = true;
             }
             else
             {
@@ -211,5 +241,6 @@ namespace PMQLCX
             txtNameProduct.Text = dataRow.Cells[1].Value.ToString();
             txtAmountProduct.Text = dataRow.Cells[2].Value.ToString();
         }
+
     }
 }
