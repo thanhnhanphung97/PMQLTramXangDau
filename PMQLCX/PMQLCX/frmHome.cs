@@ -242,5 +242,9 @@ namespace PMQLCX
             txtAmountProduct.Text = dataRow.Cells[2].Value.ToString();
         }
 
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            gvRevenue.GridControl.DataSource = RevenueDAO.Instance.GetRevenueByDate(txtDateFrom.DateTime, txtDateTo.DateTime);
+        }
     }
 }

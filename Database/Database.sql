@@ -343,3 +343,15 @@ AS
 	END
 GO  
 
+IF EXISTS(SELECT * FROM sys.sysobjects WHERE name = 'USP_SearchRevenue')
+	DROP PROCEDURE dbo.USP_SearchRevenue
+GO 
+
+CREATE PROC USP_SearchRevenue @fromDate DATETIME, @toDate DATETIME
+AS
+	BEGIN
+		SELECT * FROM dbo.Revenues WHERE Date >= @fromDate AND Date <= @toDate
+	END
+GO 
+
+EXEC dbo.USP_SearchRevenue @fromDate = '2018-11-13', @toDate = '2018-11-14'
