@@ -8,14 +8,14 @@ CREATE DATABASE DataTramXangDau
 ON PRIMARY 
 (
 	name = DataTramXangDau,
-	filename = 'D:\Study\Git\PMQLTramXangDau\Database\DataTramXangDau.mdf',
+	filename = 'E:\PMQLTramXangDau\Database\DataTramXangDau.mdf',
 	SIZE = 10MB,
 	FILEGROWTH = 10MB
 )
 LOG ON 
 (
 	name = DataTramXangDau_log,
-	filename = 'D:\Study\Git\PMQLTramXangDau\Database\DataTramXangDau_log.ldf',
+	filename = 'E:\PMQLTramXangDau\Database\DataTramXangDau_log.ldf',
 	SIZE = 10MB,
 	FILEGROWTH = 10MB
 )

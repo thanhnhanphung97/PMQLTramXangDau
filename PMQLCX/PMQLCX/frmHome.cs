@@ -65,6 +65,10 @@ namespace PMQLCX
             this.AcceptButton = btnLogin;
             dataGridView1.DataSource = ProductDAO.Instance.GetAllProduct();
             btnLogin.Enabled = true;
+            
+            CrystalReport rpt = new CrystalReport();
+            rpt.SetDataSource(ReceiveDAO.Instance.GetAllReceipt());
+            crystalReportViewer.ReportSource=rpt;
         }
 
         #region time
@@ -242,5 +246,9 @@ namespace PMQLCX
             txtAmountProduct.Text = dataRow.Cells[2].Value.ToString();
         }
 
+        private void btnReport_Click(object sender, EventArgs e)
+        {
+            tabPane.SelectedPage = tabReport;
+        }
     }
 }
