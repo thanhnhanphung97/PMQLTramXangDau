@@ -33,6 +33,14 @@ namespace PMQLCX.Models.DAO
             return data;
         }
 
+        public DataTable GetRevenueByDate(DateTime fromDate,DateTime toDate)
+        {
+            string query = string.Format("USP_SearchRevenue @fromDate = '{0}', @toDate = '{1}'",fromDate,toDate);
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+            return data;
+        }
+
+
         /*
         public bool InsertReceipt(DateTime inputDate, string receiver, string payer, string describe, float money)
         {

@@ -586,16 +586,27 @@
             // 
             // tileItemInsertProduct
             // 
+<<<<<<< HEAD
             tileItemElement7.Text = "Insert";
             tileItemElement7.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             this.tileItemInsertProduct.Elements.Add(tileItemElement7);
             tileItemElement8.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
+=======
+            tileItemElement7.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
+            tileItemElement7.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tileItemInsertProduct.Elements.Add(tileItemElement7);
+            tileItemElement8.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
+>>>>>>> f8a1e2def1da720695a39a1b629a0e288a707ac4
             tileItemElement8.Text = "Insert";
             tileItemElement8.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             tileItemFrame1.Elements.Add(tileItemElement8);
             tileItemFrame1.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame1.Image")));
             tileItemFrame1.UseText = false;
+<<<<<<< HEAD
             tileItemElement9.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
+=======
+            tileItemElement9.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
+>>>>>>> f8a1e2def1da720695a39a1b629a0e288a707ac4
             tileItemElement9.Text = "Insert";
             tileItemElement9.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             tileItemFrame2.Elements.Add(tileItemElement9);
@@ -610,16 +621,27 @@
             // 
             // tileItemUpdateProduct
             // 
+<<<<<<< HEAD
             tileItemElement10.Text = "Update";
             tileItemElement10.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             this.tileItemUpdateProduct.Elements.Add(tileItemElement10);
             tileItemElement11.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
+=======
+            tileItemElement10.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
+            tileItemElement10.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tileItemUpdateProduct.Elements.Add(tileItemElement10);
+            tileItemElement11.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
+>>>>>>> f8a1e2def1da720695a39a1b629a0e288a707ac4
             tileItemElement11.Text = "Update";
             tileItemElement11.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             tileItemFrame3.Elements.Add(tileItemElement11);
             tileItemFrame3.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame3.Image")));
             tileItemFrame3.UseText = false;
+<<<<<<< HEAD
             tileItemElement12.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
+=======
+            tileItemElement12.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image8")));
+>>>>>>> f8a1e2def1da720695a39a1b629a0e288a707ac4
             tileItemElement12.Text = "Update";
             tileItemElement12.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             tileItemFrame4.Elements.Add(tileItemElement12);
@@ -634,16 +656,27 @@
             // 
             // tileItemDeleteProduct
             // 
+<<<<<<< HEAD
             tileItemElement13.Text = "Delete";
             tileItemElement13.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             this.tileItemDeleteProduct.Elements.Add(tileItemElement13);
             tileItemElement14.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
+=======
+            tileItemElement13.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image9")));
+            tileItemElement13.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tileItemDeleteProduct.Elements.Add(tileItemElement13);
+            tileItemElement14.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image10")));
+>>>>>>> f8a1e2def1da720695a39a1b629a0e288a707ac4
             tileItemElement14.Text = "Delete";
             tileItemElement14.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             tileItemFrame5.Elements.Add(tileItemElement14);
             tileItemFrame5.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame5.Image")));
             tileItemFrame5.UseText = false;
+<<<<<<< HEAD
             tileItemElement15.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image8")));
+=======
+            tileItemElement15.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image11")));
+>>>>>>> f8a1e2def1da720695a39a1b629a0e288a707ac4
             tileItemElement15.Text = "Delete";
             tileItemElement15.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             tileItemFrame6.Elements.Add(tileItemElement15);
@@ -658,10 +691,10 @@
             // 
             // gridCtrlProduct
             // 
-            this.gridCtrlProduct.Location = new System.Drawing.Point(3, 11);
+            this.gridCtrlProduct.Location = new System.Drawing.Point(68, 11);
             this.gridCtrlProduct.MainView = this.tileViewProduct;
             this.gridCtrlProduct.Name = "gridCtrlProduct";
-            this.gridCtrlProduct.Size = new System.Drawing.Size(128, 162);
+            this.gridCtrlProduct.Size = new System.Drawing.Size(320, 162);
             this.gridCtrlProduct.TabIndex = 0;
             this.gridCtrlProduct.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.tileViewProduct});
@@ -1432,6 +1465,7 @@
             this.btnSearch.Size = new System.Drawing.Size(75, 23);
             this.btnSearch.TabIndex = 6;
             this.btnSearch.Text = "search";
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // labelControl15
             // 
