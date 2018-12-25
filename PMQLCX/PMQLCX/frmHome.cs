@@ -246,15 +246,14 @@ namespace PMQLCX
             txtAmountProduct.Text = dataRow.Cells[2].Value.ToString();
         }
 
-<<<<<<< HEAD
         private void btnReport_Click(object sender, EventArgs e)
         {
             tabPane.SelectedPage = tabReport;
-=======
+        }
+
         private void btnSearch_Click(object sender, EventArgs e)
         {
             gvRevenue.GridControl.DataSource = RevenueDAO.Instance.GetRevenueByDate(txtDateFrom.DateTime, txtDateTo.DateTime);
->>>>>>> f8a1e2def1da720695a39a1b629a0e288a707ac4
         }
     }
 }

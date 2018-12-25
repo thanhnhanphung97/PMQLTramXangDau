@@ -109,6 +109,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtCurPassword = new System.Windows.Forms.TextBox();
             this.tabReceipts = new DevExpress.XtraBars.Navigation.TabNavigationPage();
+            this.btnReport = new DevExpress.XtraEditors.SimpleButton();
             this.btnRefreshReceipt = new DevExpress.XtraEditors.SimpleButton();
             this.btnDeleteReceipt = new DevExpress.XtraEditors.SimpleButton();
             this.btnUpdateReceipt = new DevExpress.XtraEditors.SimpleButton();
@@ -173,18 +174,16 @@
             this.txtDateTo = new DevExpress.XtraEditors.DateEdit();
             this.gCtrlRevenue = new DevExpress.XtraGrid.GridControl();
             this.gvRevenue = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.tabReport = new DevExpress.XtraBars.Navigation.TabNavigationPage();
             this.receiveTableBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.receiveTableTableAdapter = new PMQLCX.DataTramXangDauDataSetTableAdapters.ReceiveTableTableAdapter();
             this.payTableTableAdapter = new PMQLCX.DataTramXangDauDataSetTableAdapters.PayTableTableAdapter();
-            this.tabReport = new DevExpress.XtraBars.Navigation.TabNavigationPage();
-            this.btnReport = new DevExpress.XtraEditors.SimpleButton();
             this.crystalReportViewer = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             ((System.ComponentModel.ISupportInitialize)(this.tabPane)).BeginInit();
             this.tabPane.SuspendLayout();
             this.tabLogin.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.tabHome.SuspendLayout();
             this.tabProductList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridCtrlProduct)).BeginInit();
@@ -230,6 +229,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtDateTo.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gCtrlRevenue)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gvRevenue)).BeginInit();
+            this.tabReport.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.receiveTableBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -409,7 +409,7 @@
             this.tabLogin.Caption = "tabLogin";
             this.tabLogin.Controls.Add(this.groupBox1);
             this.tabLogin.Name = "tabLogin";
-            this.tabLogin.Size = new System.Drawing.Size(1182, 768);
+            this.tabLogin.Size = new System.Drawing.Size(1182, 741);
             // 
             // groupBox1
             // 
@@ -498,7 +498,6 @@
             // tabHome
             // 
             this.tabHome.Caption = "tabHome";
-            this.tabHome.Controls.Add(this.crystalReportViewer);
             this.tabHome.Name = "tabHome";
             this.tabHome.Size = new System.Drawing.Size(1182, 741);
             this.tabHome.Paint += new System.Windows.Forms.PaintEventHandler(this.tabHome_Paint);
@@ -514,7 +513,7 @@
             this.tabProductList.Controls.Add(this.tileControl1);
             this.tabProductList.Controls.Add(this.gridCtrlProduct);
             this.tabProductList.Name = "tabProductList";
-            this.tabProductList.Size = new System.Drawing.Size(1182, 768);
+            this.tabProductList.Size = new System.Drawing.Size(1182, 741);
             // 
             // label7
             // 
@@ -586,27 +585,17 @@
             // 
             // tileItemInsertProduct
             // 
-<<<<<<< HEAD
+            this.tileItemInsertProduct.CurrentFrameIndex = 1;
             tileItemElement7.Text = "Insert";
             tileItemElement7.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             this.tileItemInsertProduct.Elements.Add(tileItemElement7);
             tileItemElement8.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
-=======
-            tileItemElement7.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
-            tileItemElement7.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tileItemInsertProduct.Elements.Add(tileItemElement7);
-            tileItemElement8.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
->>>>>>> f8a1e2def1da720695a39a1b629a0e288a707ac4
             tileItemElement8.Text = "Insert";
             tileItemElement8.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             tileItemFrame1.Elements.Add(tileItemElement8);
             tileItemFrame1.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame1.Image")));
             tileItemFrame1.UseText = false;
-<<<<<<< HEAD
             tileItemElement9.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
-=======
-            tileItemElement9.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
->>>>>>> f8a1e2def1da720695a39a1b629a0e288a707ac4
             tileItemElement9.Text = "Insert";
             tileItemElement9.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             tileItemFrame2.Elements.Add(tileItemElement9);
@@ -621,27 +610,17 @@
             // 
             // tileItemUpdateProduct
             // 
-<<<<<<< HEAD
+            this.tileItemUpdateProduct.CurrentFrameIndex = 1;
             tileItemElement10.Text = "Update";
             tileItemElement10.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             this.tileItemUpdateProduct.Elements.Add(tileItemElement10);
             tileItemElement11.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
-=======
-            tileItemElement10.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
-            tileItemElement10.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tileItemUpdateProduct.Elements.Add(tileItemElement10);
-            tileItemElement11.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
->>>>>>> f8a1e2def1da720695a39a1b629a0e288a707ac4
             tileItemElement11.Text = "Update";
             tileItemElement11.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             tileItemFrame3.Elements.Add(tileItemElement11);
             tileItemFrame3.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame3.Image")));
             tileItemFrame3.UseText = false;
-<<<<<<< HEAD
             tileItemElement12.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
-=======
-            tileItemElement12.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image8")));
->>>>>>> f8a1e2def1da720695a39a1b629a0e288a707ac4
             tileItemElement12.Text = "Update";
             tileItemElement12.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             tileItemFrame4.Elements.Add(tileItemElement12);
@@ -656,27 +635,17 @@
             // 
             // tileItemDeleteProduct
             // 
-<<<<<<< HEAD
+            this.tileItemDeleteProduct.CurrentFrameIndex = 1;
             tileItemElement13.Text = "Delete";
             tileItemElement13.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             this.tileItemDeleteProduct.Elements.Add(tileItemElement13);
             tileItemElement14.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
-=======
-            tileItemElement13.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image9")));
-            tileItemElement13.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tileItemDeleteProduct.Elements.Add(tileItemElement13);
-            tileItemElement14.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image10")));
->>>>>>> f8a1e2def1da720695a39a1b629a0e288a707ac4
             tileItemElement14.Text = "Delete";
             tileItemElement14.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             tileItemFrame5.Elements.Add(tileItemElement14);
             tileItemFrame5.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame5.Image")));
             tileItemFrame5.UseText = false;
-<<<<<<< HEAD
             tileItemElement15.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image8")));
-=======
-            tileItemElement15.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image11")));
->>>>>>> f8a1e2def1da720695a39a1b629a0e288a707ac4
             tileItemElement15.Text = "Delete";
             tileItemElement15.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             tileItemFrame6.Elements.Add(tileItemElement15);
@@ -731,7 +700,7 @@
             this.tabChangePassword.Caption = "tabChangePassword";
             this.tabChangePassword.Controls.Add(this.groupBox2);
             this.tabChangePassword.Name = "tabChangePassword";
-            this.tabChangePassword.Size = new System.Drawing.Size(1182, 768);
+            this.tabChangePassword.Size = new System.Drawing.Size(1182, 741);
             // 
             // groupBox2
             // 
@@ -885,7 +854,16 @@
             this.tabReceipts.Controls.Add(this.groupControl1);
             this.tabReceipts.Controls.Add(this.gCrlReceipts);
             this.tabReceipts.Name = "tabReceipts";
-            this.tabReceipts.Size = new System.Drawing.Size(1182, 768);
+            this.tabReceipts.Size = new System.Drawing.Size(1182, 741);
+            // 
+            // btnReport
+            // 
+            this.btnReport.Location = new System.Drawing.Point(388, 130);
+            this.btnReport.Name = "btnReport";
+            this.btnReport.Size = new System.Drawing.Size(75, 42);
+            this.btnReport.TabIndex = 6;
+            this.btnReport.Text = "Report";
+            this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
             // 
             // btnRefreshReceipt
             // 
@@ -1158,7 +1136,7 @@
             this.tabPay.Controls.Add(this.btnInsertPay);
             this.tabPay.Controls.Add(this.groupControl2);
             this.tabPay.Name = "tabPay";
-            this.tabPay.Size = new System.Drawing.Size(1182, 768);
+            this.tabPay.Size = new System.Drawing.Size(1182, 741);
             // 
             // gridControl1
             // 
@@ -1441,7 +1419,7 @@
             this.tabRevenue.Controls.Add(this.groupControl3);
             this.tabRevenue.Controls.Add(this.gCtrlRevenue);
             this.tabRevenue.Name = "tabRevenue";
-            this.tabRevenue.Size = new System.Drawing.Size(1182, 768);
+            this.tabRevenue.Size = new System.Drawing.Size(1182, 741);
             // 
             // groupControl3
             // 
@@ -1465,7 +1443,6 @@
             this.btnSearch.Size = new System.Drawing.Size(75, 23);
             this.btnSearch.TabIndex = 6;
             this.btnSearch.Text = "search";
-            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // labelControl15
             // 
@@ -1557,6 +1534,13 @@
             this.gvRevenue.GridControl = this.gCtrlRevenue;
             this.gvRevenue.Name = "gvRevenue";
             // 
+            // tabReport
+            // 
+            this.tabReport.Caption = "tabReport";
+            this.tabReport.Controls.Add(this.crystalReportViewer);
+            this.tabReport.Name = "tabReport";
+            this.tabReport.Size = new System.Drawing.Size(1182, 741);
+            // 
             // receiveTableBindingSource
             // 
             this.receiveTableBindingSource.DataMember = "ReceiveTable";
@@ -1575,21 +1559,6 @@
             // 
             this.payTableTableAdapter.ClearBeforeFill = true;
             // 
-            // tabReport
-            // 
-            this.tabReport.Caption = "tabReport";
-            this.tabReport.Name = "tabReport";
-            this.tabReport.Size = new System.Drawing.Size(1182, 768);
-            // 
-            // btnReport
-            // 
-            this.btnReport.Location = new System.Drawing.Point(388, 130);
-            this.btnReport.Name = "btnReport";
-            this.btnReport.Size = new System.Drawing.Size(75, 42);
-            this.btnReport.TabIndex = 6;
-            this.btnReport.Text = "Report";
-            this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
-            // 
             // crystalReportViewer
             // 
             this.crystalReportViewer.ActiveViewIndex = -1;
@@ -1599,7 +1568,7 @@
             this.crystalReportViewer.Location = new System.Drawing.Point(0, 0);
             this.crystalReportViewer.Name = "crystalReportViewer";
             this.crystalReportViewer.Size = new System.Drawing.Size(1182, 741);
-            this.crystalReportViewer.TabIndex = 0;
+            this.crystalReportViewer.TabIndex = 1;
             // 
             // FrmHome
             // 
@@ -1619,7 +1588,6 @@
             this.tabLogin.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.tabHome.ResumeLayout(false);
             this.tabProductList.ResumeLayout(false);
             this.tabProductList.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -1670,6 +1638,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtDateTo.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gCtrlRevenue)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gvRevenue)).EndInit();
+            this.tabReport.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.receiveTableBindingSource)).EndInit();
             this.ResumeLayout(false);
 
