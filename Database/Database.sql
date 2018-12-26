@@ -8,14 +8,14 @@ CREATE DATABASE DataTramXangDau
 ON PRIMARY 
 (
 	name = DataTramXangDau,
-	filename = 'C:\Program Files\Microsoft SQL Server\MSSQL12.MSSQLSERVER\MSSQL\DATA\DataTramXangDau.mdf',
+	filename = 'E:\PMQLTramXangDau\Database\DataTramXangDau.mdf',
 	SIZE = 10MB,
 	FILEGROWTH = 10MB
 )
 LOG ON 
 (
 	name = DataTramXangDau_log,
-	filename = 'C:\Program Files\Microsoft SQL Server\MSSQL12.MSSQLSERVER\MSSQL\DATA\DataTramXangDau_log.ldf',
+	filename = 'E:\PMQLTramXangDau\Database\DataTramXangDau_log.ldf',
 	SIZE = 10MB,
 	FILEGROWTH = 10MB
 )
@@ -245,16 +245,16 @@ GO
 --	END
 --GO 
 
---IF EXISTS(SELECT * FROM sys.sysobjects WHERE name = 'USP_GetAllProduct')
---	DROP PROCEDURE dbo.USP_GetAllProduct
---GO 
+IF EXISTS(SELECT * FROM sys.sysobjects WHERE name = 'USP_GetAllProduct')
+	DROP PROCEDURE dbo.USP_GetAllProduct
+GO 
 
---CREATE PROC USP_GetAllProduct
---AS
---	BEGIN 
---		SELECT * FROM dbo.Products
---	END
---GO 
+CREATE PROC USP_GetAllProduct
+AS
+	BEGIN 
+		SELECT * FROM dbo.Products
+	END
+GO 
 
 --IF EXISTS(SELECT * FROM sys.sysobjects WHERE name = 'USP_UpdateProduct')
 --	DROP PROCEDURE dbo.USP_UpdateProduct
@@ -269,16 +269,16 @@ GO
 --	END 
 --GO 
 
---IF EXISTS(SELECT * FROM sys.sysobjects WHERE name = 'USP_GetAllReceipt')
---	DROP PROCEDURE dbo.USP_GetAllReceipt
---GO 
+IF EXISTS(SELECT * FROM sys.sysobjects WHERE name = 'USP_GetAllReceipt')
+	DROP PROCEDURE dbo.USP_GetAllReceipt
+GO 
 
---CREATE PROC USP_GetAllReceipt
---AS
---	BEGIN 
---		SELECT * FROM dbo.ReceiveTable
---	END
---GO 
+CREATE PROC USP_GetAllReceipt
+AS
+	BEGIN 
+		SELECT * FROM dbo.ReceiveTable
+	END
+GO 
 
 --IF EXISTS(SELECT * FROM sys.sysobjects WHERE name = 'USP_InsertReceipt')
 --	DROP PROCEDURE dbo.USP_InsertReceipt
@@ -367,17 +367,17 @@ GO
 --	END
 --GO  
 
---IF EXISTS(SELECT * FROM sys.sysobjects WHERE name = 'USP_GetAllRevenue')
---	DROP PROCEDURE dbo.USP_GetAllRevenue
---GO 
+IF EXISTS(SELECT * FROM sys.sysobjects WHERE name = 'USP_GetAllRevenue')
+	DROP PROCEDURE dbo.USP_GetAllRevenue
+GO 
 
 
---CREATE PROC USP_GetAllRevenue
---AS
---	BEGIN 
---		SELECT * FROM dbo.Revenues
---	END
---GO  
+CREATE PROC USP_GetAllRevenue
+AS
+	BEGIN 
+		SELECT * FROM dbo.Revenues
+	END
+GO  
 
 --IF EXISTS(SELECT * FROM sys.sysobjects WHERE name = 'USP_SearchRevenue')
 --	DROP PROCEDURE dbo.USP_SearchRevenue

@@ -175,11 +175,11 @@
             this.gCtrlRevenue = new DevExpress.XtraGrid.GridControl();
             this.gvRevenue = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.tabReport = new DevExpress.XtraBars.Navigation.TabNavigationPage();
+            this.crystalReportViewer = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.receiveTableBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.receiveTableTableAdapter = new PMQLCX.DataTramXangDauDataSetTableAdapters.ReceiveTableTableAdapter();
             this.payTableTableAdapter = new PMQLCX.DataTramXangDauDataSetTableAdapters.PayTableTableAdapter();
-            this.crystalReportViewer = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             ((System.ComponentModel.ISupportInitialize)(this.tabPane)).BeginInit();
             this.tabPane.SuspendLayout();
             this.tabLogin.SuspendLayout();
@@ -239,7 +239,7 @@
             this.tileCtr.AllowGlyphSkinning = true;
             this.tileCtr.AllowSelectedItem = true;
             this.tileCtr.AppearanceGroupText.Font = new System.Drawing.Font("Tahoma", 13F, System.Drawing.FontStyle.Bold);
-            this.tileCtr.AppearanceGroupText.ForeColor = System.Drawing.Color.DarkGray;
+            this.tileCtr.AppearanceGroupText.ForeColor = System.Drawing.Color.White;
             this.tileCtr.AppearanceGroupText.Options.UseFont = true;
             this.tileCtr.AppearanceGroupText.Options.UseForeColor = true;
             this.tileCtr.AppearanceItem.Normal.BackColor = System.Drawing.Color.Teal;
@@ -248,7 +248,7 @@
             this.tileCtr.AppearanceText.ForeColor = System.Drawing.Color.White;
             this.tileCtr.AppearanceText.Options.UseFont = true;
             this.tileCtr.AppearanceText.Options.UseForeColor = true;
-            this.tileCtr.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.tileCtr.BackColor = System.Drawing.Color.LightSeaGreen;
             this.tileCtr.Groups.Add(this.tileGroup2);
             this.tileCtr.Groups.Add(this.tileGroup3);
             this.tileCtr.Groups.Add(this.tileGroup5);
@@ -345,7 +345,7 @@
             // 
             // tilePay
             // 
-            tileItemElement5.ImageOptions.Image = global::PMQLCX.Properties.Resources.pay_icon;
+            tileItemElement5.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
             tileItemElement5.ImageOptions.ImageLocation = new System.Drawing.Point(0, -10);
             tileItemElement5.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.ZoomOutside;
             tileItemElement5.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
@@ -360,7 +360,7 @@
             // 
             // tileRevenue
             // 
-            tileItemElement6.ImageOptions.Image = global::PMQLCX.Properties.Resources.revenue;
+            tileItemElement6.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
             tileItemElement6.ImageOptions.ImageLocation = new System.Drawing.Point(0, -10);
             tileItemElement6.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.ZoomInside;
             tileItemElement6.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
@@ -404,7 +404,7 @@
             // 
             // tabLogin
             // 
-            this.tabLogin.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabLogin.Appearance.BackColor = System.Drawing.Color.MediumAquamarine;
             this.tabLogin.Appearance.Options.UseBackColor = true;
             this.tabLogin.Caption = "tabLogin";
             this.tabLogin.Controls.Add(this.groupBox1);
@@ -413,7 +413,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.Silver;
+            this.groupBox1.BackColor = System.Drawing.Color.LightSeaGreen;
             this.groupBox1.Controls.Add(this.lbmessageLogin);
             this.groupBox1.Controls.Add(this.btnLogin);
             this.groupBox1.Controls.Add(this.label2);
@@ -497,6 +497,8 @@
             // 
             // tabHome
             // 
+            this.tabHome.Appearance.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.tabHome.Appearance.Options.UseBackColor = true;
             this.tabHome.Caption = "tabHome";
             this.tabHome.Name = "tabHome";
             this.tabHome.Size = new System.Drawing.Size(1182, 741);
@@ -504,6 +506,8 @@
             // 
             // tabProductList
             // 
+            this.tabProductList.Appearance.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.tabProductList.Appearance.Options.UseBackColor = true;
             this.tabProductList.Caption = "tabListProduct";
             this.tabProductList.Controls.Add(this.label7);
             this.tabProductList.Controls.Add(this.label6);
@@ -585,17 +589,16 @@
             // 
             // tileItemInsertProduct
             // 
-            this.tileItemInsertProduct.CurrentFrameIndex = 1;
             tileItemElement7.Text = "Insert";
             tileItemElement7.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             this.tileItemInsertProduct.Elements.Add(tileItemElement7);
-            tileItemElement8.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
+            tileItemElement8.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
             tileItemElement8.Text = "Insert";
             tileItemElement8.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             tileItemFrame1.Elements.Add(tileItemElement8);
             tileItemFrame1.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame1.Image")));
             tileItemFrame1.UseText = false;
-            tileItemElement9.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
+            tileItemElement9.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
             tileItemElement9.Text = "Insert";
             tileItemElement9.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             tileItemFrame2.Elements.Add(tileItemElement9);
@@ -610,17 +613,16 @@
             // 
             // tileItemUpdateProduct
             // 
-            this.tileItemUpdateProduct.CurrentFrameIndex = 1;
             tileItemElement10.Text = "Update";
             tileItemElement10.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             this.tileItemUpdateProduct.Elements.Add(tileItemElement10);
-            tileItemElement11.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
+            tileItemElement11.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
             tileItemElement11.Text = "Update";
             tileItemElement11.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             tileItemFrame3.Elements.Add(tileItemElement11);
             tileItemFrame3.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame3.Image")));
             tileItemFrame3.UseText = false;
-            tileItemElement12.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
+            tileItemElement12.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image8")));
             tileItemElement12.Text = "Update";
             tileItemElement12.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             tileItemFrame4.Elements.Add(tileItemElement12);
@@ -635,17 +637,16 @@
             // 
             // tileItemDeleteProduct
             // 
-            this.tileItemDeleteProduct.CurrentFrameIndex = 1;
             tileItemElement13.Text = "Delete";
             tileItemElement13.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             this.tileItemDeleteProduct.Elements.Add(tileItemElement13);
-            tileItemElement14.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
+            tileItemElement14.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image9")));
             tileItemElement14.Text = "Delete";
             tileItemElement14.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             tileItemFrame5.Elements.Add(tileItemElement14);
             tileItemFrame5.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame5.Image")));
             tileItemFrame5.UseText = false;
-            tileItemElement15.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image8")));
+            tileItemElement15.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image10")));
             tileItemElement15.Text = "Delete";
             tileItemElement15.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             tileItemFrame6.Elements.Add(tileItemElement15);
@@ -695,7 +696,7 @@
             // 
             // tabChangePassword
             // 
-            this.tabChangePassword.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tabChangePassword.Appearance.BackColor = System.Drawing.Color.MediumAquamarine;
             this.tabChangePassword.Appearance.Options.UseBackColor = true;
             this.tabChangePassword.Caption = "tabChangePassword";
             this.tabChangePassword.Controls.Add(this.groupBox2);
@@ -704,7 +705,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.Silver;
+            this.groupBox2.BackColor = System.Drawing.Color.LightSeaGreen;
             this.groupBox2.Controls.Add(this.pbNewPassword);
             this.groupBox2.Controls.Add(this.pbCurrentPassword);
             this.groupBox2.Controls.Add(this.pbConfirmNewPassword);
@@ -845,6 +846,8 @@
             // 
             // tabReceipts
             // 
+            this.tabReceipts.Appearance.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.tabReceipts.Appearance.Options.UseBackColor = true;
             this.tabReceipts.Caption = "tabReceipts";
             this.tabReceipts.Controls.Add(this.btnReport);
             this.tabReceipts.Controls.Add(this.btnRefreshReceipt);
@@ -899,6 +902,9 @@
             // 
             // groupControl1
             // 
+            this.groupControl1.Appearance.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.groupControl1.Appearance.BackColor2 = System.Drawing.Color.LightSeaGreen;
+            this.groupControl1.Appearance.Options.UseBackColor = true;
             this.groupControl1.Controls.Add(this.labelControl5);
             this.groupControl1.Controls.Add(this.txtMoney_Receipt);
             this.groupControl1.Controls.Add(this.labelControl6);
@@ -1128,6 +1134,8 @@
             // 
             // tabPay
             // 
+            this.tabPay.Appearance.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.tabPay.Appearance.Options.UseBackColor = true;
             this.tabPay.Caption = "tabNavigationPage1";
             this.tabPay.Controls.Add(this.gridControl1);
             this.tabPay.Controls.Add(this.btnRefreshPay);
@@ -1415,6 +1423,8 @@
             // 
             // tabRevenue
             // 
+            this.tabRevenue.Appearance.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.tabRevenue.Appearance.Options.UseBackColor = true;
             this.tabRevenue.Caption = "tabNavigationPage1";
             this.tabRevenue.Controls.Add(this.groupControl3);
             this.tabRevenue.Controls.Add(this.gCtrlRevenue);
@@ -1541,6 +1551,17 @@
             this.tabReport.Name = "tabReport";
             this.tabReport.Size = new System.Drawing.Size(1182, 741);
             // 
+            // crystalReportViewer
+            // 
+            this.crystalReportViewer.ActiveViewIndex = -1;
+            this.crystalReportViewer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.crystalReportViewer.Cursor = System.Windows.Forms.Cursors.Default;
+            this.crystalReportViewer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.crystalReportViewer.Location = new System.Drawing.Point(0, 0);
+            this.crystalReportViewer.Name = "crystalReportViewer";
+            this.crystalReportViewer.Size = new System.Drawing.Size(1182, 741);
+            this.crystalReportViewer.TabIndex = 1;
+            // 
             // receiveTableBindingSource
             // 
             this.receiveTableBindingSource.DataMember = "ReceiveTable";
@@ -1558,17 +1579,6 @@
             // payTableTableAdapter
             // 
             this.payTableTableAdapter.ClearBeforeFill = true;
-            // 
-            // crystalReportViewer
-            // 
-            this.crystalReportViewer.ActiveViewIndex = -1;
-            this.crystalReportViewer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.crystalReportViewer.Cursor = System.Windows.Forms.Cursors.Default;
-            this.crystalReportViewer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.crystalReportViewer.Location = new System.Drawing.Point(0, 0);
-            this.crystalReportViewer.Name = "crystalReportViewer";
-            this.crystalReportViewer.Size = new System.Drawing.Size(1182, 741);
-            this.crystalReportViewer.TabIndex = 1;
             // 
             // FrmHome
             // 

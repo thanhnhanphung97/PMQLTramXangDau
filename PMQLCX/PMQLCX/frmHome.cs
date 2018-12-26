@@ -59,9 +59,9 @@ namespace PMQLCX
         private void FrmHome_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'dataTramXangDauDataSet.PayTable' table. You can move, or remove it, as needed.
-            this.payTableTableAdapter.Fill(this.dataTramXangDauDataSet.PayTable);
+            //this.payTableTableAdapter.Fill(this.dataTramXangDauDataSet.PayTable);
             // TODO: This line of code loads data into the 'dataTramXangDauDataSet.ReceiveTable' table. You can move, or remove it, as needed.
-            this.receiveTableTableAdapter.Fill(this.dataTramXangDauDataSet.ReceiveTable);
+            //this.receiveTableTableAdapter.Fill(this.dataTramXangDauDataSet.ReceiveTable);
             this.AcceptButton = btnLogin;
             dataGridView1.DataSource = ProductDAO.Instance.GetAllProduct();
             btnLogin.Enabled = true;
