@@ -139,7 +139,6 @@
     <None Include="DataTramXangDauDataSet.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DataTramXangDauDataSet.Designer.cs</LastGenOutput>
     </None>
     <None Include="DataTramXangDauDataSet.xss">
       <DependentUpon>DataTramXangDauDataSet.xsd</DependentUpon>

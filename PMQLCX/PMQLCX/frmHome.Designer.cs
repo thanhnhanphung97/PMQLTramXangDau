@@ -29,28 +29,28 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.XtraEditors.TileItemElement tileItemElement46 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement47 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement106 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement107 = new DevExpress.XtraEditors.TileItemElement();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHome));
-            DevExpress.XtraEditors.TileItemElement tileItemElement48 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement49 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement50 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement51 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement52 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame19 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement53 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame20 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement54 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement55 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame21 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement56 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame22 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement57 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement58 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame23 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement59 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame24 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement60 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement108 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement109 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement110 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement111 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement112 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemFrame tileItemFrame43 = new DevExpress.XtraEditors.TileItemFrame();
+            DevExpress.XtraEditors.TileItemElement tileItemElement113 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemFrame tileItemFrame44 = new DevExpress.XtraEditors.TileItemFrame();
+            DevExpress.XtraEditors.TileItemElement tileItemElement114 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement115 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemFrame tileItemFrame45 = new DevExpress.XtraEditors.TileItemFrame();
+            DevExpress.XtraEditors.TileItemElement tileItemElement116 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemFrame tileItemFrame46 = new DevExpress.XtraEditors.TileItemFrame();
+            DevExpress.XtraEditors.TileItemElement tileItemElement117 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement118 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemFrame tileItemFrame47 = new DevExpress.XtraEditors.TileItemFrame();
+            DevExpress.XtraEditors.TileItemElement tileItemElement119 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemFrame tileItemFrame48 = new DevExpress.XtraEditors.TileItemFrame();
+            DevExpress.XtraEditors.TileItemElement tileItemElement120 = new DevExpress.XtraEditors.TileItemElement();
             this.tileCtr = new DevExpress.XtraEditors.TileControl();
             this.tileGroup2 = new DevExpress.XtraEditors.TileGroup();
             this.tileItemLogin = new DevExpress.XtraEditors.TileItem();
@@ -142,30 +142,22 @@
             this.txtDescribeReceive = new DevExpress.XtraEditors.TextEdit();
             this.txtExportReceive = new DevExpress.XtraEditors.TextEdit();
             this.tabPay = new DevExpress.XtraBars.Navigation.TabNavigationPage();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
-            this.payTableBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.colId1 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colInputDate1 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colDescribe1 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colMoney1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.uSPGetAllPayBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.btnRefreshPay = new DevExpress.XtraEditors.SimpleButton();
             this.btnDeletePay = new DevExpress.XtraEditors.SimpleButton();
             this.btnUpdatePay = new DevExpress.XtraEditors.SimpleButton();
             this.btnInsertPay = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
-            this.txtMoney_Pay = new DevExpress.XtraEditors.TextEdit();
+            this.txtMoneyPay = new DevExpress.XtraEditors.TextEdit();
             this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
-            this.txtPayer_Pay = new DevExpress.XtraEditors.TextEdit();
             this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
-            this.txtId_Pay = new DevExpress.XtraEditors.TextEdit();
-            this.txtInputDate_Pay = new DevExpress.XtraEditors.DateEdit();
-            this.txtReceiver_Pay = new DevExpress.XtraEditors.TextEdit();
-            this.txtDescribe_Pay = new DevExpress.XtraEditors.TextEdit();
+            this.txtIdPay = new DevExpress.XtraEditors.TextEdit();
+            this.txtInputDatePay = new DevExpress.XtraEditors.DateEdit();
+            this.txtDescribePay = new DevExpress.XtraEditors.TextEdit();
             this.tabRevenue = new DevExpress.XtraBars.Navigation.TabNavigationPage();
             this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
             this.btnSearch = new DevExpress.XtraEditors.SimpleButton();
@@ -179,6 +171,7 @@
             this.gvRevenue = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.tabReport = new DevExpress.XtraBars.Navigation.TabNavigationPage();
             this.crystalReportViewer = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
+            this.payTableBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.uSPGetAllReceiptBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.receiveTableBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.receiveTableBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
@@ -188,6 +181,17 @@
             this.productsTableAdapter = new PMQLCX.DataTramXangDauDataSetTableAdapters.ProductsTableAdapter();
             this.dataTramXangDauDataSet1 = new PMQLCX.DataTramXangDauDataSet();
             this.uSP_GetAllReceiptTableAdapter = new PMQLCX.DataTramXangDauDataSetTableAdapters.USP_GetAllReceiptTableAdapter();
+            this.uSP_GetAllPayTableAdapter = new PMQLCX.DataTramXangDauDataSetTableAdapters.USP_GetAllPayTableAdapter();
+            this.gcPay = new DevExpress.XtraGrid.GridControl();
+            this.gvPay = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.colId1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colInputDate1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colDescribe1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colMoney1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.cbbReceiverPay = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.cbbPayerPay = new DevExpress.XtraEditors.ComboBoxEdit();
             ((System.ComponentModel.ISupportInitialize)(this.tabPane)).BeginInit();
             this.tabPane.SuspendLayout();
             this.tabLogin.SuspendLayout();
@@ -220,18 +224,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtDescribeReceive.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtExportReceive.Properties)).BeginInit();
             this.tabPay.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.payTableBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uSPGetAllPayBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.txtMoney_Pay.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtPayer_Pay.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtId_Pay.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtInputDate_Pay.Properties.CalendarTimeProperties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtInputDate_Pay.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtReceiver_Pay.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtDescribe_Pay.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtMoneyPay.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIdPay.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtInputDatePay.Properties.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtInputDatePay.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtDescribePay.Properties)).BeginInit();
             this.tabRevenue.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
             this.groupControl3.SuspendLayout();
@@ -243,10 +243,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.gCtrlRevenue)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gvRevenue)).BeginInit();
             this.tabReport.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.payTableBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.uSPGetAllReceiptBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.receiveTableBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.receiveTableBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataTramXangDauDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcPay)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvPay)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbbReceiverPay.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbbPayerPay.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // tileCtr
@@ -287,13 +292,13 @@
             // 
             // tileItemLogin
             // 
-            tileItemElement46.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            tileItemElement46.Appearance.Normal.Options.UseFont = true;
-            tileItemElement46.ImageOptions.Image = global::PMQLCX.Properties.Resources.login;
-            tileItemElement46.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
-            tileItemElement46.Text = "Log in";
-            tileItemElement46.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
-            this.tileItemLogin.Elements.Add(tileItemElement46);
+            tileItemElement106.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            tileItemElement106.Appearance.Normal.Options.UseFont = true;
+            tileItemElement106.ImageOptions.Image = global::PMQLCX.Properties.Resources.login;
+            tileItemElement106.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
+            tileItemElement106.Text = "Log in";
+            tileItemElement106.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
+            this.tileItemLogin.Elements.Add(tileItemElement106);
             this.tileItemLogin.Id = 0;
             this.tileItemLogin.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItemLogin.Name = "tileItemLogin";
@@ -301,13 +306,13 @@
             // 
             // tileItemChangePassword
             // 
-            tileItemElement47.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            tileItemElement47.Appearance.Normal.Options.UseFont = true;
-            tileItemElement47.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            tileItemElement47.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
-            tileItemElement47.Text = "Change password";
-            tileItemElement47.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
-            this.tileItemChangePassword.Elements.Add(tileItemElement47);
+            tileItemElement107.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            tileItemElement107.Appearance.Normal.Options.UseFont = true;
+            tileItemElement107.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            tileItemElement107.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
+            tileItemElement107.Text = "Change password";
+            tileItemElement107.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
+            this.tileItemChangePassword.Elements.Add(tileItemElement107);
             this.tileItemChangePassword.Enabled = false;
             this.tileItemChangePassword.Id = 6;
             this.tileItemChangePassword.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
@@ -322,16 +327,16 @@
             // 
             // tileItemProductList
             // 
-            tileItemElement48.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            tileItemElement48.Appearance.Normal.Options.UseFont = true;
-            tileItemElement48.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
-            tileItemElement48.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
-            tileItemElement48.ImageOptions.ImageLocation = new System.Drawing.Point(0, 10);
-            tileItemElement48.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.None;
-            tileItemElement48.Text = "Product List";
-            tileItemElement48.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
-            tileItemElement48.TextLocation = new System.Drawing.Point(50, -20);
-            this.tileItemProductList.Elements.Add(tileItemElement48);
+            tileItemElement108.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            tileItemElement108.Appearance.Normal.Options.UseFont = true;
+            tileItemElement108.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            tileItemElement108.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
+            tileItemElement108.ImageOptions.ImageLocation = new System.Drawing.Point(0, 10);
+            tileItemElement108.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.None;
+            tileItemElement108.Text = "Product List";
+            tileItemElement108.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
+            tileItemElement108.TextLocation = new System.Drawing.Point(50, -20);
+            this.tileItemProductList.Elements.Add(tileItemElement108);
             this.tileItemProductList.Enabled = false;
             this.tileItemProductList.Id = 4;
             this.tileItemProductList.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
@@ -348,11 +353,11 @@
             // 
             // tileReceipts
             // 
-            tileItemElement49.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
-            tileItemElement49.ImageOptions.ImageLocation = new System.Drawing.Point(0, -10);
-            tileItemElement49.Text = "Receipts";
-            tileItemElement49.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tileReceipts.Elements.Add(tileItemElement49);
+            tileItemElement109.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
+            tileItemElement109.ImageOptions.ImageLocation = new System.Drawing.Point(0, -10);
+            tileItemElement109.Text = "Receipts";
+            tileItemElement109.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tileReceipts.Elements.Add(tileItemElement109);
             this.tileReceipts.Enabled = false;
             this.tileReceipts.Id = 7;
             this.tileReceipts.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
@@ -361,13 +366,13 @@
             // 
             // tilePay
             // 
-            tileItemElement50.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
-            tileItemElement50.ImageOptions.ImageLocation = new System.Drawing.Point(0, -10);
-            tileItemElement50.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.ZoomOutside;
-            tileItemElement50.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
-            tileItemElement50.Text = "Pay";
-            tileItemElement50.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tilePay.Elements.Add(tileItemElement50);
+            tileItemElement110.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
+            tileItemElement110.ImageOptions.ImageLocation = new System.Drawing.Point(0, -10);
+            tileItemElement110.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.ZoomOutside;
+            tileItemElement110.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
+            tileItemElement110.Text = "Pay";
+            tileItemElement110.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tilePay.Elements.Add(tileItemElement110);
             this.tilePay.Enabled = false;
             this.tilePay.Id = 8;
             this.tilePay.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
@@ -376,14 +381,14 @@
             // 
             // tileRevenue
             // 
-            tileItemElement51.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
-            tileItemElement51.ImageOptions.ImageLocation = new System.Drawing.Point(0, -10);
-            tileItemElement51.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.ZoomInside;
-            tileItemElement51.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
-            tileItemElement51.Text = "Revenue";
-            tileItemElement51.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemElement51.TextLocation = new System.Drawing.Point(10, 0);
-            this.tileRevenue.Elements.Add(tileItemElement51);
+            tileItemElement111.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
+            tileItemElement111.ImageOptions.ImageLocation = new System.Drawing.Point(0, -10);
+            tileItemElement111.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.ZoomInside;
+            tileItemElement111.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
+            tileItemElement111.Text = "Revenue";
+            tileItemElement111.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemElement111.TextLocation = new System.Drawing.Point(10, 0);
+            this.tileRevenue.Elements.Add(tileItemElement111);
             this.tileRevenue.Enabled = false;
             this.tileRevenue.Id = 9;
             this.tileRevenue.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
@@ -684,23 +689,23 @@
             // 
             // tileItemInsertProduct
             // 
-            tileItemElement52.Text = "Insert";
-            tileItemElement52.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tileItemInsertProduct.Elements.Add(tileItemElement52);
-            tileItemElement53.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
-            tileItemElement53.Text = "Insert";
-            tileItemElement53.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemFrame19.Elements.Add(tileItemElement53);
-            tileItemFrame19.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame19.Image")));
-            tileItemFrame19.UseText = false;
-            tileItemElement54.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
-            tileItemElement54.Text = "Insert";
-            tileItemElement54.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemFrame20.Elements.Add(tileItemElement54);
-            tileItemFrame20.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame20.Image")));
-            tileItemFrame20.UseImage = false;
-            this.tileItemInsertProduct.Frames.Add(tileItemFrame19);
-            this.tileItemInsertProduct.Frames.Add(tileItemFrame20);
+            tileItemElement112.Text = "Insert";
+            tileItemElement112.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tileItemInsertProduct.Elements.Add(tileItemElement112);
+            tileItemElement113.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
+            tileItemElement113.Text = "Insert";
+            tileItemElement113.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemFrame43.Elements.Add(tileItemElement113);
+            tileItemFrame43.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame43.Image")));
+            tileItemFrame43.UseText = false;
+            tileItemElement114.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
+            tileItemElement114.Text = "Insert";
+            tileItemElement114.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemFrame44.Elements.Add(tileItemElement114);
+            tileItemFrame44.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame44.Image")));
+            tileItemFrame44.UseImage = false;
+            this.tileItemInsertProduct.Frames.Add(tileItemFrame43);
+            this.tileItemInsertProduct.Frames.Add(tileItemFrame44);
             this.tileItemInsertProduct.Id = 0;
             this.tileItemInsertProduct.ItemSize = DevExpress.XtraEditors.TileItemSize.Small;
             this.tileItemInsertProduct.Name = "tileItemInsertProduct";
@@ -708,23 +713,23 @@
             // 
             // tileItemUpdateProduct
             // 
-            tileItemElement55.Text = "Update";
-            tileItemElement55.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tileItemUpdateProduct.Elements.Add(tileItemElement55);
-            tileItemElement56.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
-            tileItemElement56.Text = "Update";
-            tileItemElement56.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemFrame21.Elements.Add(tileItemElement56);
-            tileItemFrame21.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame21.Image")));
-            tileItemFrame21.UseText = false;
-            tileItemElement57.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image8")));
-            tileItemElement57.Text = "Update";
-            tileItemElement57.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemFrame22.Elements.Add(tileItemElement57);
-            tileItemFrame22.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame22.Image")));
-            tileItemFrame22.UseImage = false;
-            this.tileItemUpdateProduct.Frames.Add(tileItemFrame21);
-            this.tileItemUpdateProduct.Frames.Add(tileItemFrame22);
+            tileItemElement115.Text = "Update";
+            tileItemElement115.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tileItemUpdateProduct.Elements.Add(tileItemElement115);
+            tileItemElement116.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
+            tileItemElement116.Text = "Update";
+            tileItemElement116.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemFrame45.Elements.Add(tileItemElement116);
+            tileItemFrame45.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame45.Image")));
+            tileItemFrame45.UseText = false;
+            tileItemElement117.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image8")));
+            tileItemElement117.Text = "Update";
+            tileItemElement117.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemFrame46.Elements.Add(tileItemElement117);
+            tileItemFrame46.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame46.Image")));
+            tileItemFrame46.UseImage = false;
+            this.tileItemUpdateProduct.Frames.Add(tileItemFrame45);
+            this.tileItemUpdateProduct.Frames.Add(tileItemFrame46);
             this.tileItemUpdateProduct.Id = 1;
             this.tileItemUpdateProduct.ItemSize = DevExpress.XtraEditors.TileItemSize.Small;
             this.tileItemUpdateProduct.Name = "tileItemUpdateProduct";
@@ -732,23 +737,23 @@
             // 
             // tileItemDeleteProduct
             // 
-            tileItemElement58.Text = "Delete";
-            tileItemElement58.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tileItemDeleteProduct.Elements.Add(tileItemElement58);
-            tileItemElement59.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image9")));
-            tileItemElement59.Text = "Delete";
-            tileItemElement59.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemFrame23.Elements.Add(tileItemElement59);
-            tileItemFrame23.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame23.Image")));
-            tileItemFrame23.UseText = false;
-            tileItemElement60.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image10")));
-            tileItemElement60.Text = "Delete";
-            tileItemElement60.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemFrame24.Elements.Add(tileItemElement60);
-            tileItemFrame24.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame24.Image")));
-            tileItemFrame24.UseImage = false;
-            this.tileItemDeleteProduct.Frames.Add(tileItemFrame23);
-            this.tileItemDeleteProduct.Frames.Add(tileItemFrame24);
+            tileItemElement118.Text = "Delete";
+            tileItemElement118.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tileItemDeleteProduct.Elements.Add(tileItemElement118);
+            tileItemElement119.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image9")));
+            tileItemElement119.Text = "Delete";
+            tileItemElement119.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemFrame47.Elements.Add(tileItemElement119);
+            tileItemFrame47.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame47.Image")));
+            tileItemFrame47.UseText = false;
+            tileItemElement120.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image10")));
+            tileItemElement120.Text = "Delete";
+            tileItemElement120.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemFrame48.Elements.Add(tileItemElement120);
+            tileItemFrame48.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame48.Image")));
+            tileItemFrame48.UseImage = false;
+            this.tileItemDeleteProduct.Frames.Add(tileItemFrame47);
+            this.tileItemDeleteProduct.Frames.Add(tileItemFrame48);
             this.tileItemDeleteProduct.Id = 2;
             this.tileItemDeleteProduct.ItemSize = DevExpress.XtraEditors.TileItemSize.Small;
             this.tileItemDeleteProduct.Name = "tileItemDeleteProduct";
@@ -1129,6 +1134,7 @@
             // 
             // txtPriceInDayReceive
             // 
+            this.txtPriceInDayReceive.EditValue = "0";
             this.txtPriceInDayReceive.Location = new System.Drawing.Point(858, 68);
             this.txtPriceInDayReceive.Name = "txtPriceInDayReceive";
             this.txtPriceInDayReceive.Size = new System.Drawing.Size(134, 20);
@@ -1187,6 +1193,7 @@
             // 
             // txtMoneyReceive
             // 
+            this.txtMoneyReceive.EditValue = "0";
             this.txtMoneyReceive.Enabled = false;
             this.txtMoneyReceive.Location = new System.Drawing.Point(858, 93);
             this.txtMoneyReceive.Name = "txtMoneyReceive";
@@ -1294,6 +1301,7 @@
             // 
             // txtExportReceive
             // 
+            this.txtExportReceive.EditValue = "0";
             this.txtExportReceive.Location = new System.Drawing.Point(858, 42);
             this.txtExportReceive.Name = "txtExportReceive";
             this.txtExportReceive.Size = new System.Drawing.Size(134, 20);
@@ -1305,7 +1313,7 @@
             this.tabPay.Appearance.BackColor = System.Drawing.Color.MediumAquamarine;
             this.tabPay.Appearance.Options.UseBackColor = true;
             this.tabPay.Caption = "tabNavigationPage1";
-            this.tabPay.Controls.Add(this.gridControl1);
+            this.tabPay.Controls.Add(this.gcPay);
             this.tabPay.Controls.Add(this.btnRefreshPay);
             this.tabPay.Controls.Add(this.btnDeletePay);
             this.tabPay.Controls.Add(this.btnUpdatePay);
@@ -1314,68 +1322,10 @@
             this.tabPay.Name = "tabPay";
             this.tabPay.Size = new System.Drawing.Size(1182, 741);
             // 
-            // gridControl1
+            // uSPGetAllPayBindingSource
             // 
-            this.gridControl1.DataSource = this.payTableBindingSource;
-            this.gridControl1.Location = new System.Drawing.Point(4, 178);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1139, 355);
-            this.gridControl1.TabIndex = 14;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1});
-            // 
-            // payTableBindingSource
-            // 
-            this.payTableBindingSource.DataMember = "PayTable";
-            this.payTableBindingSource.DataSource = this.dataTramXangDauDataSet;
-            // 
-            // gridView1
-            // 
-            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.colId1,
-            this.colInputDate1,
-            this.colDescribe1,
-            this.colMoney1});
-            this.gridView1.GridControl = this.gridControl1;
-            this.gridView1.Name = "gridView1";
-            // 
-            // colId1
-            // 
-            this.colId1.Caption = "Mã Phiếu";
-            this.colId1.FieldName = "Id";
-            this.colId1.Name = "colId1";
-            this.colId1.OptionsColumn.ReadOnly = true;
-            this.colId1.Visible = true;
-            this.colId1.VisibleIndex = 0;
-            this.colId1.Width = 82;
-            // 
-            // colInputDate1
-            // 
-            this.colInputDate1.Caption = "Ngày Ghi";
-            this.colInputDate1.FieldName = "InputDate";
-            this.colInputDate1.Name = "colInputDate1";
-            this.colInputDate1.Visible = true;
-            this.colInputDate1.VisibleIndex = 1;
-            this.colInputDate1.Width = 206;
-            // 
-            // colDescribe1
-            // 
-            this.colDescribe1.Caption = "Mô Tả Lí Do Chi";
-            this.colDescribe1.FieldName = "Describe";
-            this.colDescribe1.Name = "colDescribe1";
-            this.colDescribe1.Visible = true;
-            this.colDescribe1.VisibleIndex = 2;
-            this.colDescribe1.Width = 216;
-            // 
-            // colMoney1
-            // 
-            this.colMoney1.Caption = "Số Tiền Chi";
-            this.colMoney1.FieldName = "Money";
-            this.colMoney1.Name = "colMoney1";
-            this.colMoney1.Visible = true;
-            this.colMoney1.VisibleIndex = 3;
-            this.colMoney1.Width = 205;
+            this.uSPGetAllPayBindingSource.DataMember = "USP_GetAllPay";
+            this.uSPGetAllPayBindingSource.DataSource = this.dataTramXangDauDataSet;
             // 
             // btnRefreshPay
             // 
@@ -1384,6 +1334,7 @@
             this.btnRefreshPay.Size = new System.Drawing.Size(75, 42);
             this.btnRefreshPay.TabIndex = 13;
             this.btnRefreshPay.Text = "Refresh";
+            this.btnRefreshPay.Click += new System.EventHandler(this.btnRefreshPay_Click);
             // 
             // btnDeletePay
             // 
@@ -1392,6 +1343,7 @@
             this.btnDeletePay.Size = new System.Drawing.Size(75, 42);
             this.btnDeletePay.TabIndex = 12;
             this.btnDeletePay.Text = "Delete";
+            this.btnDeletePay.Click += new System.EventHandler(this.btnDeletePay_Click);
             // 
             // btnUpdatePay
             // 
@@ -1400,6 +1352,7 @@
             this.btnUpdatePay.Size = new System.Drawing.Size(75, 42);
             this.btnUpdatePay.TabIndex = 11;
             this.btnUpdatePay.Text = "Update";
+            this.btnUpdatePay.Click += new System.EventHandler(this.btnUpdatePay_Click);
             // 
             // btnInsertPay
             // 
@@ -1408,21 +1361,22 @@
             this.btnInsertPay.Size = new System.Drawing.Size(75, 42);
             this.btnInsertPay.TabIndex = 10;
             this.btnInsertPay.Text = "Insert";
+            this.btnInsertPay.Click += new System.EventHandler(this.btnInsertPay_Click);
             // 
             // groupControl2
             // 
+            this.groupControl2.Controls.Add(this.cbbPayerPay);
+            this.groupControl2.Controls.Add(this.cbbReceiverPay);
             this.groupControl2.Controls.Add(this.labelControl7);
-            this.groupControl2.Controls.Add(this.txtMoney_Pay);
+            this.groupControl2.Controls.Add(this.txtMoneyPay);
             this.groupControl2.Controls.Add(this.labelControl8);
             this.groupControl2.Controls.Add(this.labelControl9);
-            this.groupControl2.Controls.Add(this.txtPayer_Pay);
             this.groupControl2.Controls.Add(this.labelControl10);
             this.groupControl2.Controls.Add(this.labelControl11);
             this.groupControl2.Controls.Add(this.labelControl12);
-            this.groupControl2.Controls.Add(this.txtId_Pay);
-            this.groupControl2.Controls.Add(this.txtInputDate_Pay);
-            this.groupControl2.Controls.Add(this.txtReceiver_Pay);
-            this.groupControl2.Controls.Add(this.txtDescribe_Pay);
+            this.groupControl2.Controls.Add(this.txtIdPay);
+            this.groupControl2.Controls.Add(this.txtInputDatePay);
+            this.groupControl2.Controls.Add(this.txtDescribePay);
             this.groupControl2.Location = new System.Drawing.Point(3, 3);
             this.groupControl2.Name = "groupControl2";
             this.groupControl2.Size = new System.Drawing.Size(1142, 121);
@@ -1435,20 +1389,20 @@
             this.labelControl7.Appearance.Options.UseFont = true;
             this.labelControl7.LineLocation = DevExpress.XtraEditors.LineLocation.Center;
             this.labelControl7.LineVisible = true;
-            this.labelControl7.Location = new System.Drawing.Point(741, 72);
+            this.labelControl7.Location = new System.Drawing.Point(682, 74);
             this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(83, 20);
+            this.labelControl7.Size = new System.Drawing.Size(81, 20);
             this.labelControl7.TabIndex = 10;
-            this.labelControl7.Text = "Input Money";
+            this.labelControl7.Text = "Số Tiền Chi: ";
             // 
-            // txtMoney_Pay
+            // txtMoneyPay
             // 
-            this.txtMoney_Pay.Location = new System.Drawing.Point(830, 74);
-            this.txtMoney_Pay.Name = "txtMoney_Pay";
-            this.txtMoney_Pay.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.txtMoney_Pay.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.txtMoney_Pay.Size = new System.Drawing.Size(166, 20);
-            this.txtMoney_Pay.TabIndex = 11;
+            this.txtMoneyPay.Location = new System.Drawing.Point(769, 74);
+            this.txtMoneyPay.Name = "txtMoneyPay";
+            this.txtMoneyPay.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.txtMoneyPay.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.txtMoneyPay.Size = new System.Drawing.Size(166, 20);
+            this.txtMoneyPay.TabIndex = 11;
             // 
             // labelControl8
             // 
@@ -1456,11 +1410,11 @@
             this.labelControl8.Appearance.Options.UseFont = true;
             this.labelControl8.LineLocation = DevExpress.XtraEditors.LineLocation.Center;
             this.labelControl8.LineVisible = true;
-            this.labelControl8.Location = new System.Drawing.Point(741, 46);
+            this.labelControl8.Location = new System.Drawing.Point(682, 41);
             this.labelControl8.Name = "labelControl8";
-            this.labelControl8.Size = new System.Drawing.Size(58, 20);
+            this.labelControl8.Size = new System.Drawing.Size(67, 20);
             this.labelControl8.TabIndex = 8;
-            this.labelControl8.Text = "Describe";
+            this.labelControl8.Text = "Lí Do Chi: ";
             // 
             // labelControl9
             // 
@@ -1468,20 +1422,11 @@
             this.labelControl9.Appearance.Options.UseFont = true;
             this.labelControl9.LineLocation = DevExpress.XtraEditors.LineLocation.Center;
             this.labelControl9.LineVisible = true;
-            this.labelControl9.Location = new System.Drawing.Point(375, 67);
+            this.labelControl9.Location = new System.Drawing.Point(358, 67);
             this.labelControl9.Name = "labelControl9";
-            this.labelControl9.Size = new System.Drawing.Size(36, 20);
+            this.labelControl9.Size = new System.Drawing.Size(73, 20);
             this.labelControl9.TabIndex = 6;
-            this.labelControl9.Text = "Payer";
-            // 
-            // txtPayer_Pay
-            // 
-            this.txtPayer_Pay.Location = new System.Drawing.Point(464, 69);
-            this.txtPayer_Pay.Name = "txtPayer_Pay";
-            this.txtPayer_Pay.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.txtPayer_Pay.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.txtPayer_Pay.Size = new System.Drawing.Size(156, 20);
-            this.txtPayer_Pay.TabIndex = 7;
+            this.labelControl9.Text = "Người Chi: ";
             // 
             // labelControl10
             // 
@@ -1489,11 +1434,11 @@
             this.labelControl10.Appearance.Options.UseFont = true;
             this.labelControl10.LineLocation = DevExpress.XtraEditors.LineLocation.Center;
             this.labelControl10.LineVisible = true;
-            this.labelControl10.Location = new System.Drawing.Point(375, 41);
+            this.labelControl10.Location = new System.Drawing.Point(358, 41);
             this.labelControl10.Name = "labelControl10";
-            this.labelControl10.Size = new System.Drawing.Size(56, 20);
+            this.labelControl10.Size = new System.Drawing.Size(76, 20);
             this.labelControl10.TabIndex = 4;
-            this.labelControl10.Text = "Receiver";
+            this.labelControl10.Text = "Người Thu: ";
             // 
             // labelControl11
             // 
@@ -1503,9 +1448,9 @@
             this.labelControl11.LineVisible = true;
             this.labelControl11.Location = new System.Drawing.Point(13, 67);
             this.labelControl11.Name = "labelControl11";
-            this.labelControl11.Size = new System.Drawing.Size(66, 20);
+            this.labelControl11.Size = new System.Drawing.Size(67, 20);
             this.labelControl11.TabIndex = 2;
-            this.labelControl11.Text = "InputDate";
+            this.labelControl11.Text = "Ngày Chi: ";
             // 
             // labelControl12
             // 
@@ -1515,54 +1460,45 @@
             this.labelControl12.LineVisible = true;
             this.labelControl12.Location = new System.Drawing.Point(14, 39);
             this.labelControl12.Name = "labelControl12";
-            this.labelControl12.Size = new System.Drawing.Size(13, 20);
+            this.labelControl12.Size = new System.Drawing.Size(89, 20);
             this.labelControl12.TabIndex = 1;
-            this.labelControl12.Text = "Id";
+            this.labelControl12.Text = "Mã Phiếu Chi:";
             // 
-            // txtId_Pay
+            // txtIdPay
             // 
-            this.txtId_Pay.Enabled = false;
-            this.txtId_Pay.Location = new System.Drawing.Point(103, 41);
-            this.txtId_Pay.Name = "txtId_Pay";
-            this.txtId_Pay.Size = new System.Drawing.Size(156, 20);
-            this.txtId_Pay.TabIndex = 0;
+            this.txtIdPay.Enabled = false;
+            this.txtIdPay.Location = new System.Drawing.Point(109, 41);
+            this.txtIdPay.Name = "txtIdPay";
+            this.txtIdPay.Size = new System.Drawing.Size(156, 20);
+            this.txtIdPay.TabIndex = 0;
             // 
-            // txtInputDate_Pay
+            // txtInputDatePay
             // 
-            this.txtInputDate_Pay.EditValue = new System.DateTime(2018, 11, 16, 3, 47, 51, 243);
-            this.txtInputDate_Pay.Location = new System.Drawing.Point(103, 67);
-            this.txtInputDate_Pay.Name = "txtInputDate_Pay";
-            this.txtInputDate_Pay.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.txtInputDatePay.EditValue = new System.DateTime(2018, 11, 16, 3, 47, 51, 243);
+            this.txtInputDatePay.Location = new System.Drawing.Point(109, 67);
+            this.txtInputDatePay.Name = "txtInputDatePay";
+            this.txtInputDatePay.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.txtInputDate_Pay.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.txtInputDatePay.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.txtInputDate_Pay.Properties.DisplayFormat.FormatString = "";
-            this.txtInputDate_Pay.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.txtInputDate_Pay.Properties.EditFormat.FormatString = "";
-            this.txtInputDate_Pay.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.txtInputDate_Pay.Properties.Mask.EditMask = "";
-            this.txtInputDate_Pay.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.None;
-            this.txtInputDate_Pay.Size = new System.Drawing.Size(156, 20);
-            this.txtInputDate_Pay.TabIndex = 3;
+            this.txtInputDatePay.Properties.DisplayFormat.FormatString = "";
+            this.txtInputDatePay.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.txtInputDatePay.Properties.EditFormat.FormatString = "";
+            this.txtInputDatePay.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.txtInputDatePay.Properties.Mask.EditMask = "";
+            this.txtInputDatePay.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.None;
+            this.txtInputDatePay.Size = new System.Drawing.Size(156, 20);
+            this.txtInputDatePay.TabIndex = 3;
             // 
-            // txtReceiver_Pay
+            // txtDescribePay
             // 
-            this.txtReceiver_Pay.Location = new System.Drawing.Point(464, 43);
-            this.txtReceiver_Pay.Name = "txtReceiver_Pay";
-            this.txtReceiver_Pay.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.txtReceiver_Pay.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.txtReceiver_Pay.Size = new System.Drawing.Size(156, 20);
-            this.txtReceiver_Pay.TabIndex = 5;
-            // 
-            // txtDescribe_Pay
-            // 
-            this.txtDescribe_Pay.Location = new System.Drawing.Point(830, 46);
-            this.txtDescribe_Pay.Name = "txtDescribe_Pay";
-            this.txtDescribe_Pay.Properties.AccessibleRole = System.Windows.Forms.AccessibleRole.Document;
-            this.txtDescribe_Pay.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.txtDescribe_Pay.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.txtDescribe_Pay.Size = new System.Drawing.Size(310, 20);
-            this.txtDescribe_Pay.TabIndex = 9;
+            this.txtDescribePay.Location = new System.Drawing.Point(769, 41);
+            this.txtDescribePay.Name = "txtDescribePay";
+            this.txtDescribePay.Properties.AccessibleRole = System.Windows.Forms.AccessibleRole.Document;
+            this.txtDescribePay.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.txtDescribePay.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.txtDescribePay.Size = new System.Drawing.Size(166, 20);
+            this.txtDescribePay.TabIndex = 9;
             // 
             // tabRevenue
             // 
@@ -1705,6 +1641,11 @@
             this.crystalReportViewer.Size = new System.Drawing.Size(1182, 741);
             this.crystalReportViewer.TabIndex = 1;
             // 
+            // payTableBindingSource
+            // 
+            this.payTableBindingSource.DataMember = "PayTable";
+            this.payTableBindingSource.DataSource = this.dataTramXangDauDataSet;
+            // 
             // uSPGetAllReceiptBindingSource
             // 
             this.uSPGetAllReceiptBindingSource.DataMember = "USP_GetAllReceipt";
@@ -1745,6 +1686,93 @@
             // uSP_GetAllReceiptTableAdapter
             // 
             this.uSP_GetAllReceiptTableAdapter.ClearBeforeFill = true;
+            // 
+            // uSP_GetAllPayTableAdapter
+            // 
+            this.uSP_GetAllPayTableAdapter.ClearBeforeFill = true;
+            // 
+            // gcPay
+            // 
+            this.gcPay.DataSource = this.uSPGetAllPayBindingSource;
+            this.gcPay.Location = new System.Drawing.Point(3, 178);
+            this.gcPay.MainView = this.gvPay;
+            this.gcPay.Name = "gcPay";
+            this.gcPay.Size = new System.Drawing.Size(941, 200);
+            this.gcPay.TabIndex = 14;
+            this.gcPay.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gvPay});
+            // 
+            // gvPay
+            // 
+            this.gvPay.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colId1,
+            this.colInputDate1,
+            this.gridColumn1,
+            this.gridColumn2,
+            this.colDescribe1,
+            this.colMoney1});
+            this.gvPay.GridControl = this.gcPay;
+            this.gvPay.Name = "gvPay";
+            // 
+            // colId1
+            // 
+            this.colId1.FieldName = "Id";
+            this.colId1.Name = "colId1";
+            this.colId1.Visible = true;
+            this.colId1.VisibleIndex = 0;
+            // 
+            // colInputDate1
+            // 
+            this.colInputDate1.FieldName = "InputDate";
+            this.colInputDate1.Name = "colInputDate1";
+            this.colInputDate1.Visible = true;
+            this.colInputDate1.VisibleIndex = 1;
+            // 
+            // gridColumn1
+            // 
+            this.gridColumn1.FieldName = "Receiver";
+            this.gridColumn1.Name = "gridColumn1";
+            this.gridColumn1.Visible = true;
+            this.gridColumn1.VisibleIndex = 2;
+            // 
+            // gridColumn2
+            // 
+            this.gridColumn2.FieldName = "Payer";
+            this.gridColumn2.Name = "gridColumn2";
+            this.gridColumn2.Visible = true;
+            this.gridColumn2.VisibleIndex = 3;
+            // 
+            // colDescribe1
+            // 
+            this.colDescribe1.FieldName = "Describe";
+            this.colDescribe1.Name = "colDescribe1";
+            this.colDescribe1.Visible = true;
+            this.colDescribe1.VisibleIndex = 4;
+            // 
+            // colMoney1
+            // 
+            this.colMoney1.FieldName = "Money";
+            this.colMoney1.Name = "colMoney1";
+            this.colMoney1.Visible = true;
+            this.colMoney1.VisibleIndex = 5;
+            // 
+            // cbbReceiverPay
+            // 
+            this.cbbReceiverPay.Location = new System.Drawing.Point(440, 41);
+            this.cbbReceiverPay.Name = "cbbReceiverPay";
+            this.cbbReceiverPay.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbbReceiverPay.Size = new System.Drawing.Size(143, 20);
+            this.cbbReceiverPay.TabIndex = 12;
+            // 
+            // cbbPayerPay
+            // 
+            this.cbbPayerPay.Location = new System.Drawing.Point(440, 69);
+            this.cbbPayerPay.Name = "cbbPayerPay";
+            this.cbbPayerPay.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbbPayerPay.Size = new System.Drawing.Size(143, 20);
+            this.cbbPayerPay.TabIndex = 13;
             // 
             // FrmHome
             // 
@@ -1794,19 +1822,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtDescribeReceive.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtExportReceive.Properties)).EndInit();
             this.tabPay.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.payTableBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uSPGetAllPayBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             this.groupControl2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.txtMoney_Pay.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtPayer_Pay.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtId_Pay.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtInputDate_Pay.Properties.CalendarTimeProperties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtInputDate_Pay.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtReceiver_Pay.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtDescribe_Pay.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtMoneyPay.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIdPay.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtInputDatePay.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtInputDatePay.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtDescribePay.Properties)).EndInit();
             this.tabRevenue.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
             this.groupControl3.ResumeLayout(false);
@@ -1819,10 +1843,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.gCtrlRevenue)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gvRevenue)).EndInit();
             this.tabReport.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.payTableBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.uSPGetAllReceiptBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.receiveTableBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.receiveTableBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataTramXangDauDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcPay)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvPay)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbbReceiverPay.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbbPayerPay.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1892,29 +1921,21 @@
         private DataTramXangDauDataSetTableAdapters.PayTableTableAdapter payTableTableAdapter;
         private DevExpress.XtraEditors.GroupControl groupControl2;
         private DevExpress.XtraEditors.LabelControl labelControl7;
-        private DevExpress.XtraEditors.TextEdit txtMoney_Pay;
+        private DevExpress.XtraEditors.TextEdit txtMoneyPay;
         private DevExpress.XtraEditors.LabelControl labelControl8;
         private DevExpress.XtraEditors.LabelControl labelControl9;
-        private DevExpress.XtraEditors.TextEdit txtPayer_Pay;
         private DevExpress.XtraEditors.LabelControl labelControl10;
         private DevExpress.XtraEditors.LabelControl labelControl11;
         private DevExpress.XtraEditors.LabelControl labelControl12;
-        private DevExpress.XtraEditors.TextEdit txtId_Pay;
-        private DevExpress.XtraEditors.DateEdit txtInputDate_Pay;
-        private DevExpress.XtraEditors.TextEdit txtReceiver_Pay;
-        private DevExpress.XtraEditors.TextEdit txtDescribe_Pay;
+        private DevExpress.XtraEditors.TextEdit txtIdPay;
+        private DevExpress.XtraEditors.DateEdit txtInputDatePay;
+        private DevExpress.XtraEditors.TextEdit txtDescribePay;
         private DevExpress.XtraEditors.SimpleButton btnRefreshPay;
         private DevExpress.XtraEditors.SimpleButton btnDeletePay;
         private DevExpress.XtraEditors.SimpleButton btnUpdatePay;
         private DevExpress.XtraEditors.SimpleButton btnInsertPay;
-        private DevExpress.XtraGrid.GridControl gridControl1;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
-        private DevExpress.XtraGrid.Columns.GridColumn colId1;
-        private DevExpress.XtraGrid.Columns.GridColumn colInputDate1;
         private DevExpress.XtraGrid.Columns.GridColumn colReceiver1;
         private DevExpress.XtraGrid.Columns.GridColumn colPayer1;
-        private DevExpress.XtraGrid.Columns.GridColumn colDescribe1;
-        private DevExpress.XtraGrid.Columns.GridColumn colMoney1;
         private DevExpress.XtraEditors.TileItem tileRevenue;
         private DevExpress.XtraBars.Navigation.TabNavigationPage tabRevenue;
         private DevExpress.XtraEditors.GroupControl groupControl3;
@@ -1973,6 +1994,18 @@
         private DevExpress.XtraEditors.LabelControl labelControl17;
         private DevExpress.XtraEditors.TextEdit txtExportReceive;
         private DevExpress.XtraEditors.ComboBoxEdit cbbProduct;
+        private System.Windows.Forms.BindingSource uSPGetAllPayBindingSource;
+        private DataTramXangDauDataSetTableAdapters.USP_GetAllPayTableAdapter uSP_GetAllPayTableAdapter;
+        private DevExpress.XtraGrid.GridControl gcPay;
+        private DevExpress.XtraGrid.Views.Grid.GridView gvPay;
+        private DevExpress.XtraGrid.Columns.GridColumn colId1;
+        private DevExpress.XtraGrid.Columns.GridColumn colInputDate1;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
+        private DevExpress.XtraGrid.Columns.GridColumn colDescribe1;
+        private DevExpress.XtraGrid.Columns.GridColumn colMoney1;
+        private DevExpress.XtraEditors.ComboBoxEdit cbbReceiverPay;
+        private DevExpress.XtraEditors.ComboBoxEdit cbbPayerPay;
     }
 }
 

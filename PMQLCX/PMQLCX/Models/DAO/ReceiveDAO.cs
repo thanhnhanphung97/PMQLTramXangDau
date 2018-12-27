@@ -44,7 +44,7 @@ namespace PMQLCX.Models.DAO
         public bool UpdateReceipt(ReceiveTable receive)
         {
             int data = 0;
-            string query = string.Format("USP_UpdateProduct @id = {0}, @inputDate = N'{1}', @idReceiver = {2}, @idPayer = {3}, @idProduct = {4}, @exportProduct = {5}, @priceInDay = {6}, @describe =  N'{7}', @money = {8}", receive.Id, receive.InputDate, receive.IdReceiver, receive.IdPayer, receive.IdProduct, receive.ExportProduct, receive.PriceInDay, receive.Describe, receive.Money);
+            string query = string.Format("USP_UpdateReceipt @id = {0}, @inputDate = N'{1}', @idReceiver = {2}, @idPayer = {3}, @idProduct = {4}, @exportProduct = {5}, @priceInDay = {6}, @describe =  N'{7}', @money = {8}", receive.Id, receive.InputDate, receive.IdReceiver, receive.IdPayer, receive.IdProduct, receive.ExportProduct, receive.PriceInDay, receive.Describe, receive.Money);
             data = DataProvider.Instance.ExecuteNonQuery(query);
             return data > 0;
         }

@@ -26,10 +26,7 @@ namespace PMQLCX
 
         bool status = false;
         DataTable account;
-        DataTable receive;
         
-
-
         #region function
         private void SelectedPage(TabNavigationPage tabPage)
         {
@@ -250,6 +247,7 @@ namespace PMQLCX
         {
             LoadProducts();
             LoadReceive();
+            LoadPay();
         }
         private void LoadProducts()
         {
@@ -262,6 +260,9 @@ namespace PMQLCX
             List<string> receivers = ReceiveDAO.Instance.GetListReceiver();
             List<string> payers = ReceiveDAO.Instance.GetListPayer();
             List<string> products = ReceiveDAO.Instance.GetListNameProducts();
+            cbbReceiverReceive.Properties.Items.Clear();
+            cbbPayerReceive.Properties.Items.Clear();
+            cbbProduct.Properties.Items.Clear();
             foreach (var item in receivers)
             {
                 cbbReceiverReceive.Properties.Items.Add(item.ToString());
@@ -304,7 +305,7 @@ namespace PMQLCX
                 txtExportReceive.Text = row[5].ToString();
                 txtPriceInDayReceive.Text = row[6].ToString();
                 txtDescribeReceive.Text = row[7].ToString();
-                txtMoneyReceive.Text = row[8].ToString();
+                //txtMoneyReceive.Text = row[8].ToString();
             }
         }
 
@@ -330,56 +331,160 @@ namespace PMQLCX
         
         private void txtExportReceive_EditValueChanged(object sender, EventArgs e)
         {
-            //MoneyReceiveUpdate();
+            MoneyReceiveUpdate();
         }
 
         private void txtPriceInDayReceive_EditValueChanged(object sender, EventArgs e)
         {
-            //MoneyReceiveUpdate();
+            MoneyReceiveUpdate();
         }
 
         private void MoneyReceiveUpdate()
         {
-            float sum = float.Parse(txtExportReceive.Text) * Int32.Parse(txtPriceInDayReceive.Text);
-            txtMoneyReceive.Text = sum.ToString();
+            try
+            {
+                float sum = float.Parse(txtExportReceive.Text) * Int32.Parse(txtPriceInDayReceive.Text);
+                txtMoneyReceive.Text = sum.ToString();
+            }
+            catch (Exception)
+            {
+
+            }
         }
 
         private void btnInsertReceipt_Click(object sender, EventArgs e)
         {
-            ReceiveTable receive = new ReceiveTable();
-            //receive.Id = Int32.Parse(txtIdReceive.Text);
-            receive.InputDate = DateTime.Parse(txtInputDateReceive.Text);
-            receive.Describe = txtDescribeReceive.Text;
-            receive.IdReceiver = ReceiveDAO.Instance.GetIdReceiverByName(cbbReceiverReceive.Text);
-            receive.IdPayer = ReceiveDAO.Instance.GetIdPayerByName(cbbPayerReceive.Text);
-            receive.IdProduct = ReceiveDAO.Instance.GetIdProductByName(cbbProduct.Text);
-            receive.ExportProduct = float.Parse(txtExportReceive.Text);
-            receive.PriceInDay = Int32.Parse(txtPriceInDayReceive.Text);
-            receive.Money = float.Parse(txtMoneyReceive.Text);
-            if (ReceiveDAO.Instance.InsertReceipt(receive) == true) { MessageBox.Show("Insert success!"); LoadReceive(); }
-            else MessageBox.Show("Insert fail!");
+            if(isDigit(txtPriceInDayReceive.Text) == true)
+            {
+                if (isDigit(txtExportReceive.Text) == true)
+                {
+                    if (txtDescribeReceive.Text.Trim() != "")
+                    {
+                        ReceiveTable receive = new ReceiveTable();
+                        //receive.Id = Int32.Parse(txtIdReceive.Text);
+                        receive.InputDate = DateTime.Parse(txtInputDateReceive.Text);
+                        receive.Describe = txtDescribeReceive.Text;
+                        receive.IdReceiver = ReceiveDAO.Instance.GetIdReceiverByName(cbbReceiverReceive.Text);
+                        receive.IdPayer = ReceiveDAO.Instance.GetIdPayerByName(cbbPayerReceive.Text);
+                        receive.IdProduct = ReceiveDAO.Instance.GetIdProductByName(cbbProduct.Text);
+                        receive.ExportProduct = float.Parse(txtExportReceive.Text);
+                        receive.PriceInDay = Int32.Parse(txtPriceInDayReceive.Text);
+                        receive.Money = float.Parse(txtMoneyReceive.Text);
+                        if (ReceiveDAO.Instance.InsertReceipt(receive) == true) { MessageBox.Show("Insert success!"); LoadReceive(); }
+                        else MessageBox.Show("Insert fail!");
+                    }
+                    else MessageBox.Show("Lí Do Thu Tiền Không Được Để Trống!");
+                }
+                else MessageBox.Show("Số Lượng Xuất (Lít) Phải Là Số!");
+            }
+            else MessageBox.Show("Giá Trong Ngày Phải Là Số!");
         }
 
         private void btnUpdateReceipt_Click(object sender, EventArgs e)
         {
-            ReceiveTable receive = new ReceiveTable();
-            receive.Id = Int32.Parse(txtIdReceive.Text);
-            receive.InputDate = DateTime.Parse(txtInputDateReceive.Text);
-            receive.Describe = txtDescribeReceive.Text;
-            receive.IdReceiver = ReceiveDAO.Instance.GetIdReceiverByName(cbbReceiverReceive.Text);
-            receive.IdPayer = ReceiveDAO.Instance.GetIdPayerByName(cbbPayerReceive.Text);
-            receive.IdProduct = ReceiveDAO.Instance.GetIdProductByName(cbbProduct.Text);
-            receive.ExportProduct = float.Parse(txtExportReceive.Text);
-            receive.PriceInDay = Int32.Parse(txtPriceInDayReceive.Text);
-            receive.Money = float.Parse(txtMoneyReceive.Text);
-            if (ReceiveDAO.Instance.UpdateReceipt(receive) == true) { MessageBox.Show("Update success!"); LoadReceive(); }
-            else MessageBox.Show("Update fail!");
+            if (isDigit(txtPriceInDayReceive.Text) == true)
+            {
+                if (isDigit(txtExportReceive.Text) == true)
+                {
+                    if (txtDescribeReceive.Text.Trim() != "")
+                    {
+                        ReceiveTable receive = new ReceiveTable();
+                        receive.Id = Int32.Parse(txtIdReceive.Text);
+                        receive.InputDate = DateTime.Parse(txtInputDateReceive.Text);
+                        receive.Describe = txtDescribeReceive.Text;
+                        receive.IdReceiver = ReceiveDAO.Instance.GetIdReceiverByName(cbbReceiverReceive.Text);
+                        receive.IdPayer = ReceiveDAO.Instance.GetIdPayerByName(cbbPayerReceive.Text);
+                        receive.IdProduct = ReceiveDAO.Instance.GetIdProductByName(cbbProduct.Text);
+                        receive.ExportProduct = float.Parse(txtExportReceive.Text);
+                        receive.PriceInDay = Int32.Parse(txtPriceInDayReceive.Text);
+                        receive.Money = float.Parse(txtMoneyReceive.Text);
+                        if (ReceiveDAO.Instance.UpdateReceipt(receive) == true) { MessageBox.Show("Update success!"); LoadReceive(); }
+                        else MessageBox.Show("Update fail!");
+                    }
+                    else MessageBox.Show("Lí Do Thu Tiền Không Được Để Trống!");
+                }
+                else MessageBox.Show("Số Lượng Xuất (Lít) Phải Là Số!");
+            }
+            else MessageBox.Show("Giá Trong Ngày Phải Là Số!");
         }
 
         private void btnDeleteReceipt_Click(object sender, EventArgs e)
         {
             if (ReceiveDAO.Instance.DeleteReceipt(Int32.Parse(txtIdReceive.Text)) == true) { MessageBox.Show("Delete success!"); LoadReceive(); }
             else MessageBox.Show("Delete fail!");
+        }
+
+        private bool isDigit(string test)
+        {
+            for(int i=0;i<test.Length;i++)
+            {
+                if ((int)test[i] < 48 || (int)test[i] > 57) return false;
+            }
+            return true;
+        }
+
+        private void LoadPay()
+        {
+            SetFormatDateEdit(txtInputDatePay);
+            this.uSP_GetAllPayTableAdapter.Fill(this.dataTramXangDauDataSet.USP_GetAllPay);
+            List<string> payer = ReceiveDAO.Instance.GetListReceiver();
+            List<string> reiceive = ReceiveDAO.Instance.GetListPayer();
+            cbbReceiverPay.Properties.Items.Clear();
+            cbbPayerPay.Properties.Items.Clear();
+            foreach (var item in reiceive)
+            {
+                cbbReceiverPay.Properties.Items.Add(item.ToString());
+            }
+            foreach (var item in payer)
+            {
+                cbbPayerPay.Properties.Items.Add(item.ToString());
+            }
+            cbbReceiverPay.SelectedIndex = 0;
+            cbbPayerPay.SelectedIndex = 0;
+        }
+
+        private void btnInsertPay_Click(object sender, EventArgs e)
+        {
+            if (isDigit(txtMoneyPay.Text) == true)
+            {
+                if (txtDescribePay.Text.Trim() != "")
+                {
+                    //ReceiveTable receive = new ReceiveTable();
+                    //receive.Id = Int32.Parse(txtIdReceive.Text);
+                    //receive.InputDate = DateTime.Parse(txtInputDateReceive.Text);
+                    //receive.Describe = txtDescribeReceive.Text;
+                    //receive.IdReceiver = ReceiveDAO.Instance.GetIdReceiverByName(cbbReceiverReceive.Text);
+                    //receive.IdPayer = ReceiveDAO.Instance.GetIdPayerByName(cbbPayerReceive.Text);
+                    //receive.IdProduct = ReceiveDAO.Instance.GetIdProductByName(cbbProduct.Text);
+                    //receive.ExportProduct = float.Parse(txtExportReceive.Text);
+                    //receive.PriceInDay = Int32.Parse(txtPriceInDayReceive.Text);
+                    //receive.Money = float.Parse(txtMoneyReceive.Text);
+                    //if (ReceiveDAO.Instance.UpdateReceipt(receive) == true) { MessageBox.Show("Update success!"); LoadReceive(); }
+                    //else MessageBox.Show("Update fail!");
+                }
+                else MessageBox.Show("Lí Do Chi Tiền Không Được Để Trống!");
+            }
+            else MessageBox.Show("Số Tiền Chi Phải Là Số!");
+        }
+
+        private void btnUpdatePay_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDeletePay_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRefreshPay_Click(object sender, EventArgs e)
+        {
+            txtIdPay.Text = "";
+            txtDescribePay.Text = "";
+            txtInputDatePay.DateTime = DateTime.Today;
+            cbbPayerPay.SelectedIndex = 0;
+            cbbReceiverPay.SelectedIndex = 0;
+            txtMoneyPay.Text = "0";
         }
     }
 }

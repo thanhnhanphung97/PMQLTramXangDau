@@ -339,14 +339,15 @@ GO
 CREATE PROC USP_GetAllPay
 AS
 	BEGIN 
-		SELECT * FROM dbo.PayTable
+		SELECT p.Id, p.InputDate, emp.Name AS Receiver,ac.Name AS Payer, p.Describe, p.Money
+		FROM dbo.PayTable p, dbo.Employees emp, dbo.Accounts ac
+		WHERE ac.Id = p.IdPayer AND emp.Id = p.IdReceiver 
 	END
 GO 
 
 IF EXISTS(SELECT * FROM sys.sysobjects WHERE name = 'USP_InsertPay')
 	DROP PROCEDURE dbo.USP_InsertPay
 GO 
-
 
 CREATE PROC USP_InsertPay @inputDate DATE, @idReceiver INT, @idPayer INT, @describe NVARCHAR(300), @money FLOAT
 AS
