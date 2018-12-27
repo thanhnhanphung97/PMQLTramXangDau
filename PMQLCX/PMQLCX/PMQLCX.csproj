@@ -96,9 +96,12 @@
     <Compile Include="Models\DAO\ReceiveDAO.cs" />
     <Compile Include="Models\DAO\RevenueDAO.cs" />
     <Compile Include="Models\DTO\Account.cs" />
-    <Compile Include="Models\DTO\ImportProduct.cs" />
+    <Compile Include="Models\DTO\Employees.cs" />
+    <Compile Include="Models\DTO\ImportProducts.cs" />
+    <Compile Include="Models\DTO\InventoryMoney.cs" />
+    <Compile Include="Models\DTO\Partners.cs" />
     <Compile Include="Models\DTO\PayTable.cs" />
-    <Compile Include="Models\DTO\Product.cs" />
+    <Compile Include="Models\DTO\Products.cs" />
     <Compile Include="Models\DTO\ReceiveTable.cs" />
     <Compile Include="Models\DTO\Revenue.cs" />
     <Compile Include="Program.cs" />
@@ -134,9 +137,9 @@
       <DependentUpon>DataTramXangDauDataSet.xsd</DependentUpon>
     </None>
     <None Include="DataTramXangDauDataSet.xsd">
+      <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>DataTramXangDauDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
     </None>
     <None Include="DataTramXangDauDataSet.xss">
       <DependentUpon>DataTramXangDauDataSet.xsd</DependentUpon>

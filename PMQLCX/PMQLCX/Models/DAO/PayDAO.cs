@@ -33,23 +33,23 @@ namespace PMQLCX.Models.DAO
             return data;
         }
 
-        public bool InsertPay(DateTime inputDate, string receiver, string payer, string describe, float money)
+        public bool InsertPay(PayTable pay)
         {
             int data = 0;
-            string query = string.Format("USP_InsertPay @inputDate {0}, @receiver N'{1}', @payer  N'{2}', @describe  N'{3}', @money {4}", inputDate, receiver, payer, describe, money);
+            string query = string.Format("USP_InsertPay @inputDate = {0}, @idReceiver = {1}, @idPayer = {2}, @describe = N'{3}', @money = {4}", pay.InputDate, pay.IdReceiver, pay.IdPayer, pay.Describe, pay.Money);
             data = DataProvider.Instance.ExecuteNonQuery(query);
             return data > 0;
         }
 
-        public bool UpdateReceipt(int id, DateTime inputDate, string receiver, string payer, string describe, float money)
+        public bool UpdatePay(PayTable pay)
         {
             int data = 0;
-            string query = string.Format("USP_UpdatePay @id = {0}, @inputDate {1}, @receiver N'{2}', @payer  N'{3}', @describe  N'{4}', @money {5}", id, inputDate, receiver, payer, describe, money);
+            string query = string.Format("USP_UpdatePay @id = {0}, @inputDate = {1}, @idReceiver = {2}, @idPayer = {3}, @describe = N'{4}', @money = {5}", pay.Id, pay.InputDate, pay.IdReceiver, pay.IdPayer, pay.Describe, pay.Money);
             data = DataProvider.Instance.ExecuteNonQuery(query);
             return data > 0;
         }
 
-        public bool DeleteReceipt(int id)
+        public bool DeletePay(int id)
         {
             int data = 0;
             string query = string.Format("USP_DeletePay @id = {0}", id);

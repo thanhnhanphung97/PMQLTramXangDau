@@ -29,39 +29,28 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.XtraEditors.TileItemElement tileItemElement1 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement2 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement46 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement47 = new DevExpress.XtraEditors.TileItemElement();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHome));
-            DevExpress.XtraEditors.TileItemElement tileItemElement3 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement4 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement5 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement6 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement7 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame1 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement8 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame2 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement9 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement10 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame3 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement11 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame4 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement12 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement13 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame5 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement14 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame6 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement15 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition1 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
-            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition2 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
-            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition3 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
-            DevExpress.XtraEditors.TableLayout.TableRowDefinition tableRowDefinition1 = new DevExpress.XtraEditors.TableLayout.TableRowDefinition();
-            DevExpress.XtraEditors.TableLayout.TableRowDefinition tableRowDefinition2 = new DevExpress.XtraEditors.TableLayout.TableRowDefinition();
-            DevExpress.XtraEditors.TableLayout.TableRowDefinition tableRowDefinition3 = new DevExpress.XtraEditors.TableLayout.TableRowDefinition();
-            DevExpress.XtraEditors.TableLayout.TableSpan tableSpan1 = new DevExpress.XtraEditors.TableLayout.TableSpan();
-            DevExpress.XtraEditors.TableLayout.TableSpan tableSpan2 = new DevExpress.XtraEditors.TableLayout.TableSpan();
-            DevExpress.XtraEditors.TableLayout.TableSpan tableSpan3 = new DevExpress.XtraEditors.TableLayout.TableSpan();
-            DevExpress.XtraEditors.TableLayout.TableSpan tableSpan4 = new DevExpress.XtraEditors.TableLayout.TableSpan();
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
+            DevExpress.XtraEditors.TileItemElement tileItemElement48 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement49 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement50 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement51 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement52 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemFrame tileItemFrame19 = new DevExpress.XtraEditors.TileItemFrame();
+            DevExpress.XtraEditors.TileItemElement tileItemElement53 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemFrame tileItemFrame20 = new DevExpress.XtraEditors.TileItemFrame();
+            DevExpress.XtraEditors.TileItemElement tileItemElement54 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement55 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemFrame tileItemFrame21 = new DevExpress.XtraEditors.TileItemFrame();
+            DevExpress.XtraEditors.TileItemElement tileItemElement56 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemFrame tileItemFrame22 = new DevExpress.XtraEditors.TileItemFrame();
+            DevExpress.XtraEditors.TileItemElement tileItemElement57 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement58 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemFrame tileItemFrame23 = new DevExpress.XtraEditors.TileItemFrame();
+            DevExpress.XtraEditors.TileItemElement tileItemElement59 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemFrame tileItemFrame24 = new DevExpress.XtraEditors.TileItemFrame();
+            DevExpress.XtraEditors.TileItemElement tileItemElement60 = new DevExpress.XtraEditors.TileItemElement();
             this.tileCtr = new DevExpress.XtraEditors.TileControl();
             this.tileGroup2 = new DevExpress.XtraEditors.TileGroup();
             this.tileItemLogin = new DevExpress.XtraEditors.TileItem();
@@ -83,18 +72,25 @@
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.tabHome = new DevExpress.XtraBars.Navigation.TabNavigationPage();
             this.tabProductList = new DevExpress.XtraBars.Navigation.TabNavigationPage();
-            this.label7 = new System.Windows.Forms.Label();
+            this.gcProducts = new DevExpress.XtraGrid.GridControl();
+            this.productsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataTramXangDauDataSet = new PMQLCX.DataTramXangDauDataSet();
+            this.gvProducts = new DevExpress.XtraGrid.Views.Card.CardView();
+            this.colId2 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colName = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colAmount = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtIdProduct = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.txtAmountProduct = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.txtNameProduct = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.txtAmountProduct = new System.Windows.Forms.TextBox();
             this.tileControl1 = new DevExpress.XtraEditors.TileControl();
             this.tileGroup4 = new DevExpress.XtraEditors.TileGroup();
             this.tileItemInsertProduct = new DevExpress.XtraEditors.TileItem();
             this.tileItemUpdateProduct = new DevExpress.XtraEditors.TileItem();
             this.tileItemDeleteProduct = new DevExpress.XtraEditors.TileItem();
-            this.gridCtrlProduct = new DevExpress.XtraGrid.GridControl();
-            this.tileViewProduct = new DevExpress.XtraGrid.Views.Tile.TileView();
             this.tabChangePassword = new DevExpress.XtraBars.Navigation.TabNavigationPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.pbNewPassword = new System.Windows.Forms.PictureBox();
@@ -109,41 +105,48 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtCurPassword = new System.Windows.Forms.TextBox();
             this.tabReceipts = new DevExpress.XtraBars.Navigation.TabNavigationPage();
+            this.gcReceive = new DevExpress.XtraGrid.GridControl();
+            this.uSPGetAllReceiptBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.gvReceive = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.colId = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colInputDate = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colIdReceiver = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colIdPayer = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colidProduct = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colExportProduct = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colPriceInDay = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colDescribe = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colMoney = new DevExpress.XtraGrid.Columns.GridColumn();
             this.btnReport = new DevExpress.XtraEditors.SimpleButton();
             this.btnRefreshReceipt = new DevExpress.XtraEditors.SimpleButton();
             this.btnDeleteReceipt = new DevExpress.XtraEditors.SimpleButton();
             this.btnUpdateReceipt = new DevExpress.XtraEditors.SimpleButton();
             this.btnInsertReceipt = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.cbbProduct = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl18 = new DevExpress.XtraEditors.LabelControl();
+            this.txtPriceInDayReceive = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl17 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl16 = new DevExpress.XtraEditors.LabelControl();
+            this.cbbPayerReceive = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.cbbReceiverReceive = new DevExpress.XtraEditors.ComboBoxEdit();
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
-            this.txtMoney_Receipt = new DevExpress.XtraEditors.TextEdit();
+            this.txtMoneyReceive = new DevExpress.XtraEditors.TextEdit();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.txtPayer_Receipt = new DevExpress.XtraEditors.TextEdit();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.txtId_Receipt = new DevExpress.XtraEditors.TextEdit();
-            this.txtInputDate_Receipt = new DevExpress.XtraEditors.DateEdit();
-            this.txtReceiver_Receipt = new DevExpress.XtraEditors.TextEdit();
-            this.txtDescribe_Receipt = new DevExpress.XtraEditors.TextEdit();
-            this.gCrlReceipts = new DevExpress.XtraGrid.GridControl();
-            this.gvReceipts = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.colId = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colInputDate = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colReceiver = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colPayer = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colDescribe = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colMoney = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.txtIdReceive = new DevExpress.XtraEditors.TextEdit();
+            this.txtInputDateReceive = new DevExpress.XtraEditors.DateEdit();
+            this.txtDescribeReceive = new DevExpress.XtraEditors.TextEdit();
+            this.txtExportReceive = new DevExpress.XtraEditors.TextEdit();
             this.tabPay = new DevExpress.XtraBars.Navigation.TabNavigationPage();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.payTableBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dataTramXangDauDataSet = new PMQLCX.DataTramXangDauDataSet();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colId1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colInputDate1 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colReceiver1 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colPayer1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colDescribe1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colMoney1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.btnRefreshPay = new DevExpress.XtraEditors.SimpleButton();
@@ -176,39 +179,49 @@
             this.gvRevenue = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.tabReport = new DevExpress.XtraBars.Navigation.TabNavigationPage();
             this.crystalReportViewer = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
+            this.uSPGetAllReceiptBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.receiveTableBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.receiveTableBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.receiveTableTableAdapter = new PMQLCX.DataTramXangDauDataSetTableAdapters.ReceiveTableTableAdapter();
             this.payTableTableAdapter = new PMQLCX.DataTramXangDauDataSetTableAdapters.PayTableTableAdapter();
+            this.productsTableAdapter = new PMQLCX.DataTramXangDauDataSetTableAdapters.ProductsTableAdapter();
+            this.dataTramXangDauDataSet1 = new PMQLCX.DataTramXangDauDataSet();
+            this.uSP_GetAllReceiptTableAdapter = new PMQLCX.DataTramXangDauDataSetTableAdapters.USP_GetAllReceiptTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.tabPane)).BeginInit();
             this.tabPane.SuspendLayout();
             this.tabLogin.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.tabProductList.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridCtrlProduct)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tileViewProduct)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcProducts)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTramXangDauDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvProducts)).BeginInit();
+            this.groupBox3.SuspendLayout();
             this.tabChangePassword.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbNewPassword)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCurrentPassword)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbConfirmNewPassword)).BeginInit();
             this.tabReceipts.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gcReceive)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uSPGetAllReceiptBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvReceive)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.txtMoney_Receipt.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtPayer_Receipt.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtId_Receipt.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtInputDate_Receipt.Properties.CalendarTimeProperties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtInputDate_Receipt.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtReceiver_Receipt.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtDescribe_Receipt.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gCrlReceipts)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gvReceipts)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbbProduct.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtPriceInDayReceive.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbbPayerReceive.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbbReceiverReceive.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtMoneyReceive.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIdReceive.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtInputDateReceive.Properties.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtInputDateReceive.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtDescribeReceive.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtExportReceive.Properties)).BeginInit();
             this.tabPay.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.payTableBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataTramXangDauDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
@@ -230,7 +243,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.gCtrlRevenue)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gvRevenue)).BeginInit();
             this.tabReport.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.uSPGetAllReceiptBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.receiveTableBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.receiveTableBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTramXangDauDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // tileCtr
@@ -271,13 +287,13 @@
             // 
             // tileItemLogin
             // 
-            tileItemElement1.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            tileItemElement1.Appearance.Normal.Options.UseFont = true;
-            tileItemElement1.ImageOptions.Image = global::PMQLCX.Properties.Resources.login;
-            tileItemElement1.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
-            tileItemElement1.Text = "Log in";
-            tileItemElement1.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
-            this.tileItemLogin.Elements.Add(tileItemElement1);
+            tileItemElement46.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            tileItemElement46.Appearance.Normal.Options.UseFont = true;
+            tileItemElement46.ImageOptions.Image = global::PMQLCX.Properties.Resources.login;
+            tileItemElement46.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
+            tileItemElement46.Text = "Log in";
+            tileItemElement46.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
+            this.tileItemLogin.Elements.Add(tileItemElement46);
             this.tileItemLogin.Id = 0;
             this.tileItemLogin.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItemLogin.Name = "tileItemLogin";
@@ -285,13 +301,13 @@
             // 
             // tileItemChangePassword
             // 
-            tileItemElement2.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            tileItemElement2.Appearance.Normal.Options.UseFont = true;
-            tileItemElement2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            tileItemElement2.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
-            tileItemElement2.Text = "Change password";
-            tileItemElement2.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
-            this.tileItemChangePassword.Elements.Add(tileItemElement2);
+            tileItemElement47.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            tileItemElement47.Appearance.Normal.Options.UseFont = true;
+            tileItemElement47.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            tileItemElement47.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
+            tileItemElement47.Text = "Change password";
+            tileItemElement47.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
+            this.tileItemChangePassword.Elements.Add(tileItemElement47);
             this.tileItemChangePassword.Enabled = false;
             this.tileItemChangePassword.Id = 6;
             this.tileItemChangePassword.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
@@ -306,16 +322,16 @@
             // 
             // tileItemProductList
             // 
-            tileItemElement3.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            tileItemElement3.Appearance.Normal.Options.UseFont = true;
-            tileItemElement3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
-            tileItemElement3.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
-            tileItemElement3.ImageOptions.ImageLocation = new System.Drawing.Point(0, 10);
-            tileItemElement3.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.None;
-            tileItemElement3.Text = "Product List";
-            tileItemElement3.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
-            tileItemElement3.TextLocation = new System.Drawing.Point(50, -20);
-            this.tileItemProductList.Elements.Add(tileItemElement3);
+            tileItemElement48.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            tileItemElement48.Appearance.Normal.Options.UseFont = true;
+            tileItemElement48.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            tileItemElement48.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
+            tileItemElement48.ImageOptions.ImageLocation = new System.Drawing.Point(0, 10);
+            tileItemElement48.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.None;
+            tileItemElement48.Text = "Product List";
+            tileItemElement48.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
+            tileItemElement48.TextLocation = new System.Drawing.Point(50, -20);
+            this.tileItemProductList.Elements.Add(tileItemElement48);
             this.tileItemProductList.Enabled = false;
             this.tileItemProductList.Id = 4;
             this.tileItemProductList.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
@@ -332,11 +348,11 @@
             // 
             // tileReceipts
             // 
-            tileItemElement4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
-            tileItemElement4.ImageOptions.ImageLocation = new System.Drawing.Point(0, -10);
-            tileItemElement4.Text = "Receipts";
-            tileItemElement4.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tileReceipts.Elements.Add(tileItemElement4);
+            tileItemElement49.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
+            tileItemElement49.ImageOptions.ImageLocation = new System.Drawing.Point(0, -10);
+            tileItemElement49.Text = "Receipts";
+            tileItemElement49.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tileReceipts.Elements.Add(tileItemElement49);
             this.tileReceipts.Enabled = false;
             this.tileReceipts.Id = 7;
             this.tileReceipts.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
@@ -345,13 +361,13 @@
             // 
             // tilePay
             // 
-            tileItemElement5.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
-            tileItemElement5.ImageOptions.ImageLocation = new System.Drawing.Point(0, -10);
-            tileItemElement5.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.ZoomOutside;
-            tileItemElement5.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
-            tileItemElement5.Text = "Pay";
-            tileItemElement5.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tilePay.Elements.Add(tileItemElement5);
+            tileItemElement50.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
+            tileItemElement50.ImageOptions.ImageLocation = new System.Drawing.Point(0, -10);
+            tileItemElement50.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.ZoomOutside;
+            tileItemElement50.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
+            tileItemElement50.Text = "Pay";
+            tileItemElement50.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tilePay.Elements.Add(tileItemElement50);
             this.tilePay.Enabled = false;
             this.tilePay.Id = 8;
             this.tilePay.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
@@ -360,14 +376,14 @@
             // 
             // tileRevenue
             // 
-            tileItemElement6.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
-            tileItemElement6.ImageOptions.ImageLocation = new System.Drawing.Point(0, -10);
-            tileItemElement6.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.ZoomInside;
-            tileItemElement6.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
-            tileItemElement6.Text = "Revenue";
-            tileItemElement6.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemElement6.TextLocation = new System.Drawing.Point(10, 0);
-            this.tileRevenue.Elements.Add(tileItemElement6);
+            tileItemElement51.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
+            tileItemElement51.ImageOptions.ImageLocation = new System.Drawing.Point(0, -10);
+            tileItemElement51.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.ZoomInside;
+            tileItemElement51.ImageOptions.ImageSize = new System.Drawing.Size(30, 30);
+            tileItemElement51.Text = "Revenue";
+            tileItemElement51.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemElement51.TextLocation = new System.Drawing.Point(10, 0);
+            this.tileRevenue.Elements.Add(tileItemElement51);
             this.tileRevenue.Enabled = false;
             this.tileRevenue.Id = 9;
             this.tileRevenue.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
@@ -509,56 +525,135 @@
             this.tabProductList.Appearance.BackColor = System.Drawing.Color.MediumAquamarine;
             this.tabProductList.Appearance.Options.UseBackColor = true;
             this.tabProductList.Caption = "tabListProduct";
-            this.tabProductList.Controls.Add(this.label7);
-            this.tabProductList.Controls.Add(this.label6);
-            this.tabProductList.Controls.Add(this.txtAmountProduct);
-            this.tabProductList.Controls.Add(this.txtNameProduct);
-            this.tabProductList.Controls.Add(this.dataGridView1);
+            this.tabProductList.Controls.Add(this.gcProducts);
+            this.tabProductList.Controls.Add(this.groupBox3);
             this.tabProductList.Controls.Add(this.tileControl1);
-            this.tabProductList.Controls.Add(this.gridCtrlProduct);
             this.tabProductList.Name = "tabProductList";
             this.tabProductList.Size = new System.Drawing.Size(1182, 741);
             // 
-            // label7
+            // gcProducts
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(614, 409);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(53, 16);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Amount";
+            this.gcProducts.DataSource = this.productsBindingSource;
+            this.gcProducts.Location = new System.Drawing.Point(15, 231);
+            this.gcProducts.MainView = this.gvProducts;
+            this.gcProducts.Name = "gcProducts";
+            this.gcProducts.Size = new System.Drawing.Size(771, 200);
+            this.gcProducts.TabIndex = 9;
+            this.gcProducts.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gvProducts});
+            // 
+            // productsBindingSource
+            // 
+            this.productsBindingSource.DataMember = "Products";
+            this.productsBindingSource.DataSource = this.dataTramXangDauDataSet;
+            // 
+            // dataTramXangDauDataSet
+            // 
+            this.dataTramXangDauDataSet.DataSetName = "DataTramXangDauDataSet";
+            this.dataTramXangDauDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // gvProducts
+            // 
+            this.gvProducts.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colId2,
+            this.colName,
+            this.colAmount});
+            this.gvProducts.FocusedCardTopFieldIndex = 0;
+            this.gvProducts.GridControl = this.gcProducts;
+            this.gvProducts.Name = "gvProducts";
+            this.gvProducts.VertScrollVisibility = DevExpress.XtraGrid.Views.Base.ScrollVisibility.Auto;
+            this.gvProducts.Click += new System.EventHandler(this.gvProducts_Click);
+            // 
+            // colId2
+            // 
+            this.colId2.Caption = "Mã Sản Phẩm";
+            this.colId2.FieldName = "Id";
+            this.colId2.Name = "colId2";
+            this.colId2.OptionsColumn.AllowEdit = false;
+            this.colId2.OptionsColumn.ReadOnly = true;
+            this.colId2.Visible = true;
+            this.colId2.VisibleIndex = 0;
+            // 
+            // colName
+            // 
+            this.colName.Caption = "Tên Sản Phẩm";
+            this.colName.FieldName = "Name";
+            this.colName.Name = "colName";
+            this.colName.Visible = true;
+            this.colName.VisibleIndex = 1;
+            // 
+            // colAmount
+            // 
+            this.colAmount.Caption = "Số Lượng Tồn (lít)";
+            this.colAmount.FieldName = "Amount";
+            this.colAmount.Name = "colAmount";
+            this.colAmount.Visible = true;
+            this.colAmount.VisibleIndex = 2;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.label8);
+            this.groupBox3.Controls.Add(this.txtIdProduct);
+            this.groupBox3.Controls.Add(this.label6);
+            this.groupBox3.Controls.Add(this.label7);
+            this.groupBox3.Controls.Add(this.txtNameProduct);
+            this.groupBox3.Controls.Add(this.txtAmountProduct);
+            this.groupBox3.Location = new System.Drawing.Point(15, 11);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(771, 63);
+            this.groupBox3.TabIndex = 7;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Thông Tin Sản Phẩm";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(37, 30);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(95, 16);
+            this.label8.TabIndex = 8;
+            this.label8.Text = "Mã Sản Phẩm:";
+            // 
+            // txtIdProduct
+            // 
+            this.txtIdProduct.Location = new System.Drawing.Point(138, 27);
+            this.txtIdProduct.Name = "txtIdProduct";
+            this.txtIdProduct.ReadOnly = true;
+            this.txtIdProduct.Size = new System.Drawing.Size(91, 22);
+            this.txtIdProduct.TabIndex = 7;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(402, 409);
+            this.label6.Location = new System.Drawing.Point(235, 30);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(45, 16);
+            this.label6.Size = new System.Drawing.Size(100, 16);
             this.label6.TabIndex = 5;
-            this.label6.Text = "Name";
+            this.label6.Text = "Tên Sản Phẩm:";
             // 
-            // txtAmountProduct
+            // label7
             // 
-            this.txtAmountProduct.Location = new System.Drawing.Point(673, 406);
-            this.txtAmountProduct.Name = "txtAmountProduct";
-            this.txtAmountProduct.Size = new System.Drawing.Size(100, 22);
-            this.txtAmountProduct.TabIndex = 4;
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(524, 30);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(71, 16);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Số Lượng: ";
             // 
             // txtNameProduct
             // 
-            this.txtNameProduct.Location = new System.Drawing.Point(453, 406);
+            this.txtNameProduct.Location = new System.Drawing.Point(341, 27);
             this.txtNameProduct.Name = "txtNameProduct";
-            this.txtNameProduct.Size = new System.Drawing.Size(100, 22);
+            this.txtNameProduct.Size = new System.Drawing.Size(177, 22);
             this.txtNameProduct.TabIndex = 3;
             // 
-            // dataGridView1
+            // txtAmountProduct
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(394, 65);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(394, 317);
-            this.dataGridView1.TabIndex = 2;
-            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            this.txtAmountProduct.Location = new System.Drawing.Point(601, 27);
+            this.txtAmountProduct.Name = "txtAmountProduct";
+            this.txtAmountProduct.ReadOnly = true;
+            this.txtAmountProduct.Size = new System.Drawing.Size(154, 22);
+            this.txtAmountProduct.TabIndex = 4;
             // 
             // tileControl1
             // 
@@ -572,7 +667,7 @@
             this.tileControl1.IndentBetweenItems = 40;
             this.tileControl1.ItemImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             this.tileControl1.ItemSize = 200;
-            this.tileControl1.Location = new System.Drawing.Point(394, 450);
+            this.tileControl1.Location = new System.Drawing.Point(15, 80);
             this.tileControl1.MaxId = 4;
             this.tileControl1.Name = "tileControl1";
             this.tileControl1.Orientation = System.Windows.Forms.Orientation.Vertical;
@@ -589,23 +684,23 @@
             // 
             // tileItemInsertProduct
             // 
-            tileItemElement7.Text = "Insert";
-            tileItemElement7.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tileItemInsertProduct.Elements.Add(tileItemElement7);
-            tileItemElement8.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
-            tileItemElement8.Text = "Insert";
-            tileItemElement8.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemFrame1.Elements.Add(tileItemElement8);
-            tileItemFrame1.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame1.Image")));
-            tileItemFrame1.UseText = false;
-            tileItemElement9.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
-            tileItemElement9.Text = "Insert";
-            tileItemElement9.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemFrame2.Elements.Add(tileItemElement9);
-            tileItemFrame2.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame2.Image")));
-            tileItemFrame2.UseImage = false;
-            this.tileItemInsertProduct.Frames.Add(tileItemFrame1);
-            this.tileItemInsertProduct.Frames.Add(tileItemFrame2);
+            tileItemElement52.Text = "Insert";
+            tileItemElement52.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tileItemInsertProduct.Elements.Add(tileItemElement52);
+            tileItemElement53.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
+            tileItemElement53.Text = "Insert";
+            tileItemElement53.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemFrame19.Elements.Add(tileItemElement53);
+            tileItemFrame19.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame19.Image")));
+            tileItemFrame19.UseText = false;
+            tileItemElement54.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
+            tileItemElement54.Text = "Insert";
+            tileItemElement54.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemFrame20.Elements.Add(tileItemElement54);
+            tileItemFrame20.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame20.Image")));
+            tileItemFrame20.UseImage = false;
+            this.tileItemInsertProduct.Frames.Add(tileItemFrame19);
+            this.tileItemInsertProduct.Frames.Add(tileItemFrame20);
             this.tileItemInsertProduct.Id = 0;
             this.tileItemInsertProduct.ItemSize = DevExpress.XtraEditors.TileItemSize.Small;
             this.tileItemInsertProduct.Name = "tileItemInsertProduct";
@@ -613,23 +708,23 @@
             // 
             // tileItemUpdateProduct
             // 
-            tileItemElement10.Text = "Update";
-            tileItemElement10.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tileItemUpdateProduct.Elements.Add(tileItemElement10);
-            tileItemElement11.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
-            tileItemElement11.Text = "Update";
-            tileItemElement11.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemFrame3.Elements.Add(tileItemElement11);
-            tileItemFrame3.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame3.Image")));
-            tileItemFrame3.UseText = false;
-            tileItemElement12.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image8")));
-            tileItemElement12.Text = "Update";
-            tileItemElement12.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemFrame4.Elements.Add(tileItemElement12);
-            tileItemFrame4.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame4.Image")));
-            tileItemFrame4.UseImage = false;
-            this.tileItemUpdateProduct.Frames.Add(tileItemFrame3);
-            this.tileItemUpdateProduct.Frames.Add(tileItemFrame4);
+            tileItemElement55.Text = "Update";
+            tileItemElement55.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tileItemUpdateProduct.Elements.Add(tileItemElement55);
+            tileItemElement56.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
+            tileItemElement56.Text = "Update";
+            tileItemElement56.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemFrame21.Elements.Add(tileItemElement56);
+            tileItemFrame21.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame21.Image")));
+            tileItemFrame21.UseText = false;
+            tileItemElement57.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image8")));
+            tileItemElement57.Text = "Update";
+            tileItemElement57.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemFrame22.Elements.Add(tileItemElement57);
+            tileItemFrame22.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame22.Image")));
+            tileItemFrame22.UseImage = false;
+            this.tileItemUpdateProduct.Frames.Add(tileItemFrame21);
+            this.tileItemUpdateProduct.Frames.Add(tileItemFrame22);
             this.tileItemUpdateProduct.Id = 1;
             this.tileItemUpdateProduct.ItemSize = DevExpress.XtraEditors.TileItemSize.Small;
             this.tileItemUpdateProduct.Name = "tileItemUpdateProduct";
@@ -637,62 +732,27 @@
             // 
             // tileItemDeleteProduct
             // 
-            tileItemElement13.Text = "Delete";
-            tileItemElement13.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tileItemDeleteProduct.Elements.Add(tileItemElement13);
-            tileItemElement14.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image9")));
-            tileItemElement14.Text = "Delete";
-            tileItemElement14.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemFrame5.Elements.Add(tileItemElement14);
-            tileItemFrame5.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame5.Image")));
-            tileItemFrame5.UseText = false;
-            tileItemElement15.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image10")));
-            tileItemElement15.Text = "Delete";
-            tileItemElement15.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemFrame6.Elements.Add(tileItemElement15);
-            tileItemFrame6.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame6.Image")));
-            tileItemFrame6.UseImage = false;
-            this.tileItemDeleteProduct.Frames.Add(tileItemFrame5);
-            this.tileItemDeleteProduct.Frames.Add(tileItemFrame6);
+            tileItemElement58.Text = "Delete";
+            tileItemElement58.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tileItemDeleteProduct.Elements.Add(tileItemElement58);
+            tileItemElement59.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image9")));
+            tileItemElement59.Text = "Delete";
+            tileItemElement59.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemFrame23.Elements.Add(tileItemElement59);
+            tileItemFrame23.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame23.Image")));
+            tileItemFrame23.UseText = false;
+            tileItemElement60.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image10")));
+            tileItemElement60.Text = "Delete";
+            tileItemElement60.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemFrame24.Elements.Add(tileItemElement60);
+            tileItemFrame24.Image = ((System.Drawing.Image)(resources.GetObject("tileItemFrame24.Image")));
+            tileItemFrame24.UseImage = false;
+            this.tileItemDeleteProduct.Frames.Add(tileItemFrame23);
+            this.tileItemDeleteProduct.Frames.Add(tileItemFrame24);
             this.tileItemDeleteProduct.Id = 2;
             this.tileItemDeleteProduct.ItemSize = DevExpress.XtraEditors.TileItemSize.Small;
             this.tileItemDeleteProduct.Name = "tileItemDeleteProduct";
             this.tileItemDeleteProduct.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.tileItemDeleteProduct_ItemClick);
-            // 
-            // gridCtrlProduct
-            // 
-            this.gridCtrlProduct.Location = new System.Drawing.Point(68, 11);
-            this.gridCtrlProduct.MainView = this.tileViewProduct;
-            this.gridCtrlProduct.Name = "gridCtrlProduct";
-            this.gridCtrlProduct.Size = new System.Drawing.Size(320, 162);
-            this.gridCtrlProduct.TabIndex = 0;
-            this.gridCtrlProduct.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.tileViewProduct});
-            // 
-            // tileViewProduct
-            // 
-            this.tileViewProduct.GridControl = this.gridCtrlProduct;
-            this.tileViewProduct.Name = "tileViewProduct";
-            this.tileViewProduct.TileColumns.Add(tableColumnDefinition1);
-            this.tileViewProduct.TileColumns.Add(tableColumnDefinition2);
-            this.tileViewProduct.TileColumns.Add(tableColumnDefinition3);
-            this.tileViewProduct.TileRows.Add(tableRowDefinition1);
-            this.tileViewProduct.TileRows.Add(tableRowDefinition2);
-            this.tileViewProduct.TileRows.Add(tableRowDefinition3);
-            tableSpan1.ColumnIndex = 1;
-            tableSpan1.ColumnSpan = 2;
-            tableSpan2.RowSpan = 3;
-            tableSpan3.ColumnIndex = 1;
-            tableSpan3.RowIndex = 1;
-            tableSpan3.RowSpan = 2;
-            tableSpan4.ColumnIndex = 2;
-            tableSpan4.RowIndex = 1;
-            tableSpan4.RowSpan = 2;
-            this.tileViewProduct.TileSpans.Add(tableSpan1);
-            this.tileViewProduct.TileSpans.Add(tableSpan2);
-            this.tileViewProduct.TileSpans.Add(tableSpan3);
-            this.tileViewProduct.TileSpans.Add(tableSpan4);
-            this.tileViewProduct.ItemCustomize += new DevExpress.XtraGrid.Views.Tile.TileViewItemCustomizeEventHandler(this.tileViewProduct_ItemCustomize);
             // 
             // tabChangePassword
             // 
@@ -849,15 +909,130 @@
             this.tabReceipts.Appearance.BackColor = System.Drawing.Color.MediumAquamarine;
             this.tabReceipts.Appearance.Options.UseBackColor = true;
             this.tabReceipts.Caption = "tabReceipts";
+            this.tabReceipts.Controls.Add(this.gcReceive);
             this.tabReceipts.Controls.Add(this.btnReport);
             this.tabReceipts.Controls.Add(this.btnRefreshReceipt);
             this.tabReceipts.Controls.Add(this.btnDeleteReceipt);
             this.tabReceipts.Controls.Add(this.btnUpdateReceipt);
             this.tabReceipts.Controls.Add(this.btnInsertReceipt);
             this.tabReceipts.Controls.Add(this.groupControl1);
-            this.tabReceipts.Controls.Add(this.gCrlReceipts);
             this.tabReceipts.Name = "tabReceipts";
             this.tabReceipts.Size = new System.Drawing.Size(1182, 741);
+            // 
+            // gcReceive
+            // 
+            this.gcReceive.DataSource = this.uSPGetAllReceiptBindingSource1;
+            this.gcReceive.Location = new System.Drawing.Point(3, 178);
+            this.gcReceive.MainView = this.gvReceive;
+            this.gcReceive.Name = "gcReceive";
+            this.gcReceive.Size = new System.Drawing.Size(1145, 352);
+            this.gcReceive.TabIndex = 7;
+            this.gcReceive.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gvReceive});
+            // 
+            // uSPGetAllReceiptBindingSource1
+            // 
+            this.uSPGetAllReceiptBindingSource1.DataMember = "USP_GetAllReceipt";
+            this.uSPGetAllReceiptBindingSource1.DataSource = this.dataTramXangDauDataSet;
+            // 
+            // gvReceive
+            // 
+            this.gvReceive.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colId,
+            this.colInputDate,
+            this.colIdReceiver,
+            this.colIdPayer,
+            this.colidProduct,
+            this.colExportProduct,
+            this.colPriceInDay,
+            this.colDescribe,
+            this.colMoney});
+            this.gvReceive.GridControl = this.gcReceive;
+            this.gvReceive.Name = "gvReceive";
+            this.gvReceive.Click += new System.EventHandler(this.gvReceive_Click);
+            // 
+            // colId
+            // 
+            this.colId.Caption = "Mã Phiếu Thu";
+            this.colId.FieldName = "Id";
+            this.colId.Name = "colId";
+            this.colId.OptionsColumn.AllowEdit = false;
+            this.colId.OptionsColumn.ReadOnly = true;
+            this.colId.Visible = true;
+            this.colId.VisibleIndex = 0;
+            this.colId.Width = 74;
+            // 
+            // colInputDate
+            // 
+            this.colInputDate.Caption = "Ngày Thu";
+            this.colInputDate.FieldName = "InputDate";
+            this.colInputDate.Name = "colInputDate";
+            this.colInputDate.Visible = true;
+            this.colInputDate.VisibleIndex = 1;
+            this.colInputDate.Width = 98;
+            // 
+            // colIdReceiver
+            // 
+            this.colIdReceiver.Caption = "Người Thu";
+            this.colIdReceiver.FieldName = "Receiver";
+            this.colIdReceiver.Name = "colIdReceiver";
+            this.colIdReceiver.Visible = true;
+            this.colIdReceiver.VisibleIndex = 2;
+            this.colIdReceiver.Width = 63;
+            // 
+            // colIdPayer
+            // 
+            this.colIdPayer.Caption = "Người Chi";
+            this.colIdPayer.FieldName = "Payer";
+            this.colIdPayer.Name = "colIdPayer";
+            this.colIdPayer.Visible = true;
+            this.colIdPayer.VisibleIndex = 3;
+            this.colIdPayer.Width = 60;
+            // 
+            // colidProduct
+            // 
+            this.colidProduct.Caption = "Sản Phẩm";
+            this.colidProduct.FieldName = "Product";
+            this.colidProduct.Name = "colidProduct";
+            this.colidProduct.Visible = true;
+            this.colidProduct.VisibleIndex = 4;
+            this.colidProduct.Width = 63;
+            // 
+            // colExportProduct
+            // 
+            this.colExportProduct.Caption = "Số Lượng Xuất (lít)";
+            this.colExportProduct.FieldName = "ExportProduct";
+            this.colExportProduct.Name = "colExportProduct";
+            this.colExportProduct.Visible = true;
+            this.colExportProduct.VisibleIndex = 5;
+            this.colExportProduct.Width = 93;
+            // 
+            // colPriceInDay
+            // 
+            this.colPriceInDay.Caption = "Giá Trong Ngày";
+            this.colPriceInDay.FieldName = "PriceInDay";
+            this.colPriceInDay.Name = "colPriceInDay";
+            this.colPriceInDay.Visible = true;
+            this.colPriceInDay.VisibleIndex = 6;
+            this.colPriceInDay.Width = 77;
+            // 
+            // colDescribe
+            // 
+            this.colDescribe.Caption = "Lí Do";
+            this.colDescribe.FieldName = "Describe";
+            this.colDescribe.Name = "colDescribe";
+            this.colDescribe.Visible = true;
+            this.colDescribe.VisibleIndex = 7;
+            this.colDescribe.Width = 195;
+            // 
+            // colMoney
+            // 
+            this.colMoney.Caption = "Số Tiền Thu";
+            this.colMoney.FieldName = "Money";
+            this.colMoney.Name = "colMoney";
+            this.colMoney.Visible = true;
+            this.colMoney.VisibleIndex = 8;
+            this.colMoney.Width = 125;
             // 
             // btnReport
             // 
@@ -875,6 +1050,7 @@
             this.btnRefreshReceipt.Size = new System.Drawing.Size(75, 42);
             this.btnRefreshReceipt.TabIndex = 5;
             this.btnRefreshReceipt.Text = "Refresh";
+            this.btnRefreshReceipt.Click += new System.EventHandler(this.btnRefreshReceipt_Click);
             // 
             // btnDeleteReceipt
             // 
@@ -883,6 +1059,7 @@
             this.btnDeleteReceipt.Size = new System.Drawing.Size(75, 42);
             this.btnDeleteReceipt.TabIndex = 4;
             this.btnDeleteReceipt.Text = "Delete";
+            this.btnDeleteReceipt.Click += new System.EventHandler(this.btnDeleteReceipt_Click);
             // 
             // btnUpdateReceipt
             // 
@@ -891,6 +1068,7 @@
             this.btnUpdateReceipt.Size = new System.Drawing.Size(75, 42);
             this.btnUpdateReceipt.TabIndex = 3;
             this.btnUpdateReceipt.Text = "Update";
+            this.btnUpdateReceipt.Click += new System.EventHandler(this.btnUpdateReceipt_Click);
             // 
             // btnInsertReceipt
             // 
@@ -899,29 +1077,101 @@
             this.btnInsertReceipt.Size = new System.Drawing.Size(75, 42);
             this.btnInsertReceipt.TabIndex = 2;
             this.btnInsertReceipt.Text = "Insert";
+            this.btnInsertReceipt.Click += new System.EventHandler(this.btnInsertReceipt_Click);
             // 
             // groupControl1
             // 
             this.groupControl1.Appearance.BackColor = System.Drawing.Color.LightSeaGreen;
             this.groupControl1.Appearance.BackColor2 = System.Drawing.Color.LightSeaGreen;
             this.groupControl1.Appearance.Options.UseBackColor = true;
+            this.groupControl1.Controls.Add(this.cbbProduct);
+            this.groupControl1.Controls.Add(this.labelControl18);
+            this.groupControl1.Controls.Add(this.txtPriceInDayReceive);
+            this.groupControl1.Controls.Add(this.labelControl17);
+            this.groupControl1.Controls.Add(this.labelControl16);
+            this.groupControl1.Controls.Add(this.cbbPayerReceive);
+            this.groupControl1.Controls.Add(this.cbbReceiverReceive);
             this.groupControl1.Controls.Add(this.labelControl5);
-            this.groupControl1.Controls.Add(this.txtMoney_Receipt);
+            this.groupControl1.Controls.Add(this.txtMoneyReceive);
             this.groupControl1.Controls.Add(this.labelControl6);
             this.groupControl1.Controls.Add(this.labelControl3);
-            this.groupControl1.Controls.Add(this.txtPayer_Receipt);
             this.groupControl1.Controls.Add(this.labelControl2);
             this.groupControl1.Controls.Add(this.labelControl4);
             this.groupControl1.Controls.Add(this.labelControl1);
-            this.groupControl1.Controls.Add(this.txtId_Receipt);
-            this.groupControl1.Controls.Add(this.txtInputDate_Receipt);
-            this.groupControl1.Controls.Add(this.txtReceiver_Receipt);
-            this.groupControl1.Controls.Add(this.txtDescribe_Receipt);
+            this.groupControl1.Controls.Add(this.txtIdReceive);
+            this.groupControl1.Controls.Add(this.txtInputDateReceive);
+            this.groupControl1.Controls.Add(this.txtDescribeReceive);
+            this.groupControl1.Controls.Add(this.txtExportReceive);
             this.groupControl1.Location = new System.Drawing.Point(3, 3);
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(1145, 121);
             this.groupControl1.TabIndex = 1;
             this.groupControl1.Text = "Thông tin phiếu thu";
+            // 
+            // cbbProduct
+            // 
+            this.cbbProduct.Location = new System.Drawing.Point(503, 94);
+            this.cbbProduct.Name = "cbbProduct";
+            this.cbbProduct.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbbProduct.Size = new System.Drawing.Size(156, 20);
+            this.cbbProduct.TabIndex = 20;
+            // 
+            // labelControl18
+            // 
+            this.labelControl18.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.labelControl18.Appearance.Options.UseFont = true;
+            this.labelControl18.Location = new System.Drawing.Point(725, 67);
+            this.labelControl18.Name = "labelControl18";
+            this.labelControl18.Size = new System.Drawing.Size(108, 18);
+            this.labelControl18.TabIndex = 19;
+            this.labelControl18.Text = "Giá Trong Ngày:";
+            // 
+            // txtPriceInDayReceive
+            // 
+            this.txtPriceInDayReceive.Location = new System.Drawing.Point(858, 68);
+            this.txtPriceInDayReceive.Name = "txtPriceInDayReceive";
+            this.txtPriceInDayReceive.Size = new System.Drawing.Size(134, 20);
+            this.txtPriceInDayReceive.TabIndex = 18;
+            this.txtPriceInDayReceive.EditValueChanged += new System.EventHandler(this.txtPriceInDayReceive_EditValueChanged);
+            // 
+            // labelControl17
+            // 
+            this.labelControl17.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.labelControl17.Appearance.Options.UseFont = true;
+            this.labelControl17.Location = new System.Drawing.Point(725, 41);
+            this.labelControl17.Name = "labelControl17";
+            this.labelControl17.Size = new System.Drawing.Size(127, 18);
+            this.labelControl17.TabIndex = 17;
+            this.labelControl17.Text = "Số Lượng Xuất (lít):";
+            // 
+            // labelControl16
+            // 
+            this.labelControl16.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.labelControl16.Appearance.Options.UseFont = true;
+            this.labelControl16.Location = new System.Drawing.Point(421, 93);
+            this.labelControl16.Name = "labelControl16";
+            this.labelControl16.Size = new System.Drawing.Size(71, 18);
+            this.labelControl16.TabIndex = 15;
+            this.labelControl16.Text = "Sản Phẩm:";
+            // 
+            // cbbPayerReceive
+            // 
+            this.cbbPayerReceive.Location = new System.Drawing.Point(503, 68);
+            this.cbbPayerReceive.Name = "cbbPayerReceive";
+            this.cbbPayerReceive.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbbPayerReceive.Size = new System.Drawing.Size(156, 20);
+            this.cbbPayerReceive.TabIndex = 14;
+            // 
+            // cbbReceiverReceive
+            // 
+            this.cbbReceiverReceive.Location = new System.Drawing.Point(503, 41);
+            this.cbbReceiverReceive.Name = "cbbReceiverReceive";
+            this.cbbReceiverReceive.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbbReceiverReceive.Size = new System.Drawing.Size(156, 20);
+            this.cbbReceiverReceive.TabIndex = 12;
             // 
             // labelControl5
             // 
@@ -929,20 +1179,21 @@
             this.labelControl5.Appearance.Options.UseFont = true;
             this.labelControl5.LineLocation = DevExpress.XtraEditors.LineLocation.Center;
             this.labelControl5.LineVisible = true;
-            this.labelControl5.Location = new System.Drawing.Point(741, 72);
+            this.labelControl5.Location = new System.Drawing.Point(725, 91);
             this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(83, 20);
+            this.labelControl5.Size = new System.Drawing.Size(97, 20);
             this.labelControl5.TabIndex = 10;
-            this.labelControl5.Text = "Input Money";
+            this.labelControl5.Text = "Tổng Tiền Thu:";
             // 
-            // txtMoney_Receipt
+            // txtMoneyReceive
             // 
-            this.txtMoney_Receipt.Location = new System.Drawing.Point(830, 74);
-            this.txtMoney_Receipt.Name = "txtMoney_Receipt";
-            this.txtMoney_Receipt.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.txtMoney_Receipt.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.txtMoney_Receipt.Size = new System.Drawing.Size(166, 20);
-            this.txtMoney_Receipt.TabIndex = 11;
+            this.txtMoneyReceive.Enabled = false;
+            this.txtMoneyReceive.Location = new System.Drawing.Point(858, 93);
+            this.txtMoneyReceive.Name = "txtMoneyReceive";
+            this.txtMoneyReceive.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.txtMoneyReceive.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.txtMoneyReceive.Size = new System.Drawing.Size(134, 20);
+            this.txtMoneyReceive.TabIndex = 11;
             // 
             // labelControl6
             // 
@@ -950,11 +1201,11 @@
             this.labelControl6.Appearance.Options.UseFont = true;
             this.labelControl6.LineLocation = DevExpress.XtraEditors.LineLocation.Center;
             this.labelControl6.LineVisible = true;
-            this.labelControl6.Location = new System.Drawing.Point(741, 46);
+            this.labelControl6.Location = new System.Drawing.Point(5, 91);
             this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(58, 20);
+            this.labelControl6.Size = new System.Drawing.Size(66, 20);
             this.labelControl6.TabIndex = 8;
-            this.labelControl6.Text = "Describe";
+            this.labelControl6.Text = "Lí Do Thu:";
             // 
             // labelControl3
             // 
@@ -962,20 +1213,11 @@
             this.labelControl3.Appearance.Options.UseFont = true;
             this.labelControl3.LineLocation = DevExpress.XtraEditors.LineLocation.Center;
             this.labelControl3.LineVisible = true;
-            this.labelControl3.Location = new System.Drawing.Point(375, 67);
+            this.labelControl3.Location = new System.Drawing.Point(421, 66);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(36, 20);
+            this.labelControl3.Size = new System.Drawing.Size(73, 20);
             this.labelControl3.TabIndex = 6;
-            this.labelControl3.Text = "Payer";
-            // 
-            // txtPayer_Receipt
-            // 
-            this.txtPayer_Receipt.Location = new System.Drawing.Point(464, 69);
-            this.txtPayer_Receipt.Name = "txtPayer_Receipt";
-            this.txtPayer_Receipt.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.txtPayer_Receipt.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.txtPayer_Receipt.Size = new System.Drawing.Size(156, 20);
-            this.txtPayer_Receipt.TabIndex = 7;
+            this.labelControl3.Text = "Người Chi: ";
             // 
             // labelControl2
             // 
@@ -983,11 +1225,11 @@
             this.labelControl2.Appearance.Options.UseFont = true;
             this.labelControl2.LineLocation = DevExpress.XtraEditors.LineLocation.Center;
             this.labelControl2.LineVisible = true;
-            this.labelControl2.Location = new System.Drawing.Point(375, 41);
+            this.labelControl2.Location = new System.Drawing.Point(421, 39);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(56, 20);
+            this.labelControl2.Size = new System.Drawing.Size(76, 20);
             this.labelControl2.TabIndex = 4;
-            this.labelControl2.Text = "Receiver";
+            this.labelControl2.Text = "Người Thu: ";
             // 
             // labelControl4
             // 
@@ -995,11 +1237,11 @@
             this.labelControl4.Appearance.Options.UseFont = true;
             this.labelControl4.LineLocation = DevExpress.XtraEditors.LineLocation.Center;
             this.labelControl4.LineVisible = true;
-            this.labelControl4.Location = new System.Drawing.Point(13, 67);
+            this.labelControl4.Location = new System.Drawing.Point(5, 65);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(66, 20);
             this.labelControl4.TabIndex = 2;
-            this.labelControl4.Text = "InputDate";
+            this.labelControl4.Text = "Ngày Thu:";
             // 
             // labelControl1
             // 
@@ -1007,130 +1249,56 @@
             this.labelControl1.Appearance.Options.UseFont = true;
             this.labelControl1.LineLocation = DevExpress.XtraEditors.LineLocation.Center;
             this.labelControl1.LineVisible = true;
-            this.labelControl1.Location = new System.Drawing.Point(14, 39);
+            this.labelControl1.Location = new System.Drawing.Point(5, 39);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(13, 20);
+            this.labelControl1.Size = new System.Drawing.Size(92, 20);
             this.labelControl1.TabIndex = 1;
-            this.labelControl1.Text = "Id";
+            this.labelControl1.Text = "Mã Phiếu Thu:";
             // 
-            // txtId_Receipt
+            // txtIdReceive
             // 
-            this.txtId_Receipt.Enabled = false;
-            this.txtId_Receipt.Location = new System.Drawing.Point(103, 41);
-            this.txtId_Receipt.Name = "txtId_Receipt";
-            this.txtId_Receipt.Size = new System.Drawing.Size(156, 20);
-            this.txtId_Receipt.TabIndex = 0;
+            this.txtIdReceive.Enabled = false;
+            this.txtIdReceive.Location = new System.Drawing.Point(103, 41);
+            this.txtIdReceive.Name = "txtIdReceive";
+            this.txtIdReceive.Size = new System.Drawing.Size(185, 20);
+            this.txtIdReceive.TabIndex = 0;
             // 
-            // txtInputDate_Receipt
+            // txtInputDateReceive
             // 
-            this.txtInputDate_Receipt.EditValue = new System.DateTime(2018, 11, 16, 3, 47, 51, 243);
-            this.txtInputDate_Receipt.Location = new System.Drawing.Point(103, 67);
-            this.txtInputDate_Receipt.Name = "txtInputDate_Receipt";
-            this.txtInputDate_Receipt.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.txtInputDateReceive.EditValue = new System.DateTime(2018, 11, 16, 3, 47, 51, 243);
+            this.txtInputDateReceive.Enabled = false;
+            this.txtInputDateReceive.Location = new System.Drawing.Point(103, 67);
+            this.txtInputDateReceive.Name = "txtInputDateReceive";
+            this.txtInputDateReceive.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.txtInputDate_Receipt.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.txtInputDateReceive.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.txtInputDate_Receipt.Properties.DisplayFormat.FormatString = "";
-            this.txtInputDate_Receipt.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.txtInputDate_Receipt.Properties.EditFormat.FormatString = "";
-            this.txtInputDate_Receipt.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.txtInputDate_Receipt.Properties.Mask.EditMask = "";
-            this.txtInputDate_Receipt.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.None;
-            this.txtInputDate_Receipt.Size = new System.Drawing.Size(156, 20);
-            this.txtInputDate_Receipt.TabIndex = 3;
+            this.txtInputDateReceive.Properties.DisplayFormat.FormatString = "";
+            this.txtInputDateReceive.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.txtInputDateReceive.Properties.EditFormat.FormatString = "";
+            this.txtInputDateReceive.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.txtInputDateReceive.Properties.Mask.EditMask = "";
+            this.txtInputDateReceive.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.None;
+            this.txtInputDateReceive.Size = new System.Drawing.Size(185, 20);
+            this.txtInputDateReceive.TabIndex = 3;
             // 
-            // txtReceiver_Receipt
+            // txtDescribeReceive
             // 
-            this.txtReceiver_Receipt.Location = new System.Drawing.Point(464, 43);
-            this.txtReceiver_Receipt.Name = "txtReceiver_Receipt";
-            this.txtReceiver_Receipt.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.txtReceiver_Receipt.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.txtReceiver_Receipt.Size = new System.Drawing.Size(156, 20);
-            this.txtReceiver_Receipt.TabIndex = 5;
+            this.txtDescribeReceive.Location = new System.Drawing.Point(103, 93);
+            this.txtDescribeReceive.Name = "txtDescribeReceive";
+            this.txtDescribeReceive.Properties.AccessibleRole = System.Windows.Forms.AccessibleRole.Document;
+            this.txtDescribeReceive.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.txtDescribeReceive.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.txtDescribeReceive.Size = new System.Drawing.Size(185, 20);
+            this.txtDescribeReceive.TabIndex = 9;
             // 
-            // txtDescribe_Receipt
+            // txtExportReceive
             // 
-            this.txtDescribe_Receipt.Location = new System.Drawing.Point(830, 46);
-            this.txtDescribe_Receipt.Name = "txtDescribe_Receipt";
-            this.txtDescribe_Receipt.Properties.AccessibleRole = System.Windows.Forms.AccessibleRole.Document;
-            this.txtDescribe_Receipt.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.txtDescribe_Receipt.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.txtDescribe_Receipt.Size = new System.Drawing.Size(310, 20);
-            this.txtDescribe_Receipt.TabIndex = 9;
-            // 
-            // gCrlReceipts
-            // 
-            gridLevelNode1.RelationName = "Level1";
-            this.gCrlReceipts.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode1});
-            this.gCrlReceipts.Location = new System.Drawing.Point(3, 178);
-            this.gCrlReceipts.MainView = this.gvReceipts;
-            this.gCrlReceipts.Name = "gCrlReceipts";
-            this.gCrlReceipts.Size = new System.Drawing.Size(1145, 359);
-            this.gCrlReceipts.TabIndex = 0;
-            this.gCrlReceipts.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gvReceipts});
-            // 
-            // gvReceipts
-            // 
-            this.gvReceipts.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.colId,
-            this.colInputDate,
-            this.colReceiver,
-            this.colPayer,
-            this.colDescribe,
-            this.colMoney});
-            this.gvReceipts.GridControl = this.gCrlReceipts;
-            this.gvReceipts.Name = "gvReceipts";
-            this.gvReceipts.OptionsPrint.PrintFilterInfo = true;
-            // 
-            // colId
-            // 
-            this.colId.FieldName = "Id";
-            this.colId.Name = "colId";
-            this.colId.Visible = true;
-            this.colId.VisibleIndex = 0;
-            this.colId.Width = 60;
-            // 
-            // colInputDate
-            // 
-            this.colInputDate.FieldName = "InputDate";
-            this.colInputDate.Name = "colInputDate";
-            this.colInputDate.Visible = true;
-            this.colInputDate.VisibleIndex = 1;
-            this.colInputDate.Width = 92;
-            // 
-            // colReceiver
-            // 
-            this.colReceiver.FieldName = "Receiver";
-            this.colReceiver.Name = "colReceiver";
-            this.colReceiver.Visible = true;
-            this.colReceiver.VisibleIndex = 2;
-            this.colReceiver.Width = 122;
-            // 
-            // colPayer
-            // 
-            this.colPayer.FieldName = "Payer";
-            this.colPayer.Name = "colPayer";
-            this.colPayer.Visible = true;
-            this.colPayer.VisibleIndex = 3;
-            this.colPayer.Width = 122;
-            // 
-            // colDescribe
-            // 
-            this.colDescribe.FieldName = "Describe";
-            this.colDescribe.Name = "colDescribe";
-            this.colDescribe.Visible = true;
-            this.colDescribe.VisibleIndex = 4;
-            this.colDescribe.Width = 181;
-            // 
-            // colMoney
-            // 
-            this.colMoney.FieldName = "Money";
-            this.colMoney.Name = "colMoney";
-            this.colMoney.Visible = true;
-            this.colMoney.VisibleIndex = 5;
-            this.colMoney.Width = 115;
+            this.txtExportReceive.Location = new System.Drawing.Point(858, 42);
+            this.txtExportReceive.Name = "txtExportReceive";
+            this.txtExportReceive.Size = new System.Drawing.Size(134, 20);
+            this.txtExportReceive.TabIndex = 16;
+            this.txtExportReceive.EditValueChanged += new System.EventHandler(this.txtExportReceive_EditValueChanged);
             // 
             // tabPay
             // 
@@ -1162,18 +1330,11 @@
             this.payTableBindingSource.DataMember = "PayTable";
             this.payTableBindingSource.DataSource = this.dataTramXangDauDataSet;
             // 
-            // dataTramXangDauDataSet
-            // 
-            this.dataTramXangDauDataSet.DataSetName = "DataTramXangDauDataSet";
-            this.dataTramXangDauDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // gridView1
             // 
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.colId1,
             this.colInputDate1,
-            this.colReceiver1,
-            this.colPayer1,
             this.colDescribe1,
             this.colMoney1});
             this.gridView1.GridControl = this.gridControl1;
@@ -1198,31 +1359,13 @@
             this.colInputDate1.VisibleIndex = 1;
             this.colInputDate1.Width = 206;
             // 
-            // colReceiver1
-            // 
-            this.colReceiver1.Caption = "Người Nhận";
-            this.colReceiver1.FieldName = "Receiver";
-            this.colReceiver1.Name = "colReceiver1";
-            this.colReceiver1.Visible = true;
-            this.colReceiver1.VisibleIndex = 2;
-            this.colReceiver1.Width = 206;
-            // 
-            // colPayer1
-            // 
-            this.colPayer1.Caption = "Người Chi ";
-            this.colPayer1.FieldName = "Payer";
-            this.colPayer1.Name = "colPayer1";
-            this.colPayer1.Visible = true;
-            this.colPayer1.VisibleIndex = 3;
-            this.colPayer1.Width = 206;
-            // 
             // colDescribe1
             // 
             this.colDescribe1.Caption = "Mô Tả Lí Do Chi";
             this.colDescribe1.FieldName = "Describe";
             this.colDescribe1.Name = "colDescribe1";
             this.colDescribe1.Visible = true;
-            this.colDescribe1.VisibleIndex = 4;
+            this.colDescribe1.VisibleIndex = 2;
             this.colDescribe1.Width = 216;
             // 
             // colMoney1
@@ -1231,7 +1374,7 @@
             this.colMoney1.FieldName = "Money";
             this.colMoney1.Name = "colMoney1";
             this.colMoney1.Visible = true;
-            this.colMoney1.VisibleIndex = 5;
+            this.colMoney1.VisibleIndex = 3;
             this.colMoney1.Width = 205;
             // 
             // btnRefreshPay
@@ -1562,10 +1705,20 @@
             this.crystalReportViewer.Size = new System.Drawing.Size(1182, 741);
             this.crystalReportViewer.TabIndex = 1;
             // 
+            // uSPGetAllReceiptBindingSource
+            // 
+            this.uSPGetAllReceiptBindingSource.DataMember = "USP_GetAllReceipt";
+            this.uSPGetAllReceiptBindingSource.DataSource = this.dataTramXangDauDataSet;
+            // 
             // receiveTableBindingSource
             // 
             this.receiveTableBindingSource.DataMember = "ReceiveTable";
             this.receiveTableBindingSource.DataSource = this.dataTramXangDauDataSet;
+            // 
+            // receiveTableBindingSource1
+            // 
+            this.receiveTableBindingSource1.DataMember = "ReceiveTable";
+            this.receiveTableBindingSource1.DataSource = this.dataTramXangDauDataSet;
             // 
             // timer
             // 
@@ -1580,6 +1733,19 @@
             // 
             this.payTableTableAdapter.ClearBeforeFill = true;
             // 
+            // productsTableAdapter
+            // 
+            this.productsTableAdapter.ClearBeforeFill = true;
+            // 
+            // dataTramXangDauDataSet1
+            // 
+            this.dataTramXangDauDataSet1.DataSetName = "DataTramXangDauDataSet";
+            this.dataTramXangDauDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // uSP_GetAllReceiptTableAdapter
+            // 
+            this.uSP_GetAllReceiptTableAdapter.ClearBeforeFill = true;
+            // 
             // FrmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1592,17 +1758,18 @@
             this.Name = "FrmHome";
             this.Text = "Home";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.FrmHome_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tabPane)).EndInit();
             this.tabPane.ResumeLayout(false);
             this.tabLogin.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.tabProductList.ResumeLayout(false);
-            this.tabProductList.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridCtrlProduct)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tileViewProduct)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcProducts)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTramXangDauDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvProducts)).EndInit();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.tabChangePassword.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
@@ -1610,22 +1777,25 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbCurrentPassword)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbConfirmNewPassword)).EndInit();
             this.tabReceipts.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gcReceive)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uSPGetAllReceiptBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvReceive)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.txtMoney_Receipt.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtPayer_Receipt.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtId_Receipt.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtInputDate_Receipt.Properties.CalendarTimeProperties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtInputDate_Receipt.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtReceiver_Receipt.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtDescribe_Receipt.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gCrlReceipts)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gvReceipts)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbbProduct.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtPriceInDayReceive.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbbPayerReceive.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbbReceiverReceive.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtMoneyReceive.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIdReceive.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtInputDateReceive.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtInputDateReceive.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtDescribeReceive.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtExportReceive.Properties)).EndInit();
             this.tabPay.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.payTableBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataTramXangDauDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
@@ -1649,7 +1819,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.gCtrlRevenue)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gvRevenue)).EndInit();
             this.tabReport.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.uSPGetAllReceiptBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.receiveTableBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.receiveTableBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTramXangDauDataSet1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1672,8 +1845,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private DevExpress.XtraBars.Navigation.TabNavigationPage tabHome;
         private DevExpress.XtraBars.Navigation.TabNavigationPage tabProductList;
-        private DevExpress.XtraGrid.GridControl gridCtrlProduct;
-        private DevExpress.XtraGrid.Views.Tile.TileView tileViewProduct;
         private DevExpress.XtraBars.Navigation.TabNavigationPage tabChangePassword;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btnApply;
@@ -1689,51 +1860,33 @@
         private System.Windows.Forms.PictureBox pbCurrentPassword;
         private System.Windows.Forms.Label lbmessageChangePassword;
         private System.Windows.Forms.Timer timer;
-        private DevExpress.XtraEditors.TileControl tileControl1;
-        private DevExpress.XtraEditors.TileGroup tileGroup4;
-        private DevExpress.XtraEditors.TileItem tileItemInsertProduct;
-        private DevExpress.XtraEditors.TileItem tileItemUpdateProduct;
-        private DevExpress.XtraEditors.TileItem tileItemDeleteProduct;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private DevExpress.XtraEditors.TileItem tileItem1;
         private DevExpress.XtraEditors.TileItem tileItem2;
         private DevExpress.XtraEditors.TileItem tileItem3;
-        private System.Windows.Forms.TextBox txtNameProduct;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtAmountProduct;
         private DevExpress.XtraEditors.TileGroup tileGroup5;
         private DevExpress.XtraEditors.TileItem tileReceipts;
         private DevExpress.XtraBars.Navigation.TabNavigationPage tabReceipts;
         private DevExpress.XtraEditors.TileItem tilePay;
-        private DevExpress.XtraGrid.GridControl gCrlReceipts;
-        private DevExpress.XtraGrid.Views.Grid.GridView gvReceipts;
         private DataTramXangDauDataSet dataTramXangDauDataSet;
         private System.Windows.Forms.BindingSource receiveTableBindingSource;
         private DataTramXangDauDataSetTableAdapters.ReceiveTableTableAdapter receiveTableTableAdapter;
-        private DevExpress.XtraGrid.Columns.GridColumn colId;
-        private DevExpress.XtraGrid.Columns.GridColumn colInputDate;
         private DevExpress.XtraGrid.Columns.GridColumn colReceiver;
         private DevExpress.XtraGrid.Columns.GridColumn colPayer;
-        private DevExpress.XtraGrid.Columns.GridColumn colDescribe;
-        private DevExpress.XtraGrid.Columns.GridColumn colMoney;
         private DevExpress.XtraEditors.GroupControl groupControl1;
         private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraEditors.TextEdit txtId_Receipt;
-        private DevExpress.XtraEditors.DateEdit txtInputDate_Receipt;
+        private DevExpress.XtraEditors.TextEdit txtIdReceive;
+        private DevExpress.XtraEditors.DateEdit txtInputDateReceive;
         private DevExpress.XtraEditors.LabelControl labelControl3;
-        private DevExpress.XtraEditors.TextEdit txtPayer_Receipt;
-        private DevExpress.XtraEditors.TextEdit txtReceiver_Receipt;
         private DevExpress.XtraEditors.SimpleButton btnRefreshReceipt;
         private DevExpress.XtraEditors.SimpleButton btnDeleteReceipt;
         private DevExpress.XtraEditors.SimpleButton btnUpdateReceipt;
         private DevExpress.XtraEditors.SimpleButton btnInsertReceipt;
         private DevExpress.XtraEditors.LabelControl labelControl5;
-        private DevExpress.XtraEditors.TextEdit txtMoney_Receipt;
+        private DevExpress.XtraEditors.TextEdit txtMoneyReceive;
         private DevExpress.XtraEditors.LabelControl labelControl6;
-        private DevExpress.XtraEditors.TextEdit txtDescribe_Receipt;
+        private DevExpress.XtraEditors.TextEdit txtDescribeReceive;
         private DevExpress.XtraBars.Navigation.TabNavigationPage tabPay;
         private System.Windows.Forms.BindingSource payTableBindingSource;
         private DataTramXangDauDataSetTableAdapters.PayTableTableAdapter payTableTableAdapter;
@@ -1777,6 +1930,49 @@
         private DevExpress.XtraEditors.SimpleButton btnReport;
         private DevExpress.XtraBars.Navigation.TabNavigationPage tabReport;
         private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer;
+        private System.Windows.Forms.BindingSource productsBindingSource;
+        private DataTramXangDauDataSetTableAdapters.ProductsTableAdapter productsTableAdapter;
+        private DataTramXangDauDataSet dataTramXangDauDataSet1;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtNameProduct;
+        private System.Windows.Forms.TextBox txtAmountProduct;
+        private DevExpress.XtraEditors.TileControl tileControl1;
+        private DevExpress.XtraEditors.TileGroup tileGroup4;
+        private DevExpress.XtraEditors.TileItem tileItemInsertProduct;
+        private DevExpress.XtraEditors.TileItem tileItemUpdateProduct;
+        private DevExpress.XtraEditors.TileItem tileItemDeleteProduct;
+        private DevExpress.XtraGrid.GridControl gcProducts;
+        private DevExpress.XtraGrid.Views.Card.CardView gvProducts;
+        private DevExpress.XtraGrid.Columns.GridColumn colId2;
+        private DevExpress.XtraGrid.Columns.GridColumn colName;
+        private DevExpress.XtraGrid.Columns.GridColumn colAmount;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtIdProduct;
+        private System.Windows.Forms.BindingSource receiveTableBindingSource1;
+        private System.Windows.Forms.BindingSource uSPGetAllReceiptBindingSource;
+        private DataTramXangDauDataSetTableAdapters.USP_GetAllReceiptTableAdapter uSP_GetAllReceiptTableAdapter;
+        private DevExpress.XtraGrid.GridControl gcReceive;
+        private DevExpress.XtraGrid.Views.Grid.GridView gvReceive;
+        private DevExpress.XtraGrid.Columns.GridColumn colId;
+        private DevExpress.XtraGrid.Columns.GridColumn colInputDate;
+        private DevExpress.XtraGrid.Columns.GridColumn colIdReceiver;
+        private DevExpress.XtraGrid.Columns.GridColumn colIdPayer;
+        private DevExpress.XtraGrid.Columns.GridColumn colidProduct;
+        private DevExpress.XtraGrid.Columns.GridColumn colExportProduct;
+        private DevExpress.XtraGrid.Columns.GridColumn colPriceInDay;
+        private DevExpress.XtraGrid.Columns.GridColumn colDescribe;
+        private DevExpress.XtraGrid.Columns.GridColumn colMoney;
+        private System.Windows.Forms.BindingSource uSPGetAllReceiptBindingSource1;
+        private DevExpress.XtraEditors.LabelControl labelControl16;
+        private DevExpress.XtraEditors.ComboBoxEdit cbbPayerReceive;
+        private DevExpress.XtraEditors.ComboBoxEdit cbbReceiverReceive;
+        private DevExpress.XtraEditors.LabelControl labelControl18;
+        private DevExpress.XtraEditors.TextEdit txtPriceInDayReceive;
+        private DevExpress.XtraEditors.LabelControl labelControl17;
+        private DevExpress.XtraEditors.TextEdit txtExportReceive;
+        private DevExpress.XtraEditors.ComboBoxEdit cbbProduct;
     }
 }
 

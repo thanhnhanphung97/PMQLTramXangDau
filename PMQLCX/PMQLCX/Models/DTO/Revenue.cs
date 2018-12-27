@@ -10,14 +10,6 @@ namespace PMQLCX.Models.DTO
     {
         int Id { get; set; }
         DateTime Date { get; set;}
-        float OutOfGas92 { get; set; }
-        int PriceOfGas92 { get; set; }
-
-        float OutOfGas95 { get; set; }
-        int PriceOfGas95 { get; set; }
-
-        float OutOfOil { get; set; }
-        int PriceOfOil { get; set; }
         float Income { get; set; }
         float Spend { get; set; }
         float Inventory { get; set; }

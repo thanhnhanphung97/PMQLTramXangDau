@@ -41,10 +41,10 @@ namespace PMQLCX.Models.DAO
             return data > 0;
         }
 
-        public bool UpdateProduct(int id,string name,float amount)
+        public bool UpdateProduct(Products product)
         {
             int data = 0;
-            string query = string.Format("USP_UpdateProduct @id = {0}, @name = N'{1}', @amount = {2}",id, name, amount);
+            string query = string.Format("USP_UpdateProduct @id = {0}, @name = N'{1}'", product.Id, product.Name);
             data = DataProvider.Instance.ExecuteNonQuery(query);
             return data > 0;
         }
@@ -55,6 +55,18 @@ namespace PMQLCX.Models.DAO
             string query = string.Format("USP_DeleteProduct @id = {0}", id);
             data = DataProvider.Instance.ExecuteNonQuery(query);
             return data > 0;
+        }
+
+        public Products GetProductById(int id)
+        {
+            Products product = new Products();
+            string query = string.Format("USP_GetProductById @id = {0}", id);
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+            product.Id = id;
+            product.Name = data.Rows[0][1].ToString();
+            product.Amount = Int32.Parse(data.Rows[0][2].ToString());
+
+            return product;
         }
     }
 }
