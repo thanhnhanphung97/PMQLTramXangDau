@@ -303,8 +303,21 @@ CREATE PROC USP_InsertReceipt @inputDate DATE, @idReceiver INT, @idPayer INT,@id
 AS
 	BEGIN 
 		INSERT dbo.ReceiveTable VALUES  ( @inputDate, @idReceiver, @idPayer, @idProduct, @exportProduct, @priceInDay, @describe, @money)
+		DECLARE @exist INT = 0
+		SELECT @exist = COUNT(*) FROM dbo.Revenues WHERE Date = @inputDate
+		IF(@exist > 0) 
+			BEGIN
+				UPDATE dbo.Revenues SET Income = Income + @money,Inventory = Inventory + @money WHERE Date = @inputDate
+			END
+        ELSE 
+			BEGIN 
+				DECLARE @inven FLOAT = @money
+				SELECT @inven = @inven + Amount FROM dbo.InventoryMoney 
+				INSERT dbo.Revenues VALUES  ( @inputDate, @money, 0.0, @inven )
+			END 
 	END
 GO
+
 
 IF EXISTS(SELECT * FROM sys.sysobjects WHERE name = 'USP_UpdateReceipt')
 	DROP PROCEDURE dbo.USP_UpdateReceipt
@@ -393,6 +406,9 @@ AS
 		SELECT * FROM dbo.Revenues
 	END
 GO  
+
+
+
 
 IF EXISTS(SELECT * FROM sys.sysobjects WHERE name = 'USP_SearchRevenue')
 	DROP PROCEDURE dbo.USP_SearchRevenue
@@ -488,6 +504,8 @@ AS
 		SELECT Id FROM dbo.Products WHERE Name = @name
 	END
 GO 
+
+
 
 
 

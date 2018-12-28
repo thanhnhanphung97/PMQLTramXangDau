@@ -22,6 +22,9 @@ namespace PMQLCX
         {
             InitializeComponent();
             Load();
+            CrystalReport rpt = new CrystalReport();
+            rpt.SetDataSource(ReceiveDAO.Instance.GetAllReceipt());
+            crystalReportViewer.ReportSource = rpt;
         }
 
         bool status = false;
@@ -62,9 +65,7 @@ namespace PMQLCX
 
             Load();
 
-            CrystalReport rpt = new CrystalReport();
-            rpt.SetDataSource(ReceiveDAO.Instance.GetAllReceipt());
-            crystalReportViewer.ReportSource=rpt;
+           
         }
 
         #region time
@@ -100,6 +101,9 @@ namespace PMQLCX
 
                 tileItemChangePassword.Enabled = false;
                 tileItemProductList.Enabled = false;
+                tileReceipts.Enabled = false;
+                tilePay.Enabled = false;
+                tileRevenue.Enabled = false;
             }
         }
 
@@ -248,6 +252,7 @@ namespace PMQLCX
             LoadProducts();
             LoadReceive();
             LoadPay();
+            LoadRevenue();
         }
         private void LoadProducts()
         {
@@ -449,18 +454,14 @@ namespace PMQLCX
             {
                 if (txtDescribePay.Text.Trim() != "")
                 {
-                    //ReceiveTable receive = new ReceiveTable();
-                    //receive.Id = Int32.Parse(txtIdReceive.Text);
-                    //receive.InputDate = DateTime.Parse(txtInputDateReceive.Text);
-                    //receive.Describe = txtDescribeReceive.Text;
-                    //receive.IdReceiver = ReceiveDAO.Instance.GetIdReceiverByName(cbbReceiverReceive.Text);
-                    //receive.IdPayer = ReceiveDAO.Instance.GetIdPayerByName(cbbPayerReceive.Text);
-                    //receive.IdProduct = ReceiveDAO.Instance.GetIdProductByName(cbbProduct.Text);
-                    //receive.ExportProduct = float.Parse(txtExportReceive.Text);
-                    //receive.PriceInDay = Int32.Parse(txtPriceInDayReceive.Text);
-                    //receive.Money = float.Parse(txtMoneyReceive.Text);
-                    //if (ReceiveDAO.Instance.UpdateReceipt(receive) == true) { MessageBox.Show("Update success!"); LoadReceive(); }
-                    //else MessageBox.Show("Update fail!");
+                    PayTable pay = new PayTable();
+                    pay.InputDate = DateTime.Parse(txtInputDatePay.Text);
+                    pay.Describe = txtDescribePay.Text;
+                    pay.IdPayer = ReceiveDAO.Instance.GetIdReceiverByName(cbbPayerPay.Text);
+                    pay.IdReceiver = ReceiveDAO.Instance.GetIdPayerByName(cbbReceiverPay.Text);
+                    pay.Money = float.Parse(txtMoneyPay.Text);
+                    if (PayDAO.Instance.InsertPay(pay) == true) { MessageBox.Show("Insert success!"); LoadPay(); }
+                    else MessageBox.Show("Insert fail!");
                 }
                 else MessageBox.Show("Lí Do Chi Tiền Không Được Để Trống!");
             }
@@ -469,12 +470,29 @@ namespace PMQLCX
 
         private void btnUpdatePay_Click(object sender, EventArgs e)
         {
-
+            if (isDigit(txtMoneyPay.Text) == true)
+            {
+                if (txtDescribePay.Text.Trim() != "")
+                {
+                    PayTable pay = new PayTable();
+                    pay.Id = Int32.Parse(txtIdPay.Text);
+                    pay.InputDate = DateTime.Parse(txtInputDatePay.Text);
+                    pay.Describe = txtDescribePay.Text;
+                    pay.IdPayer = ReceiveDAO.Instance.GetIdReceiverByName(cbbPayerPay.Text);
+                    pay.IdReceiver = ReceiveDAO.Instance.GetIdPayerByName(cbbReceiverPay.Text);
+                    pay.Money = float.Parse(txtMoneyPay.Text);
+                    if (PayDAO.Instance.UpdatePay(pay) == true) { MessageBox.Show("Update success!"); LoadPay(); }
+                    else MessageBox.Show("Update fail!");
+                }
+                else MessageBox.Show("Lí Do Chi Tiền Không Được Để Trống!");
+            }
+            else MessageBox.Show("Số Tiền Chi Phải Là Số!");
         }
 
         private void btnDeletePay_Click(object sender, EventArgs e)
         {
-
+            if(PayDAO.Instance.DeletePay(Int32.Parse(txtIdPay.Text)) == true) { MessageBox.Show("Delete success!"); LoadPay(); }
+            else MessageBox.Show("Delete fail!");
         }
 
         private void btnRefreshPay_Click(object sender, EventArgs e)
@@ -485,6 +503,17 @@ namespace PMQLCX
             cbbPayerPay.SelectedIndex = 0;
             cbbReceiverPay.SelectedIndex = 0;
             txtMoneyPay.Text = "0";
+        }
+
+        private void LoadRevenue()
+        {
+            this.revenuesTableAdapter.Fill(this.dataTramXangDauDataSet.Revenues);
+        }
+
+        private void btnSearch_Click_1(object sender, EventArgs e)
+        {
+            DataTable data = RevenueDAO.Instance.GetRevenueByDate(txtDateFrom.DateTime, txtDateTo.DateTime);
+            gCtrlRevenue.DataSource = data;
         }
     }
 }
